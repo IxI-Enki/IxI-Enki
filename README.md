@@ -25,8 +25,8 @@
 >
 > ⚙ Markup  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯  
-> ⚙ GitHub - [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)
->   
+> ⚙ GitHub - [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)  
+> ⚙ Visual Studio - [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/VisualStudio-library.md)  
 >   ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯  
 > ⚙   
 >   <!--  add further new expiriences here  -->  
