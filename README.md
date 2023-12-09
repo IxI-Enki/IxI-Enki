@@ -1,13 +1,13 @@
 ### 🤘🏻 *currently learning* ***to code***  
    @HTL Leonding, in Upper-Austria
    | :--: |  
-
+<!--
 > favorite programming languages:  
 > | :---------  |  
 > | ⚙ bash/zsh |
 > | ⚙ c/c#     |
 > | ⚙ html/CSS |
-
+-->
 <!--
 **IxI-Enki/IxI-Enki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
