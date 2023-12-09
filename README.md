@@ -16,7 +16,7 @@
 >   
 > ⚙ C  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 > ⚙ C++  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
-> ⚙ C# - [ˢʰᵒʳᵗᶜᵘᵗ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C%23-library.md#c-code-beispiele)  
+> ⚙ C# - [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C%23-library.md#c-code-beispiele)  
 >   
 > ⚙ html  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 > ⚙ CSS  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
@@ -25,7 +25,7 @@
 >
 > ⚙ Markup  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯  
-> ⚙ GitHub - [ˢʰᵒʳᵗᶜᵘᵗ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)
+> ⚙ GitHub - [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)
 >   
 >   ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯  
 > ⚙   
