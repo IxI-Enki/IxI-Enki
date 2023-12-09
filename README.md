@@ -1,5 +1,5 @@
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
-![Lammasu_IxI-Enki  (Fusszeile)(tiny)](https://github.com/IxI-Enki/IxI-Enki/assets/138018029/79366ea5-3646-4456-8ef6-f62aea829246)
+![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png)
 ---
    | currently learning ***to code***                                                        | 
    | :-------------------------------------------------------------------------------------- |   
