@@ -1,6 +1,8 @@
-### 🤘🏻 *currently learning* ***to code***  
-   @HTL Leonding, in Upper-Austria
+###### 🤘🏻 *currently learning* ***to code***  
+   @[HTL-Leonding](www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) 
    | :--: |  
+
+   
 <!--
 > favorite programming languages:  
 > | :---------  |  
