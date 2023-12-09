@@ -1,5 +1,6 @@
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
-# *Hi* 🤘🏻 *Jan here* 
+![Lammasu_IxI-Enki  (Fusszeile)(tiny)](https://github.com/IxI-Enki/IxI-Enki/assets/138018029/79366ea5-3646-4456-8ef6-f62aea829246)
+
    | currently learning ***to code***                                                        | 
    | :-------------------------------------------------------------------------------------- |   
    | @[HTL-Leonding](www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
@@ -17,7 +18,7 @@
 > ⚙ html  [LINK]()  
 > ⚙ CSS  [LINK]()  
 > ⚙ SQL  [LINK]()  
-> ⚙ GitHub  [LINK]()
+> ⚙ GitHub - [klick 4 help](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)
 >  
 >   <!--  add further new expiriences here  -->  
 > </details>  
