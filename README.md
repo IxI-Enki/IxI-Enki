@@ -1,24 +1,23 @@
-###### 🤘🏻 *currently learning* ***to code***  
-   @[HTL-Leonding](www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) 
-   | :--: |  
-
-   
-<!--
-> favorite programming languages:  
-> | :---------  |  
-> | ⚙ bash/zsh |
-> | ⚙ c/c#     |
-> | ⚙ html/CSS |
--->
-<!--
-**IxI-Enki/IxI-Enki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
--->
+<!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
+# 🤘🏻 
+   | currently learning ***to code***                                                        | 
+   | :-------------------------------------------------------------------------------------- |   
+   | @[HTL-Leonding](www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
+ 
+> [!TIP]
+> <details>  
+>   <summary>Learn along:</summary>  
+>   <!--  Links to the different coding language's and plattforms libraries.  -->  
+>   
+> ⚙ Shell (zsh/bash)  [LINK]()  
+> ⚙ Batchfiles   [LINK]()  
+> ⚙ C  [LINK]()  
+> ⚙ C++  [LINK]()  
+> ⚙ C#  [LINK]()  
+> ⚙ html  [LINK]()  
+> ⚙ CSS  [LINK]()  
+> ⚙ SQL  [LINK]()  
+> ⚙ GitHub  [LINK]()
+>  
+>   <!--  add further new expiriences here  -->  
+> </details>  
