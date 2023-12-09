@@ -7,18 +7,23 @@
  
 > [!TIP]
 > <details>  
->   <summary>Learn along:</summary>  
->   <!--  Links to the different coding language's and plattforms libraries.  -->  
+>   <summary>𝔡𝔬𝔫'𝔱 𝔣𝔞𝔩𝔩 𝔟𝔢𝔥𝔦𝔫𝔡:</summary>  
 >   
-> ⚙ Shell (zsh/bash)  [LINK]()  
-> ⚙ Batchfiles   [LINK]()  
-> ⚙ C  [LINK]()  
-> ⚙ C++  [LINK]()  
-> ⚙ C#  [LINK](https://github.com/IxI-Enki/IxI-Enki/blob/main/C%23-library.md#c-code-beispiele)  
-> ⚙ html  [LINK]()  
-> ⚙ CSS  [LINK]()  
-> ⚙ SQL  [LINK]()  
-> ⚙ GitHub - [klick 4 help](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)
+>   <!--  Links to the different coding language's and plattforms - shortcuts.  -->  
+>   
+> ⚙ Shell (zsh/bash)  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> ⚙ Batchfiles   [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+>   
+> ⚙ C  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> ⚙ C++  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> ⚙ C# - [ˢʰᵒʳᵗᶜᵘᵗ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C%23-library.md#c-code-beispiele)  
+>   
+> ⚙ html  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> ⚙ CSS  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+>   
+> ⚙ SQL  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+>   
+> ⚙ GitHub - [ˢʰᵒʳᵗᶜᵘᵗ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)
 >  
 >   <!--  add further new expiriences here  -->  
 > </details>  
