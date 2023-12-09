@@ -1,5 +1,5 @@
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
-# 🤘🏻 
+# *Hi* 🤘🏻 *Jan here* 
    | currently learning ***to code***                                                        | 
    | :-------------------------------------------------------------------------------------- |   
    | @[HTL-Leonding](www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
