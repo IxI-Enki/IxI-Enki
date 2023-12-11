@@ -11,8 +11,8 @@
 >   —————————————————  
 >   <!--  Links to the different coding language's and plattforms - shortcuts.  -->  
 >   
-> 📀 Shell (zsh/bash)  [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/shell-library.md)  
-> 💿 Batchfiles   [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> 📀 Shell <sub><sup>(zsh/bash)</sup></sub> → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/shell-library.md)  
+> 💿 Batch  → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
 > ⚙ C      → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C-library.md)  
 > ⚙ C++    → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
