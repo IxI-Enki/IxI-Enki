@@ -11,18 +11,17 @@
 >   —————————————————  
 >   <!--  Links to the different coding language's and plattforms - shortcuts.  -->  
 >   
-> ⚙ Shell (zsh/bash)  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
-> ⚙ Batchfiles   [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> 📀 Shell (zsh/bash)  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> 💿 Batchfiles   [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
 > ⚙ C      → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C-library.md)  
 > ⚙ C++    → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 > ⚙ C#     → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C%23-library.md)  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
-> ⚙ html   → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
->   <!--📄 Markup  [ᴇᴍᴘᴛʏLɪɴᴋ]() -->  
-> ⚙ CSS    → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> 📄 html   → [ᴇᴍᴘᴛʏLɪɴᴋ]()  <!-- Markup  [ᴇᴍᴘᴛʏLɪɴᴋ]() -->  
+> 📑 CSS    → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
-> ⚙ SQL    → [ᴇᴍᴘᴛʏLɪɴᴋ]()      
+> 🗄 SQL    → [ᴇᴍᴘᴛʏLɪɴᴋ]()      
 >   −−−−−−−−−−−−−−−−−−−−  
 > 📡 GitHub         → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)  
 > 🖥 Visual Studio   → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/VisualStudio-library.md)  
@@ -30,5 +29,3 @@
 >   <!--  add further new expiriences here  -->   
 > </details>  
 
-
-———————‾‾¯¯__‥ … −−∼∼∼∽∽∽∿∿∿⋯⋯⇁⇀
