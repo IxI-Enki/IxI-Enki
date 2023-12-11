@@ -16,7 +16,7 @@
 ---
 >[!IMPORTANT]
 > ### 📖 [SnippetGenerator](http://tools.unitycoder.com/VisualStudioSnippetsGenerator/)
-  > *Generate Visual Studio Snippets Automatically and download them.*  
+  > *Generate* ***Visual Studio Snippets*** *automatically and download them.*  
   >   > *<sub>[Learn about snippets](https://learn.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2022)</sub>*  
   >
 > ### 📚 [Marketplace](https://marketplace.visualstudio.com/vs)
