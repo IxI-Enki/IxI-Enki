@@ -3,7 +3,7 @@
 
     𝖘𝖊𝖆𝖗𝖈𝖍 𝖓𝖔 𝖋𝖚𝖗𝖙𝖍𝖊𝖗                               𝕽𝖆𝖎𝖘𝖊 𝖄𝖔𝖚𝖗 𝖘𝕶𝖎𝖑𝖑𝖘                               𝖗𝖊𝖆𝖉 𝖙𝖍𝖊 𝖒𝖆𝖓𝖚𝖆𝖑𝖘
  
-### **C# code Beispiele**:  
+### C# code Beispiele :  
 ---
 
 *<details><summary><sup>abgegeben - ausgeblendet</sup></summary>*
@@ -53,7 +53,6 @@
 - Uebung-037 -- [Find all Bits](https://github.com/IxI-Enki/Uebung-037)  
 - Uebung-038 -- [String Reverse](https://github.com/IxI-Enki/Uebung-038)  
 - Uebung-039 -- 
-
 
 
 
