@@ -17,12 +17,6 @@
 
   <!-- *<details><summary><sup>NEXT WORK</sup></summary>* -->
 
-- Uebung-036 -- [Fizz Buzz](https://github.com/IxI-Enki/Uebung-036)  
-- Uebung-037 -- [Find all Bits](https://github.com/IxI-Enki/Uebung-037)  
-- Uebung-038 -- [String Reverse](https://github.com/IxI-Enki/Uebung-038)  
-- Uebung-039 -- 
-
-
 
 
 ---
