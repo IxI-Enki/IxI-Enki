@@ -6,42 +6,44 @@
 ## ***C# - Beispiele :***
 *<details><summary> erledigt*   ⤵  <sup><sup>[klick] ⇢ *einblenden*</sub></sup>    </summary>
 
-- Uebung-000 -- ..
-- Uebung-001 -- ..
-- Uebung-002 -- 
-- Uebung-003 -- 
-- Uebung-004 -- 
-- Uebung-005 -- 
-- Uebung-006 -- 
-- Uebung-007 -- 
-- Uebung-008 -- 
-- Uebung-009 -- 
-- Uebung-010 -- 
-- Uebung-011 -- 
-- Uebung-012 -- 
-- Uebung-013 -- 
-- Uebung-014 -- 
-- Uebung-015 -- 
-- Uebung-016 -- 
-- Uebung-017 -- 
-- Uebung-018 -- 
-- Uebung-018 -- 
-- Uebung-020 -- 
-- Uebung-021 -- 
-- Uebung-022 -- 
-- Uebung-023 -- 
-- Uebung-024 -- 
-- Uebung-025 -- 
-- Uebung-026 -- 
-- Uebung-027 -- 
-- Uebung-028 -- 
-- Uebung-029 --
-- Uebung-030 --
-- Uebung-031 -- 
-- Uebung-032 -- 
-- Uebung-033 -- 
-- Uebung-034 -- 
-- Uebung-035 --
+- Uebung-000 -- `übersprungen`
+- Uebung-001 -- `übersprunden`
+- Uebung-002 -- `übersprungen`
+- Uebung-003 -- [Word Shuffle](https://github.com/IxI-Enki/Uebung-003)
+- Uebung-004 -- [Calculator](https://github.com/IxI-Enki/Uebung-004)
+- Uebung-005 -- [Mehrwertsteuerrechner](https://github.com/IxI-Enki/Uebung-005)
+- Uebung-006 -- [Arbeitslohn](https://github.com/IxI-Enki/Uebung-006)
+- Uebung-06B -- [Bäckerei](https://github.com/IxI-Enki/Uebung-006B)
+- Uebung-007 -- [Sparschwein](https://github.com/IxI-Enki/Uebung-007)
+- Uebung-008 -- [Währungsrechner](https://github.com/IxI-Enki/Uebung-008)
+- Uebung-009 -- [Besuch der Tante](https://github.com/IxI-Enki/Uebung-009)
+- Uebung-010 -- [Temperature Selector](https://github.com/IxI-Enki/Uebung-010Q)
+- Uebung-011 -- [Calculator](https://github.com/IxI-Enki/Uebung-011)
+- Uebung-012 -- [Currency Translation](https://github.com/IxI-Enki/Uebung-011)
+- Uebung-013 -- [Max of 3 Values](https://github.com/IxI-Enki/Uebung-012)
+- Uebung-014 -- [Percant to Grade](https://github.com/IxI-Enki/Uebung-014)
+- Uebung-015 -- [Fuel Calculator](https://github.com/IxI-Enki/Uebung-015)
+- Uebung-016 -- [Calculator mit Switch](https://github.com/IxI-Enki/Uebung-016)
+- Uebung-017 -- [Sparschwein mit If](https://github.com/IxI-Enki/Uebung-017)
+- Uebung-018 -- [Time Calculator](https://github.com/IxI-Enki/Uebung-018)
+- Uebung-018 -- [Donald and Friends](https://github.com/IxI-Enki/Uebung-019)
+- Uebung-020 -- `übersprungen`
+- Uebung-021 -- [Leap Year Checker](https://github.com/IxI-Enki/Uebung-021)
+- Uebung-022 -- `übersprungen`
+- Uebung-023 -- `übersprungen`
+- Uebung-024 -- [Zahlenstatistik](https://github.com/IxI-Enki/Uebung-024)
+- Uebung-025 -- [Shopping Cart](https://github.com/IxI-Enki/Uebung-025)
+- Uebung-026 -- [Cash Maschine](https://github.com/IxI-Enki/Uebung-026)
+- Uebung-26Z -- [Zwischenübung - Debugging](https://github.com/IxI-Enki/Uebung-026Z)
+- Uebung-027 -- [Einfacher Vokabeltrainer](https://github.com/IxI-Enki/Uebung-027)
+- Uebung-028 -- [Turmrechner](https://github.com/IxI-Enki/Uebung-028)
+- Uebung-029 -- [Zahlenraten](https://github.com/IxI-Enki/Uebung-029)
+- Uebung-030 -- [Fakultät](https://github.com/IxI-Enki/Uebung-030)
+- Uebung-031 -- [Star Square](https://github.com/IxI-Enki/Uebung-031)
+- Uebung-032 -- [Logarithmus Dualis](https://github.com/IxI-Enki/Uebung-032)
+- Uebung-033 -- [Linear Motion](https://github.com/IxI-Enki/Uebung-033)
+- Uebung-034 -- [Primzahlen Check](https://github.com/IxI-Enki/Uebung-034)
+- Uebung-035 -- `übersprungen`
 - Uebung-036 -- [Fizz Buzz](https://github.com/IxI-Enki/Uebung-036)  
 - Uebung-037 -- [Find all Bits](https://github.com/IxI-Enki/Uebung-037)  
 - Uebung-038 -- [String Reverse](https://github.com/IxI-Enki/Uebung-038)  
@@ -51,9 +53,9 @@
 
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
-- Uebung-039 --  
-- Uebung-040 --  
-- Uebung-041 --  
+- Uebung-039 -- []()  
+- Uebung-040 -- []()  
+- Uebung-041 -- []()  
 
 ---
 <!--  🧠by: github.com/IxI-Enki💭  -->
