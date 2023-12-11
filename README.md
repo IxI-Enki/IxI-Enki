@@ -11,7 +11,7 @@
 >   —————————————————  
 >   <!--  Links to the different coding language's and plattforms - shortcuts.  -->  
 >   
-> 📀 Shell (zsh/bash)  [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> 📀 Shell (zsh/bash)  [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/shell-library.md)  
 > 💿 Batchfiles   [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
 > ⚙ C      → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C-library.md)  
