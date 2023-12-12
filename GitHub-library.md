@@ -24,7 +24,12 @@
   > *Learn how to start building, shipping, and maintaining software with GitHub.  
   > Explore our products, sign up for an account, and connect with the world's largest development community.*  
 >### 🧾- [GitHub Skills](https://github.com/skills)  
-  > *Learn how to use GitHub with interactive courses designed for beginners and experts.*  
+  > *Learn how to use GitHub with interactive courses designed for beginners and experts.*
+>### 🖇- [Mermaid Flowchart/Diagram Editor](https://mermaid.live)
+  > *erstelle `.mmd` Diagrame/Flowcharts* <sub> ***zum einbetten in `.md` Dateien*** </sub> 
 ---
+
+<!--  ↧⋏⩚⫛⫱ -->
+
 <!--  🧠by: github.com/IxI-Enki💭  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
