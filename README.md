@@ -18,7 +18,7 @@
 > ⚙ C++    → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 > ⚙ C#     → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C%23-library.md)  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
-> 🧾 Markup/Mardown → [ᴇᴍᴘᴛʏLɪɴᴋ]()   <!-- https://websiteberater.com/der-unterschied-zwischen-markup-und-markdown/ -->  
+> 🧾 Markup/down → [ᴇᴍᴘᴛʏLɪɴᴋ]()   <!-- https://websiteberater.com/der-unterschied-zwischen-markup-und-markdown/ -->  
 > 📄 HTML   → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/Html-library.md)  
 > 📑 CSS    → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
