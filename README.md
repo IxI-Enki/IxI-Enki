@@ -3,7 +3,7 @@
 ---
    | *currently* ***learning*** *to* `code`                                                        | 
    | :-------------------------------------------------------------------------------------- |   
-   | @[HTL-Leonding](www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
+   | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
  
 > [!TIP]
 > <details>  
