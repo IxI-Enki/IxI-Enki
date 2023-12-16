@@ -26,8 +26,8 @@
 -
 
 ---
-
-*<details><summary> bislang erlernte sql Befehle*   ⤵  <sup><sup>[klick] ⇢ *einblenden*</sub></sup>    </summary>
+<!------------------------------------------------------------ CHEAT SHEET ------------------------------------------------------------>
+*<details><summary> SQL CHEAT SHEET*   ⤵  <sup><sup>[klick] ⇢ *einblenden*</sub></sup>    </summary>
 
 ```sql
 drop table CITY;
