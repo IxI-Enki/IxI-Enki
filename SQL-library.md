@@ -45,13 +45,13 @@ create table PERSON(PID         number       primary key,
                     PLZ         char(4)      references     CITY(PLZ));
 
 /*-----TABLES ERWEITERN / SPALTEN EINFüGEN/LöSCHEN---------------------------*/
-alter table PERSON add                                   -- ADD         : fügt eine weitere Spalte zu einem 
-                    GEBDATE     date        NOT NULL;    ----- auch CONSTRAINTS können nachträglich hinzugef
+alter table PERSON add                                   -- ADD         : fügt eine weitere Spalte zu einem bestehenden Table
+                    GEBDATE     date        NOT NULL;    ----- auch CONSTRAINTS können nachträglich hinzugefügt werden
 
 alter table PERSON drop column                           -- DROP COLUMN : entfernt eine Spalte wieder
                     GEBDATE;
 
-alter table PERSON modify                                -- MODIFY      : DATENTYP von Spalte im nachhinein 
+alter table PERSON modify                                -- MODIFY      : DATENTYP von Spalte im nachhinein verändern
                     FIRSTNAME   varchar (40);
 
 alter table PERSON rename column                         -- RENAME      : Spalten umbenennen
