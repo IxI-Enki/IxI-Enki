@@ -11,7 +11,7 @@
 - Uebung-000 -- `ᴇᴍᴘᴛʏLɪɴᴋ`
 - Uebung-001 -- `ᴇᴍᴘᴛʏLɪɴᴋ`
 - Uebung-002 -- `ᴇᴍᴘᴛʏLɪɴᴋ`
--
+- ... Links werden nachgereicht ...
 
 ---
 </details>
@@ -19,7 +19,7 @@
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
 
-- 
+- Uebung-006 -- [ADAT Persontabelle](https://github.com/IxI-Enki/Uebung-dbi-006)
 
 ---
 <!--  🧠by: github.com/IxI-Enki💭  -->
