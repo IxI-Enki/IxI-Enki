@@ -20,9 +20,9 @@
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
 > 🧾 MD    → [ᴇᴍᴘᴛʏLɪɴᴋ]()   <!-- https://websiteberater.com/der-unterschied-zwischen-markup-und-markdown/ -->  
 > 📄 HTML  → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/Html-library.md)  
-> 📑 CSS   → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> 📑 CSS   → [ᵇᵒᵒᵏᵐᵃʳᵏˢ]()  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
-> 🗄 SQL    → [ᴇᴍᴘᴛʏLɪɴᴋ]()      
+> 🗄 SQL    → [ᴇᴍᴘᴛʏLɪɴᴋ](https://github.com/IxI-Enki/IxI-Enki/blob/main/SQL-library.md)      
 >   −−−−−−−−−−−−−−−−−−−−  
 > 📡 GitHub         → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)  
 > 🖥 Visual Studio   → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/VisualStudio-library.md)  
