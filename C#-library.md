@@ -48,7 +48,7 @@
 - Uebung-037 -- [Find all Bits](https://github.com/IxI-Enki/Uebung-037)  
 - Uebung-038 -- [String Reverse](https://github.com/IxI-Enki/Uebung-038)  
 - Uebung-38B -- [Palindrom Number](https://github.com/IxI-Enki/Uebung-038B)
-- 
+- Uebung-039 -- [Kreditkarten Prüfer](https://github.com/IxI-Enki/Uebung-039)  
 - Uebung-040-- `übersprungen`
 - Uebung-041 -- [String Separation](https://github.com/IxI-Enki/Uebung-041)  
 - Uebung-042 -- [ASCII Tabelle](https://github.com/IxI-Enki/Uebung-042)  
@@ -60,8 +60,6 @@
 
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
-
-- Uebung-039 -- [Kreditkarten Prüfer](https://github.com/IxI-Enki/Uebung-039)  
 
 - Uebung-043 -- [leer](https://github.com/IxI-Enki/Uebung-043)  
 - Uebung-044 -- [leer](https://github.com/IxI-Enki/Uebung-044)  
