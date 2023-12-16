@@ -62,7 +62,7 @@
 ▷   *zu erledigen*   🔜
 
 - Uebung-039 -- [Kreditkarten Prüfer](https://github.com/IxI-Enki/Uebung-039)  
-- Uebung-042 -- [leer](https://github.com/IxI-Enki/Uebung-042)  
+- Uebung-042 -- [ASCII Tabelle](https://github.com/IxI-Enki/Uebung-042)  
 - Uebung-043 -- [leer](https://github.com/IxI-Enki/Uebung-043)  
 - Uebung-044 -- [leer](https://github.com/IxI-Enki/Uebung-044)  
 -
