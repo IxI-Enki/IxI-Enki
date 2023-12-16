@@ -61,8 +61,8 @@
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
 
-- Uebung-043 -- [leer](https://github.com/IxI-Enki/Uebung-043)  
-- Uebung-044 -- [leer](https://github.com/IxI-Enki/Uebung-044)  
+- Uebung-043 -- [Digit Filter](https://github.com/IxI-Enki/Uebung-043)  
+- Uebung-044 -- [Filter Vocals](https://github.com/IxI-Enki/Uebung-044)  
 -
 
 ---
