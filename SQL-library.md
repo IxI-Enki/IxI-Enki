@@ -8,9 +8,9 @@
 ## ***SQL - Beispiele :***
 *<details><summary> erledigt*   ⤵  <sup><sup>[klick] ⇢ *einblenden*</sub></sup>    </summary>
 
-- Uebung-000 -- `übersprungen`
-- Uebung-001 -- `übersprunden`
-- Uebung-002 -- `übersprungen`
+- Uebung-000 -- `ᴇᴍᴘᴛʏLɪɴᴋ`
+- Uebung-001 -- `ᴇᴍᴘᴛʏLɪɴᴋ`
+- Uebung-002 -- `ᴇᴍᴘᴛʏLɪɴᴋ`
 -
 
 ---
