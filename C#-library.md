@@ -51,8 +51,8 @@
 - Uebung-039 -- [Kreditkarten Prüfer](https://github.com/IxI-Enki/Uebung-039)  
 - Uebung-040-- `übersprungen`
 - Uebung-041 -- [String Separation](https://github.com/IxI-Enki/Uebung-041)  
-- Uebung-042 -- [ASCII Tabelle](https://github.com/IxI-Enki/Uebung-042)
-- 
+- Uebung-042 -- [ASCII Tabelle](https://github.com/IxI-Enki/Uebung-042)  
+- Uebung-043 -- [Digit Filter](https://github.com/IxI-Enki/Uebung-043)  
 - Uebung-044 -- [Filter Vocals](https://github.com/IxI-Enki/Uebung-044)  
 - 
 
@@ -62,9 +62,13 @@
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
 
-- Uebung-043 -- [Digit Filter](https://github.com/IxI-Enki/Uebung-043)  
-
--
+- Uebung-045 -- 
+- Uebung-046 -- 
+- Uebung-047 -- 
+- Uebung-048 -- 
+- Uebung-049 -- 
+- Uebung-050 -- 
+- 
 
 ---
 <!--  🧠by: github.com/IxI-Enki💭  -->
