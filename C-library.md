@@ -14,7 +14,8 @@
       - [**Using GCC with MinGW**](https://code.visualstudio.com/docs/cpp/config-mingw)  
         - Install the [**C/C++**](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension for VS Code.  
         - Get the latest version of MinGW-w64 via [MYSYS2](https://www.msys2.org/)  
-          > - Install and run MYSYS2, in this Terminal type: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain` → install  
+          > - Install and run MYSYS2, in this Terminal  
+          >   type: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain` → install  
           > - Add the path to your MinGW-w64 bin folder to the Windows PATH environment variable:  
           >   ***Edit environment variables***: click on Uservariables-PATH, add new Variable(default): `C:\msys64\ucrt64\bin`
 
