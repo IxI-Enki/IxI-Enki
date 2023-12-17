@@ -10,15 +10,22 @@
 - Uebung-002 -- ```übersprungen```
 - Uebung-003 -- [Taschenrechner](https://github.com/IxI-Enki/Uebung-cabspr-003) 
 - Uebung-004 -- [TaschenrechnerPlus](https://github.com/IxI-Enki/Uebung-cabspr-004) 
-- Uebung-005 -- [Temperaturtabelle](https://github.com/IxI-Enki/Uebung-cabspr-005) 
+- Uebung-005 -- [Temperaturtabelle](https://github.com/IxI-Enki/Uebung-cabspr-005)
+- Uebung-006 -- [BruttoNettoRechner](https://github.com/IxI-Enki/Uebung-cabspr-006)
+- Uebung-007 -- [BMIRechner](https://github.com/IxI-Enki/Uebung-cabspr-007)
+- Uebung-008 -- [Mittelwert](https://github.com/IxI-Enki/Uebung-cabspr-008)
+- Uebung-009 -- [Balkendiagramm]
+- Uebung-010 -- [Ziffernsumme]
+- Uebung-011 -- [Kaffeemachine](https://github.com/IxI-Enki/Uebung-cabspr-011)
 
 ---
 </details>
 
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
-- Uebung-006 -- 
-- Uebung-007 -- 
+- Uebung-009 -- [Balkendiagramm](https://github.com/IxI-Enki/Uebung-cabspr-009)
+- Uebung-010 -- [Ziffernsumme](https://github.com/IxI-Enki/Uebung-cabspr-010)
+-
 
 ---  
 <!--  🧠by: github.com/IxI-Enki💭  -->
