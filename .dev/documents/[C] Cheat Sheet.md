@@ -157,7 +157,6 @@
    - `sin(x)`: Berechnet den Sinus von `x`  
    - `cos(x)`: Berechnet den Cosinus von `x`  
    - `tan(x)`: Berechnet den Tangens von `x`  
-   
    - `asin(x)`: Berechnet den Arkussinus von `x`  
    - `acos(x)`: Berechnet den ArkusCosinus von `x`  
    - `atan(x)`: Berechnet den Arkustangens von `x`  
