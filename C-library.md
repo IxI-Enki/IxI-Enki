@@ -59,8 +59,8 @@
 - Uebung-006 -- [BruttoNettoRechner](https://github.com/IxI-Enki/Uebung-cabspr-006)
 - Uebung-007 -- [BMIRechner](https://github.com/IxI-Enki/Uebung-cabspr-007)
 - Uebung-008 -- [Mittelwert](https://github.com/IxI-Enki/Uebung-cabspr-008)
-- Uebung-009 -- [Balkendiagramm]
-- Uebung-010 -- [Ziffernsumme]
+- Uebung-009 -- [Balkendiagramm](https://github.com/IxI-Enki/Uebung-cabspr-009)
+- Uebung-010 -- [Ziffernsumme](https://github.com/IxI-Enki/Uebung-cabspr-010)
 - Uebung-011 -- [Kaffeemachine](https://github.com/IxI-Enki/Uebung-cabspr-011)
 
 ---
@@ -68,9 +68,11 @@
 
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
-- Uebung-009 -- [Balkendiagramm](https://github.com/IxI-Enki/Uebung-cabspr-009)
-- Uebung-010 -- [Ziffernsumme](https://github.com/IxI-Enki/Uebung-cabspr-010)
--
+- Uebung-012 -- 
+- Uebung-013 --
+- Uebung-014 --
+- Uebung-015 --
+- Uebung-016 --
 
 ---  
 <!--  🧠by: github.com/IxI-Enki💭  -->
