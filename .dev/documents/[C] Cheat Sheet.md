@@ -154,26 +154,26 @@
    <details><summary> <code>&lt;math.h&gt;</code> ⤵ <sup> mathematischen Funktionen:</sup> </summary>
 
    ### Trigonometrische Funktionen:  
-   - `sin(x)`: Berechnet den Sinus von `x`  
-   - `cos(x)`: Berechnet den Cosinus von `x`  
-   - `tan(x)`: Berechnet den Tangens von `x`  
-   - `asin(x)`: Berechnet den Arkussinus von `x`  
-   - `acos(x)`: Berechnet den ArkusCosinus von `x`  
-   - `atan(x)`: Berechnet den Arkustangens von `x`  
+   - `sin(x)`: Sinus von `x`  
+   - `cos(x)`: Cosinus von `x`  
+   - `tan(x)`: Tangens von `x`  
+   - `asin(x)`: Arkussinus von `x`  
+   - `acos(x)`: Arkuscosinus von `x`  
+   - `atan(x)`: Arkustangens von `x`  
 
    ### Hyperbolische Funktionen:  
-   - `sinh(x)`: Berechnet den Hyperbelsinus von `x`  
-   - `cosh(x)`: Berechnet den Hyperbelcosinus von `x`  
-   - `tanh(x)`: Berechnet den Hyperbeltangens von `x`  
+   - `sinh(x)`: Hyperbelsinus von `x`  
+   - `cosh(x)`: Hyperbelcosinus von `x`  
+   - `tanh(x)`: Hyperbeltangens von `x`  
 
    ### Exponential & Logarithmusfunktionen:  
-   - `exp(x)`: Berechnet die Exponentialfunktion von `x` .. e<sup>x</sup>  
-   - `log(x)`: Berechnet den natürlichen Logarithmus von `x` .. ln(x)  
-   - `log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x` .. log<sub>10</sub>(x)  
+   - `exp(x)`: e<sup>`x`</sup>  
+   - `log(x)`: ln(`x`)  
+   - `log10(x)`: log<sub>10</sub>(`x`)  
 
    ### Potenzfunktionen:  
-   - `pow(x, y)`: Berechnet `x` hoch `y` .. x<sup>y</sup>  
-   - `sqrt(x)`: Berechnet die Quadratwurzel von `x` .. √(x)  
+   - `pow(x, y)`: `x`<sup>`y`</sup>  
+   - `sqrt(x)`: √(`x`)  
 
    ### Runden & Betrag:  
    - `ceil(x)`: Rundet `x` auf die nächstgrößere Ganzzahl  
