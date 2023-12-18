@@ -1,8 +1,8 @@
 <!-------------------------------------------------------- CHEAT SHEET -------------------------------------------------------->
-### C code:
 
-|👉|💡| **Cheatsheet** *<sup>"essentials"</sub>* | <sup>**click this icon:</sup> [⤵](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/%5BC%5D%20Cheat%20Sheet.md)** ***to expand lists*** |💡|👈|  
-| :-: | :-: | :-: | :-------------:  |:-:|:-: |   
+
+|👉|💡| C-CODE | **Cheatsheet** *<sup>"essentials"</sub>* | <sup>**click this icon:</sup> [⤵](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/%5BC%5D%20Cheat%20Sheet.md)** ***to expand lists*** |💡|👈|  
+| :-: | :-: | :-: |:-: | :-------------:  |:-:|:-: |   
 
 ---
 
