@@ -6,35 +6,42 @@
 <!------------------------------------------------------- getting started ------------------------------------------------------->
 # ***Compiler/IDE***:  
 
-  - ## [**Codeblocks**](https://www.codeblocks.org/)  
-    > - Open Source!  
-    > - Cross-platform. Runs on Linux, Mac, Windows (uses wxWidgets).  
+### [**C in Visual Studio**](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/cMitVisualStudio.pdf)  <sub><sub>*Anleitung von Martin PECHAK*</sub></sub> 
 
-   - ## [**gcc for Visual Studio Code**](https://code.visualstudio.com/docs/languages/cpp) 
-      - [**Using GCC with MinGW**](https://code.visualstudio.com/docs/cpp/config-mingw)  
-        - Install the [**C/C++**](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension for VS Code.  
-        - Get the latest version of MinGW-w64 via [MYSYS2](https://www.msys2.org/)  
-          > - Install and run MYSYS2, in this Terminal  
-          >   type: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain` → install  
-          > - Add the path to your MinGW-w64 bin folder to the Windows PATH environment variable:  
-          >   ***Edit environment variables***: click on Uservariables-PATH, add new Variable(default): `C:\msys64\ucrt64\bin`
+### [**Codeblocks**](https://www.codeblocks.org/) <sub><sub>*Runs on Linux, Mac, Windows (uses wxWidgets)*</sub></sub>
+
+### [**gcc for Visual Studio Code**](https://code.visualstudio.com/docs/languages/cpp) 
+   - [**Using GCC with MinGW**](https://code.visualstudio.com/docs/cpp/config-mingw)  
+     - Install the [**C/C++**](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension for VS Code  
+     - Get the latest version of MinGW-w64 via [MYSYS2](https://www.msys2.org/) follow instructions  
 
 ---
 
 <!-------------------------------------------------------- getting help -------------------------------------------------------->
-# ***Tutorials***:
-  - ### [**W³ Schools**](https://www.w3schools.com/c/c_syntax.php) <sup><sup>Englisch</sup></sup>  
-  - ### [**C-HowTo**](https://www.c-howto.de/tutorial/) <sup><sup>Deutsch</sup></sup>  
-  - ### [**free code camp**](https://www.freecodecamp.org/news/the-c-programming-handbook-for-beginners/) <sup><sup>Englisch</sup></sup>
-     > → the-**c-programming-handbook**-for-beginners 👍
+# ***Tutorial Sites***:
+
+- [**W³ Schools**](https://www.w3schools.com/c/c_syntax.php) <sup><sup>Englisch</sup></sup>  
+
+- [**C-HowTo**](https://www.c-howto.de/tutorial/) <sup><sup>Deutsch</sup></sup>  
+
+- [**free code camp**](https://www.freecodecamp.org/news/the-c-programming-handbook-for-beginners/) <sup><sup>Englisch</sup></sup>  
+   > → the-**c-programming-handbook**-for-beginners 👍
      
      
 ---
 
-<!-------------------------------------------------------- cheat sheet --------------------------------------------------------->
+<!-------------------------------------------------------- cheat sheets --------------------------------------------------------->
+# ***'Manuals'***:  
 
-[***Cheat Sheet*** :](https://github.com/IxI-Enki/IxI-Enki/blob/main/%5BC%5D%20Cheat%20Sheet.md)
-  > - my cheat sheets, comming soon.. 
+- ### ***Rheinwerk*** - [C von A bis Z](https://openbook.rheinwerk-verlag.de/c_von_a_bis_z/)
+
+- ### ***Andrew S. Tanenbaum*** - [Modern Operating Systems](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/Andrew%20S.%20Tanenbaum%20-%20Modern%20Operating%20Systems.pdf)
+
+<sub><sup>
+---
+</sup></sub>
+- #### [***C cheat sheet*** :](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/%5BC%5D%20Cheat%20Sheet.md)
+     > all common instructions 
 
 
 
@@ -68,3 +75,14 @@
 ---  
 <!--  🧠by: github.com/IxI-Enki💭  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
+
+<!-- tiny line: 
+
+<sub><sup>
+---
+</sup></sub>
+
+
+
+
+-->
