@@ -63,6 +63,11 @@
 - Uebung-010 -- [Ziffernsumme](https://github.com/IxI-Enki/Uebung-cabspr-010)
 - Uebung-011 -- [Kaffeemachine](https://github.com/IxI-Enki/Uebung-cabspr-011)
 - Uebung-012 -- [Zahlenstatistik ***`❗ Probetest`*** ](https://github.com/IxI-Enki/Uebung-cabspr-012)
+- Uebung-013 --
+- Uebung-014 --
+- Uebung-015 --
+- Uebung-016 --
+- 
 ---
 </details>
 
@@ -70,15 +75,14 @@
 <sub><sup>
 ---
 </sup></sub>
-##  🤖 [ ***`❗ CABS-PR_Test`***  - Zahlenstatistik](https://github.com/IxI-Enki/Uebung-cabspr-012) 📌<sub><sup>angeheftet bis 8.1.2024</sup></sub>
+- ##  🤖❗  [ ***`CABS-PR_Test`***  - Zahlenstatistik](https://github.com/IxI-Enki/Uebung-cabspr-012) 📌<sub><sup>angeheftet bis 8.1.2024</sup></sub>
 
 
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
 - Uebung-013 --
-- Uebung-014 --
-- Uebung-015 --
-- Uebung-016 --
+- 
+
 
 ---  
 <!--  🧠by: github.com/IxI-Enki💭  -->
