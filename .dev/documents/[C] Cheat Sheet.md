@@ -168,12 +168,12 @@
    -`tanh(x)`: Berechnet den Hyperbeltangens von `x`  
 
    ### Exponential & Logarithmusfunktionen:  
-   -`exp(x)`: Berechnet die Exponentialfunktion von `x` .. e<sub>x</sub>  
+   -`exp(x)`: Berechnet die Exponentialfunktion von `x` .. e<sup>x</sup>  
    -`log(x)`: Berechnet den natürlichen Logarithmus von `x` .. ln(x)  
-   -`log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x` .. log<sup>10</sup>(x)  
+   -`log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x` .. log<sub>10</sub>(x)  
 
    ### Potenzfunktionen:  
-   -`pow(x, y)`: Berechnet `x` hoch `y` .. x<sub>y</sub>  
+   -`pow(x, y)`: Berechnet `x` hoch `y` .. x<sup>y</sup>  
    -`sqrt(x)`: Berechnet die Quadratwurzel von `x` .. √(x)  
 
    ### Runden & Betrag:  
@@ -194,7 +194,7 @@
    <sub><sup>
    ---
    </sup></sub>
-	<!----------------------------------------------------------------------------------->
+   <!----------------------------------------------------------------------------------->
    <details><summary> <code>&lt;ctype.h&gt;</code> ⤵ <sup> Charakter handling:</sup> </summary>
 
 
