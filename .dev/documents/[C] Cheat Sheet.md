@@ -6,8 +6,7 @@
 
 ---
 
-<details>
-  <summary> #include ⤵ <sup>Libraries with Examples</sup></summary>
+<details><summary> <code>#include</code> ⤵ <sup>Libraries with Examples</sup></summary>
    <!----------------------------------------------------------------------------------->
    <details><summary> stdio.h ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
      
