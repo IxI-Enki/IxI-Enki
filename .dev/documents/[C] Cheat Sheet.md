@@ -5,13 +5,90 @@
 
 <details> 
   <summary> #include LIBRARIES </summary>
-<!--  
-//_____ #include <...> LIBRARIES: _______________________________________________________________//  
-#include <stdio.h>           //  Stdandard Input/Output functions:  
-                             //  ->             printf, scanf, putchar, getchar, puts, gets,...   
+   
+  - **<stdio.h>**<details><summary> -Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung: </summary>
+       
+       ### **Input/Output:**
+       - printf: Formatierte Ausgabe auf die Konsole  
+       - scanf: Formatierte Eingabe von der Konsole  
+       - getchar: Ein Zeichen von der Konsole einlesen  
+       - putchar: Ein Zeichen auf die Konsole ausgeben  
+       - puts: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
+       - gets (veraltet und unsicher): Eine Zeichenkette von der Konsole einlesen  
+       - fgets: Eine Zeichenkette von der Konsole einlesen (sicherer als gets)
+
+       <sub><sup>
+       ---
+       </sup></sub>
+       ### **Dateioperationen:**   
+       - fopen: Eine Datei öffnen  
+       - fclose: Eine Datei schließen  
+       - fprintf: Formatierte Ausgabe in eine Datei  
+       - fscanf: Formatierte Eingabe von einer Datei  
+       - fgetc: Ein Zeichen aus einer Datei lesen  
+       - fputc: Ein Zeichen in eine Datei schreiben  
+       - fgets: Eine Zeichenkette aus einer Datei lesen  
+       - fputs: Eine Zeichenkette in eine Datei schreiben  
+
+       <sub><sup>
+       ---
+       </sup></sub>
+       ### **Datei-Positionierung:**  
+       - fseek: Die Position in einer Datei setzen  
+       - ftell: Die aktuelle Position in einer Datei abrufen  
+       - rewind: Die Position in eine Datei auf den Anfang setzen  
+
+       <sub><sup>
+       ---
+       </sup></sub>
+       ### **Eingabe/Ausgabe mit Zeichenketten:**  
+       - sprintf: Formatierte Ausgabe in eine Zeichenkette  
+       - sscanf: Formatierte Eingabe von einer Zeichenkette  
+
+       <sub><sup>
+       ---
+       </sup></sub>
+       ### **Fehlerbehandlung:**  
+       - perror: Eine Fehlermeldung ausgeben, basierend auf der zuletzt aufgetretenen Fehlermeldung  
+       - feof: Überprüfen, ob das Ende einer Datei erreicht wurde  
+       - ferror: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
+
+       <sub><sup>
+       ---
+       </sup></sub>
+       ### **Flushing:**  
+       - fflush: Den Puffer (Buffer) für eine Datei leeren  
+
+       <sub><sup>
+       ---
+       </sup></sub>
+       ### **Standard-Datei-Zeiger:**  
+       - stdin: Standard-Eingabe (Tastatur)  
+       - stdout: Standard-Ausgabe (Bildschirm)  
+       - stderr: Standard-Fehlerausgabe (Bildschirm)  
+
+       <sub><sup>
+       ---
+       </sup></sub>
+         *Dies ist keine vollständige Liste, aber sie enthält einige der grundlegenden Funktionen, die in der <stdio.h>-Bibliothek definiert sind. 
+          Es ist wichtig zu beachten, dass einige Funktionen als veraltet gelten (wie gets) und aus Sicherheitsgründen vermieden werden sollten.
+          Stattdessen sollten sicherere Alternativen wie fgets verwendet werden.*
+
+       </details>
+   ---    
+  - **<string.h>**<details><summary> -Bibliothek stellt Funktionen zur string-Bearbeitung zur Verfügung: </summary>
+
+       ### **string:**
+       - test
+       - 
+
+     </details>
+</details>
+    
+<!--                        
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <string.h>          //  String manipulation functions  
-                             //  ->             strcpy, strcat, strlen, strcmp,...  
+                             //  ->                 
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdlib.h>          //  Standard Library functions:  
                              //  ->             malloc, free, rand, srand, exit,...  
@@ -94,57 +171,6 @@
   -->
 </details>
 
-<details> 
-  <summary> stdio.h: </summary>
-
-   ***stdio.h-Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung***
-
-### **Input/Output:**  
-- printf: Formatierte Ausgabe auf die Konsole  
-- scanf: Formatierte Eingabe von der Konsole  
-- getchar: Ein Zeichen von der Konsole einlesen  
-- putchar: Ein Zeichen auf die Konsole ausgeben  
-- puts: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
-- gets (veraltet und unsicher): Eine Zeichenkette von der Konsole einlesen  
-- fgets: Eine Zeichenkette von der Konsole einlesen (sicherer als gets)  
-
-### **Dateioperationen:**   
-- fopen: Eine Datei öffnen  
-- fclose: Eine Datei schließen  
-- fprintf: Formatierte Ausgabe in eine Datei  
-- fscanf: Formatierte Eingabe von einer Datei  
-- fgetc: Ein Zeichen aus einer Datei lesen  
-- fputc: Ein Zeichen in eine Datei schreiben  
-- fgets: Eine Zeichenkette aus einer Datei lesen  
-- fputs: Eine Zeichenkette in eine Datei schreiben  
-
-### **Datei-Positionierung:**  
-- fseek: Die Position in einer Datei setzen  
-- ftell: Die aktuelle Position in einer Datei abrufen  
-- rewind: Die Position in eine Datei auf den Anfang setzen  
-
-### **Eingabe/Ausgabe mit Zeichenketten:**  
-- sprintf: Formatierte Ausgabe in eine Zeichenkette  
-- sscanf: Formatierte Eingabe von einer Zeichenkette  
-
-### **Fehlerbehandlung:**  
-- perror: Eine Fehlermeldung ausgeben, basierend auf der zuletzt aufgetretenen Fehlermeldung  
-- feof: Überprüfen, ob das Ende einer Datei erreicht wurde  
-- ferror: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
-
-### **Flushing:**  
-- fflush: Den Puffer (Buffer) für eine Datei leeren  
-
-### **Standard-Datei-Zeiger:**  
-- stdin: Standard-Eingabe (Tastatur)  
-- stdout: Standard-Ausgabe (Bildschirm)  
-- stderr: Standard-Fehlerausgabe (Bildschirm)  
-
-  *Dies ist keine vollständige Liste, aber sie enthält einige der grundlegenden Funktionen, die in der <stdio.h>-Bibliothek definiert sind. 
-   Es ist wichtig zu beachten, dass einige Funktionen als veraltet gelten (wie gets) und aus Sicherheitsgründen vermieden werden sollten.
-   Stattdessen sollten sicherere Alternativen wie fgets verwendet werden.*
-
-</details>
 
 <details> 
   <summary> VARIABLES with Examples </summary>
@@ -189,5 +215,9 @@
 </details>
 
 
+<!--  
 
+<sub><sup>
+---
+</sup></sub>
 
