@@ -8,7 +8,7 @@
 
 <details><summary> <code>#include</code> ⤵ <sup>Libraries with Examples</sup></summary>
    <!----------------------------------------------------------------------------------->
-   <details><summary> <code><stdio.h></code> ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
+   <details><summary> <code>&lt;stdio.h&gt;</code> ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
      
    ### **Input/Output:**  
    - `printf`: Formatierte Ausgabe auf die Konsole  
@@ -16,7 +16,7 @@
    - `getchar`: Ein Zeichen von der Konsole einlesen  
    - `putchar`: Ein Zeichen auf die Konsole ausgeben  
    - `puts`: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
-   - ❗ `gets` (**veraltet und unsicher**): <s> Eine Zeichenkette von der Konsole einlesen</s>  
+   - ❗ `gets` <sub>(**veraltet und unsicher**)</sub> <s> Eine Zeichenkette von der Konsole einlesen</s>  
    - `fgets`: Eine Zeichenkette von der Konsole einlesen (**sicherer als gets**)  
 
    ### **Dateioperationen:**   
@@ -44,22 +44,22 @@
    - `ferror`: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
 
    ### **Flushing:**  
-   - `fflush`: Den Puffer (Buffer) für eine Datei leeren  
+   - `fflush`: Buffer für eine Datei leeren  
 
    ### **Standard-Datei-Zeiger:**  
-   - `stdin`: Standard-Eingabe (Tastatur)  
-   - `stdout`: Standard-Ausgabe (Bildschirm)  
-   - `stderr`: Standard-Fehlerausgabe (Bildschirm)  
+   - `stdin`: Standard-Eingabe (*Tastatur*)  
+   - `stdout`: Standard-Ausgabe (*Bildschirm*)  
+   - `stderr`: Standard-Fehlerausgabe (*Bildschirm*)  
 
    ❗*Dies ist ***keine*** vollständige Liste*  
 
    </details>
    
-  <sub><sup>
-  ---
-  </sup></sub>
+   <sub><sup>
+   ---
+   </sup></sub>
    <!----------------------------------------------------------------------------------->
-   <details><summary> <code><string.h></code> ⤵ <sup> zur string-Bearbeitung:</sup> </summary>
+   <details><summary> <code>&lt;string.h&gt;</code> ⤵ <sup> zur string-Bearbeitung:</sup> </summary>
 
    ### **Zeichenkettenmanipulation:**  
    - `strcpy`: Kopiert eine Zeichenkette  
@@ -106,7 +106,7 @@
    ---
    </sup></sub>
    <!----------------------------------------------------------------------------------->
-   <details><summary> <code><stdlib.h></code> ⤵ <sup> allgemeine Operationen - Speicherverwaltung & systembezogenen Funktionen:</sup> </summary>
+   <details><summary> <code>&lt;stdlib.h&gt;</code> ⤵ <sup> allgemeine Operationen - Speicherverwaltung & systembezogenen Funktionen:</sup> </summary>
 
    ### **Speicherallokation und -freigabe:**  
    - `malloc`: Allokiert dynamischen Speicher  
@@ -119,9 +119,9 @@
    - `srand`: Setzt den Startwert für den Zufallszahlengenerator  
 
    ### **Konvertierung von Zeichenketten zu Zahlen:**  
-   - `atoi`: Konvertiert eine Zeichenkette in eine ganze Zahl (integer)  
-   - `atol`: Konvertiert eine Zeichenkette in eine lange ganze Zahl (long)  
-   - `atof`: Konvertiert eine Zeichenkette in eine Gleitkommazahl (float)  
+   - `atoi`: Konvertiert eine Zeichenkette in eine ganze Zahl (**integer**)  
+   - `atol`: Konvertiert eine Zeichenkette in eine lange ganze Zahl (**long**)  
+   - `atof`: Konvertiert eine Zeichenkette in eine Gleitkommazahl (**float**)  
 
    ### **Pseudozufallszahlengeneratoren:**  
    - `rand`: Generiert eine Pseudozufallszahl  
@@ -151,9 +151,50 @@
    ---
    </sup></sub>
    <!----------------------------------------------------------------------------------->
+   <details><summary> <code>&lt;math.h&gt;</code> ⤵ <sup> mathematischen Funktionen:</sup> </summary>
+
+   ### Trigonometrische Funktionen:  
+   -`sin(x)`: Berechnet den Sinus von `x`  
+   -`cos(x)`: Berechnet den Cosinus von `x`  
+   -`tan(x)`: Berechnet den Tangens von `x`  
+   
+   -`asin(x)`: Berechnet den Arkussinus von `x`  
+   -`acos(x)`: Berechnet den ArkusCosinus von `x`  
+   -`atan(x)`: Berechnet den Arkustangens von `x`  
+
+   ### Hyperbolische Funktionen:
+   -`sinh(x)`: Berechnet den Hyperbelsinus von `x`  
+   -`cosh(x)`: Berechnet den Hyperbelcosinus von `x`  
+   -`tanh(x)`: Berechnet den Hyperbeltangens von `x`  
+
+   ### Exponential & Logarithmusfunktionen:
+   -`exp(x)`: Berechnet die Exponentialfunktion von `x` (e^x)  
+   -`log(x)`: Berechnet den natürlichen Logarithmus von `x` (ln(x))  
+   -`log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x`  
+
+   ### Potenzfunktionen:
+   -`pow(x, y)`: Berechnet `x` hoch `y` (x^y)  
+   -`sqrt(x)`: Berechnet die Quadratwurzel von `x`  
+
+   ### Runden & Betrag:
+   -`ceil(x)`: Rundet `x` auf die nächstgrößere Ganzzahl  
+   -`floor(x)`: Rundet `x` auf die nächstkleinere Ganzzahl  
+   -`fabs(x)`: Gibt den absoluten Wert von `x` zurück  
+
+   ### Weitere Funktionen:
+   -`fmod(x, y)`: Berechnet den Rest der Division von `x` durch `y`  
+   -`hypot(x, y)`: Berechnet die Hypotenuse eines rechtwinkligen Dreiecks mit den Seitenlängen `x` und `y`  
+   -`round(x)`: Rundet `x` auf die nächste Ganzzahl  
+
+   ❗*trigonometrische Funktionen verwenden Radianten*  
+     **🧮 umwandeln mit: `deg2rad` & `rad2deg`** 
    
    </details>
-</details>
+   
+   <sub><sup>
+   ---
+   </sup></sub>
+   <!----------------------------------------------------------------------------------->
     
 <!--                        
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
@@ -163,7 +204,7 @@
 #include <stdlib.h>          //  Standard Library functions:  
                              //  ->             malloc, free, rand, srand, exit,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <math.h>            //  Mathematical functions:  
+#include <math.h&gt;            //  Mathematical functions:  
                              //  ->             sqrt, pow, sin, cos, tan,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <ctype.h>           //  Character handling functions:  
