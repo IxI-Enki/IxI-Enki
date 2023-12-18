@@ -8,20 +8,17 @@
 
 <details><summary> <code>#include</code> ⤵ <sup>Libraries with Examples</sup></summary>
    <!----------------------------------------------------------------------------------->
-   <details><summary> <code>stdio.h</code> ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
+   <details><summary> <code><stdio.h></code> ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
      
-   ### **Input/Output:**
+   ### **Input/Output:**  
    - `printf`: Formatierte Ausgabe auf die Konsole  
    - `scanf`: Formatierte Eingabe von der Konsole  
    - `getchar`: Ein Zeichen von der Konsole einlesen  
    - `putchar`: Ein Zeichen auf die Konsole ausgeben  
    - `puts`: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
-   - <s>`gets` (veraltet und unsicher): Eine Zeichenkette von der Konsole einlesen</s>  
-   - `fgets`: Eine Zeichenkette von der Konsole einlesen (sicherer als gets)
+   - ❗ `gets` (**veraltet und unsicher**): <s> Eine Zeichenkette von der Konsole einlesen</s>  
+   - `fgets`: Eine Zeichenkette von der Konsole einlesen (**sicherer als gets**)  
 
-   <sub><sup>
-   ---
-   </sup></sub>
    ### **Dateioperationen:**   
    - `fopen`: Eine Datei öffnen  
    - `fclose`: Eine Datei schließen  
@@ -31,62 +28,129 @@
    - `fputc`: Ein Zeichen in eine Datei schreiben  
    - `fgets`: Eine Zeichenkette aus einer Datei lesen  
    - `fputs`: Eine Zeichenkette in eine Datei schreiben  
-   
-   <sub><sup>
-   ---
-   </sup></sub>
+
    ### **Datei-Positionierung:**  
    - `fseek`: Die Position in einer Datei setzen  
    - `ftell`: Die aktuelle Position in einer Datei abrufen  
    - `rewind`: Die Position in eine Datei auf den Anfang setzen  
-   
-   <sub><sup>
-   ---
-   </sup></sub>
+
    ### **Eingabe/Ausgabe mit Zeichenketten:**  
    - `sprintf`: Formatierte Ausgabe in eine Zeichenkette  
    - `sscanf`: Formatierte Eingabe von einer Zeichenkette  
 
-   <sub><sup>
-   ---
-   </sup></sub>
    ### **Fehlerbehandlung:**  
    - `perror`: Eine Fehlermeldung ausgeben, basierend auf der zuletzt aufgetretenen Fehlermeldung  
    - `feof`: Überprüfen, ob das Ende einer Datei erreicht wurde  
    - `ferror`: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
-   <sub><sup>
-   ---
-   </sup></sub>
+
    ### **Flushing:**  
    - `fflush`: Den Puffer (Buffer) für eine Datei leeren  
 
-   <sub><sup>
-   ---
-   </sup></sub>
    ### **Standard-Datei-Zeiger:**  
    - `stdin`: Standard-Eingabe (Tastatur)  
    - `stdout`: Standard-Ausgabe (Bildschirm)  
    - `stderr`: Standard-Fehlerausgabe (Bildschirm)  
 
-   <sub><sup>
-   ---
-   </sup></sub>
-   *Dies ist keine vollständige Liste, aber sie enthält einige der grundlegenden Funktionen, die in der <stdio.h>-Bibliothek definiert sind. 
-   Es ist wichtig zu beachten, dass einige Funktionen als veraltet gelten (wie gets) und aus Sicherheitsgründen vermieden werden sollten.
-   Stattdessen sollten sicherere Alternativen wie fgets verwendet werden.*
+   ❗*Dies ist ***keine*** vollständige Liste*  
 
    </details>
    
   <sub><sup>
   ---
   </sup></sub>
-  <!----------------------------------------------------------------------------------->
-  <details><summary> <code>string.h</code> ⤵ <sup>Bibliothekn zur string-Bearbeitung: </summary>
+   <!----------------------------------------------------------------------------------->
+   <details><summary> <code><string.h></code> ⤵ <sup> zur string-Bearbeitung:</sup> </summary>
 
-   ### **string:**
-   - test
-   - 
+   ### **Zeichenkettenmanipulation:**  
+   - `strcpy`: Kopiert eine Zeichenkette  
+   - `strncpy`: Kopiert eine bestimmte Anzahl von Zeichen einer Zeichenkette  
+   - `strcat`: Hängt eine Zeichenkette an eine andere an  
+   - `strncat`: Hängt eine bestimmte Anzahl von Zeichen einer Zeichenkette an eine andere an  
+   - `strcmp`: Vergleicht zwei Zeichenketten  
+   - `strncmp`: Vergleicht eine bestimmte Anzahl von Zeichen zweier Zeichenketten  
+   - `strlen`: Gibt die Länge einer Zeichenkette zurück  
 
+   ### **Zeichenkettenmanipulation (***ohne Nullzeichen***):**  
+   - `strchr`: Sucht das erste Auftreten eines Zeichens in einer Zeichenkette  
+   - `strrchr`: Sucht das letzte Auftreten eines Zeichens in einer Zeichenkette  
+   - `strstr`: Sucht das erste Vorkommen einer Teilzeichenkette in einer Zeichenkette  
+   - `strpbrk`: Sucht das erste Auftreten eines Zeichens aus einer Zeichenkette von Zeichen  
+   - `strspn`: Gibt die Länge des Anfangs einer Zeichenkette zurück, die nur aus bestimmten Zeichen besteht  
+   - `strcspn`: Gibt die Länge des Anfangs einer Zeichenkette zurück, die keine bestimmten Zeichen enthält  
+
+   ### **Speichermanipulation:**  
+   - `memcpy`: Kopiert einen Speicherbereich  
+   - `memmove`: Kopiert einen Speicherbereich, auch wenn sich die Quelle und das Ziel überschneiden  
+   - `memcmp`: Vergleicht zwei Speicherbereiche  
+   - `memset`: Setzt einen Speicherbereich auf einen bestimmten Wert  
+
+   ### **Zeichenkettenbearbeitung:**  
+   - `strtok`: Teilt eine Zeichenkette in Token auf  
+
+   ### **Zeilenumbrüche und Leerzeichen:**  
+   - `isspace`: Überprüft, ob ein Zeichen ein Leerzeichen ist  
+   - `isdigit`: Überprüft, ob ein Zeichen eine Ziffer ist  
+   - `isalpha`: Überprüft, ob ein Zeichen ein Buchstabe ist  
+   - `isalnum`: Überprüft, ob ein Zeichen eine Ziffer oder ein Buchstabe ist  
+
+   ### **Konvertierung:**  
+   - `atoi`: Konvertiert eine Zeichenkette in eine ganze Zahl  
+   - `atol`: Konvertiert eine Zeichenkette in eine lange ganze Zahl  
+   - `atof`: Konvertiert eine Zeichenkette in eine Gleitkommazahl  
+
+   ❗*Verwende wenn möglich ***Safe-Strings-Bibliotheken*** ( `strncpy_s`, `strcpy_s`, `sprintf_s` **ETC**..) für sicherere Operationen*
+   
+   </details>
+   
+   <sub><sup>
+   ---
+   </sup></sub>
+   <!----------------------------------------------------------------------------------->
+   <details><summary> <code><stdlib.h></code> ⤵ <sup> allgemeine Operationen - Speicherverwaltung & systembezogenen Funktionen:</sup> </summary>
+
+   ### **Speicherallokation und -freigabe:**  
+   - `malloc`: Allokiert dynamischen Speicher  
+   - `calloc`: Allokiert dynamischen Speicher und initialisiert alle Bytes auf 0  
+   - `realloc`: Ändert die Größe eines zuvor mit `malloc` oder `calloc` allokierten Speicherblocks  
+   - `free`: Gibt den durch `malloc`, `calloc` oder `realloc` allokierten Speicher frei  
+
+   ### **Zufallszahlen:**  
+   - `rand`: Generiert eine Pseudozufallszahl  
+   - `srand`: Setzt den Startwert für den Zufallszahlengenerator  
+
+   ### **Konvertierung von Zeichenketten zu Zahlen:**  
+   - `atoi`: Konvertiert eine Zeichenkette in eine ganze Zahl (integer)  
+   - `atol`: Konvertiert eine Zeichenkette in eine lange ganze Zahl (long)  
+   - `atof`: Konvertiert eine Zeichenkette in eine Gleitkommazahl (float)  
+
+   ### **Pseudozufallszahlengeneratoren:**  
+   - `rand`: Generiert eine Pseudozufallszahl  
+   - `srand`: Setzt den Startwert für den Zufallszahlengenerator  
+
+   ### **Umgebungsvariablen:**  
+   - `getenv`: Ruft den Wert einer Umgebungsvariable ab  
+
+   ### **Prozesssteuerung:**  
+   - `system`: Führt ein Systemkommando aus   
+
+   ### **Exit-Funktion:**  
+   - `exit`: Beendet das Programm  
+
+   ### **Dynamische Speicherreservierung:**  
+   - `abort`: Beendet das Programm unmittelbar mit einem Aufruf von `SIGABRT`  
+   - `atexit`: Registriert Funktionen, die bei Programmbeendigung aufgerufen werden sollen  
+   - `exit`: Beendet das Programm  
+   - `getenv`: Ruft den Wert einer Umgebungsvariable ab  
+   - `system`: Führt ein Systemkommando aus  
+
+   ❗*Unsachgemäße Verwendung **kann zu Speicherlecks** oder anderen **schwerwiegenden Problemen** führen*  
+   
+   </details>
+   
+   <sub><sup>
+   ---
+   </sup></sub>
+   <!----------------------------------------------------------------------------------->
    
    </details>
 </details>
