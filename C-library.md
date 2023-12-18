@@ -62,13 +62,14 @@
 - Uebung-009 -- [Balkendiagramm](https://github.com/IxI-Enki/Uebung-cabspr-009)
 - Uebung-010 -- [Ziffernsumme](https://github.com/IxI-Enki/Uebung-cabspr-010)
 - Uebung-011 -- [Kaffeemachine](https://github.com/IxI-Enki/Uebung-cabspr-011)
-
+- Uebung-012 -- [Zahlenstatistik ***`❗ Probetest`*** ](https://github.com/IxI-Enki/Uebung-cabspr-012)
 ---
 </details>
 
+### 🤖📌 Zahlenstatistik [ ***`❗ Probetest`*** ](https://github.com/IxI-Enki/Uebung-cabspr-012)
+
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
-- Uebung-012 -- [Zahlenstatistik ***`❗ Probetest`*** ](https://github.com/IxI-Enki/Uebung-cabspr-012)
 - Uebung-013 --
 - Uebung-014 --
 - Uebung-015 --
