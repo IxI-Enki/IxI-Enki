@@ -184,41 +184,41 @@
   <summary> variables ⤵ <sup>with Examples</sup> </summary>
     
 - Ganzzahlige Typen  
-    - `**int**` integerVariable = 42;  
+    - `int integerVariable = 42;`  
       >  4-Byte-Ganzzahl (-2,147,483,648 bis 2,147,483,647)  
-    - `**short**` shortVariable = 10;  
+    - `short shortVariable = 10;`  
       >  2-Byte-Ganzzahl (-32,768 bis 32,767)  
-    - `**long**` longVariable = 1234567890;  
+    - `long longVariable = 1234567890;`  
       >  Mindestens 4-Byte-Ganzzahl (-2,147,483,648 bis 2,147,483,647)  
-    - `**long long**` longLongVariable = 1234567890123456789LL;  
+    - `long long longLongVariable = 1234567890123456789LL;`  
       >  Mindestens 8-Byte-Ganzzahl (-9,223,372,036,854,775,808 bis 9,223,372,036,854,775,807)  
 
 - Gleitkommazahlen  
-    - `**float**` floatVariable = 3.14f;
+    - `float floatVariable = 3.14f;`  
       >  4-Byte-Gleitkommazahl (1.2E-38 bis 3.4E+38 mit sechs Dezimalstellen Genauigkeit)  
-    - `**double**` doubleVariable = 3.14159265359;  
+    - `double doubleVariable = 3.14159265359;`  
       >  8-Byte-Gleitkommazahl (2.3E-308 bis 1.7E+308 mit 15 Dezimalstellen Genauigkeit)  
 
 - Zeichen  
-    - `**char**` charVariable = 'A';  
+    - `char charVariable = 'A';`  
       > Einzelnes Zeichen (im Allgemeinen -128 bis 127 oder 0 bis 255, je nach Vorzeichen)  
 
 - Vorzeichenlose Ganzzahlen  
-    - `**unsigned int**` unsignedIntVariable = 100; 
+    - `unsigned int unsignedIntVariable = 100;`  
       >  Vorzeichenlose 4-Byte-Ganzzahl (0 bis 4,294,967,295)  
-    - `**unsigned short**` unsignedShortVariable = 200; 
+    - `unsigned short unsignedShortVariable = 200;`  
       >  Vorzeichenlose 2-Byte-Ganzzahl (0 bis 65,535)  
-    - `**unsigned long**` unsignedLongVariable = 300; 
+    - `unsigned long unsignedLongVariable = 300;`  
       >  Mindestens 4-Byte vorzeichenlose Ganzzahl (0 bis 4,294,967,295)  
-    - `**unsigned long long**` unsignedLongLongVariable = 400; 
+    - `unsigned long long unsignedLongLongVariable = 400;`   
       >  Mindestens 8-Byte vorzeichenlose Ganzzahl (0 bis 18,446,744,073,709,551,615)  
 
 - Boolescher Typ  
-    - `**_Bool**` boolVariable = 1;  
+    - `_Bool boolVariable = 1;`   
       >  Wahr (true) oder falsch (false)  
 
 - Void-Typ (wird oft für Funktionen ohne Rückgabewert verwendet)  
-    - `**void**` voidPointer;  
+    - `void voidPointer;`  
   
 </details>
 
