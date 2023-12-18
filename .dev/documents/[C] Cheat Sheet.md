@@ -1,10 +1,11 @@
 <!-------------------------------------------------------- CHEAT SHEET -------------------------------------------------------->
-# **Cheatsheet** <sub>Übersicht der 'Essentials'</sub>
-> <sup>**click this icon:</sup> [⤵](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/%5BC%5D%20Cheat%20Sheet.md)**
+# **Cheatsheet** *<sub>Übersicht der 'Essentials'</sub>*
+   > - <sup>**click this icon:</sup> [⤵](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/%5BC%5D%20Cheat%20Sheet.md)**
+
 ---
 
-<details> 
-  <summary> #include ⤵ <sup>Libraries with Examples</sup> </summary>
+<details>
+  <summary> #include ⤵ <sup>Libraries with Examples</sup></summary>
    <!----------------------------------------------------------------------------------->
    <details><summary> stdio.h ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
      
