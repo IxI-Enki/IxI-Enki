@@ -68,7 +68,7 @@
 
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
-- Uebung-012 -- 
+- Uebung-012 -- [Zahlenstatistik ***`❗ Probetest`*** ](https://github.com/IxI-Enki/Uebung-cabspr-012)
 - Uebung-013 --
 - Uebung-014 --
 - Uebung-015 --
