@@ -162,40 +162,47 @@
    -`acos(x)`: Berechnet den ArkusCosinus von `x`  
    -`atan(x)`: Berechnet den Arkustangens von `x`  
 
-   ### Hyperbolische Funktionen:
+   ### Hyperbolische Funktionen:  
    -`sinh(x)`: Berechnet den Hyperbelsinus von `x`  
    -`cosh(x)`: Berechnet den Hyperbelcosinus von `x`  
    -`tanh(x)`: Berechnet den Hyperbeltangens von `x`  
 
-   ### Exponential & Logarithmusfunktionen:
-   -`exp(x)`: Berechnet die Exponentialfunktion von `x` (e^x)  
-   -`log(x)`: Berechnet den natürlichen Logarithmus von `x` (ln(x))  
-   -`log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x`  
+   ### Exponential & Logarithmusfunktionen:  
+   -`exp(x)`: Berechnet die Exponentialfunktion von `x` .. e<sub>x</sub>  
+   -`log(x)`: Berechnet den natürlichen Logarithmus von `x` .. ln(x)  
+   -`log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x` .. log<sup>10</sup>(x)  
 
-   ### Potenzfunktionen:
-   -`pow(x, y)`: Berechnet `x` hoch `y` (x^y)  
-   -`sqrt(x)`: Berechnet die Quadratwurzel von `x`  
+   ### Potenzfunktionen:  
+   -`pow(x, y)`: Berechnet `x` hoch `y` .. x<sub>y</sub>  
+   -`sqrt(x)`: Berechnet die Quadratwurzel von `x` .. √(x)  
 
-   ### Runden & Betrag:
+   ### Runden & Betrag:  
    -`ceil(x)`: Rundet `x` auf die nächstgrößere Ganzzahl  
    -`floor(x)`: Rundet `x` auf die nächstkleinere Ganzzahl  
    -`fabs(x)`: Gibt den absoluten Wert von `x` zurück  
 
-   ### Weitere Funktionen:
+   ### Weitere Funktionen:  
    -`fmod(x, y)`: Berechnet den Rest der Division von `x` durch `y`  
    -`hypot(x, y)`: Berechnet die Hypotenuse eines rechtwinkligen Dreiecks mit den Seitenlängen `x` und `y`  
    -`round(x)`: Rundet `x` auf die nächste Ganzzahl  
 
    ❗*trigonometrische Funktionen verwenden Radianten*  
-     **🧮 umwandeln mit: `deg2rad` & `rad2deg`** 
+     **🧮 umwandeln mit: `deg2rad` & `rad2deg`**  
    
    </details>
    
    <sub><sup>
    ---
    </sup></sub>
-   <!----------------------------------------------------------------------------------->
-    
+	<!----------------------------------------------------------------------------------->
+   <details><summary> <code>&lt;ctype.h&gt;</code> ⤵ <sup> Charakter handling:</sup> </summary>
+
+
+
+<!--close--->   
+   </details>
+</details>
+<!--end-->
 <!--                        
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <string.h>          //  String manipulation functions  
