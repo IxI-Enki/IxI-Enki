@@ -1,0 +1,225 @@
+Befehlsliste:
+
+ls	-l	zeigt alle ordner in einem verzeichnis mit details
+	-a	zeigt alle inhalte eines verzeichnis
+	-t	zeigt alle ordner in einem verzeichnis ohne details
+	-r	zeigt alle ordner in einem verzeichnis ohne details
+
+wc 	-c	zählt die buchstaben in einem text
+	-l	zählt die zeilen in einem text
+	-w	zählt alle wörter in einem text
+
+
+basename
+
+    * Übergibt den Dateinamen aus einer kompletten Pfadangabe.
+      Beispiel: basename /home/user/html/test.html
+      Ergebnis: test.html
+
+cat
+
+    * Anzeigen von Dateiinhalten.
+      z.B.: cat /home/user/test.txt
+      Zeigt den Inhalt der Datei test.txt
+    * Zusammenfuegen von einzelnen Dateien.
+      z.B.: cat a.txt b.txt > c.txt
+      Schreibt den Inhalt von a.txt und anschliessend den Inhalt von b.txt in die Datei c.txt
+    * Löschen vom Dateiinhalt
+      Beispiel: cat /dev/null > test.tmp
+      Ergebnis: test.tmp ist jetzt 0 Byte gross!
+
+cd
+
+    * Verzeichnis wechseln
+
+chmod
+
+    * Zugriffsrechte ändern
+
+cmp
+
+    * Dateien vergleichen
+
+cp
+
+    * Dateien kopieren
+
+cut
+
+    * Ausschneiden/ Entfernen bestimmter Bereiche einer Zeile
+
+date
+
+    * Datum und Uhrzeit anzeigen
+      Beispiel: date +%Y
+      Ergebnis: das aktuelle Jahr (z.B.:2002)
+      Beispiel: date +%W
+      Ergebnis: die aktuelle Arbeitswoche (z.B.:17)
+
+dd
+
+    * DiskDump zum kopieren von Datenblöcken von dev zu dev
+
+diff
+
+    * Unterschiede beim Dateivergleich anzeigen
+
+dirname
+
+    * Gibt nur den Pfadnamen ohne Datei zurueck
+
+du
+
+    * Welche Datei belegt wieviel Plattenplatz
+
+echo
+
+    * Text ausgeben
+      Beispiel: echo "Das ist ein Test"
+      Ergebnis: Das ist ein Test
+
+env
+
+    * Umgebungsvariablen anzeigen oder setzen
+
+find
+
+    * Mächtiges Teil zum Suchen nach Dateien (Datum/Groesse uvm.)
+
+grep
+
+    * Dateien nach bestimmten Zeichenketten durchsuchen
+
+head
+
+    * Anzeigen von den ersten x Zeilen einer Datei (Gegenstueck zu tail)
+
+kill
+
+    * Sendet Signal an Prozess-ID (zum Killen, Aufwecken...)
+      Beispiel: kill (ID)
+      Ergebnis: Prozess (ID) ist gekillt
+      sollte der Prozess dennoch laufen hilft die hartnäckige Tour
+      Beispiel: kill -9 (ID)
+
+login
+	
+    * Als Benutzer anmelden 
+
+ls
+
+    * Verzeichnisinhalt anzeigen
+
+man
+
+    * man-Pages anzeigen
+      Beispiel: man mkisofs
+
+mkdir
+
+    * Verzeichnis erstellen
+
+more
+
+    * Datei seitenweise anzeigen
+
+mount
+
+    * Einbinden von Laufwerken ins System
+      Hinweis: Audio-CD's werden nicht gemountet, sondern einfach abgespielt!
+
+mv
+
+    * Dateien verschieben / umbenennen
+
+passwd
+
+    * User-Password aendern
+
+ps
+
+    * Anzeige von allen laufenden Prozessen
+
+pwd
+
+    * Zeigt das aktuelle Verzeichnis
+
+rm
+
+    * Dateien Löschen
+
+rmdir
+
+    * Verzeichnisse Löschen
+
+shutdown
+
+    * Linux beenden
+
+sleep
+
+    * Pausenzeit festlegen
+      Beispiel: sleep s 10
+      Ergebnis: Warte 10 Sekunden
+      Beispiel: sleep m 10
+      Ergebnis: Warte 10 Minuten
+      Beispiel: sleep h 10
+      Ergebnis: Warte 10 Stunden
+      Beispiel: sleep d 10
+      Ergebnis: Warte 10 Tage:-)
+
+sort
+
+    * Sortiert die Zeilen einer Datei
+
+su
+
+    * Von User nach root wechseln (SuperUser)
+
+tail
+
+    * Die letzten Zeilen einer Datei anzeigen
+      Beispiel: tail -f /var/log/messages
+      Ergebnis: Zeigt staendig die letzen Einträge der Datei /var/log/messages an
+      Beispiel: tail -n 20 /var/log/messages
+      Ergebnis: Zeigt die letzten 20 Zeilen der Datei /var/log/messages an
+      Beispiel: tail -n 20 -f /var/log/messages
+      Ergebnis: Zeigt die letzten 20 Zeilen und dann fortlaufend die neuen Einträge der Datei /var/log/messages an
+
+tar
+
+    * Verwaltet mehrere Dateien in einem Archiv
+      Beispiel: tar cvf archiv.tar /var/log/*
+      Ergebnis: In der Datei archiv.tar befinden sich alle Dateien aus /var/log
+      Beispiel: tar cvzf archiv.tar.gz /var/log/*
+      Ergebnis: In der Datei archiv.tar.gz befinden sich alle Dateien aus /var/log in gepacktem Format
+      Beispiel: tar xvzf archiv.tar.gz
+      Ergebnis: Die Datei archiv.tar.gz wird im aktuellen Verzeichnis ausgepackt
+      Beispiel: tar xvzf archiv.tar.gz /home/user/tmp
+      Ergebnis: Die Datei archiv.tar.gz wird im Verzeichnis /home/user/tmp ausgepackt
+
+touch
+
+    * Zugriffsdatum von Dateien aktualisieren
+
+umount
+
+    * Eingebundene Dateisysteme wieder abmelden
+      Beispiel: umount /dev/cdrom
+
+uniq
+
+    * Entfernen von mehrfach auftretenden Zeilen in einer sortierten Datei
+
+vi
+
+    * Standard-Editor
+
+wc
+
+    * Zeichen, Wörter oder Zeilen einer Datei zaehlen (Dateigrösse ausgeben)
+      Beispiel: wc -c < sample.txt
+
+who
+
+    * Zeigt alle angemeldeten Benutzer
