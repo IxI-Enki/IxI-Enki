@@ -5,93 +5,145 @@
 
 <details> 
   <summary> #include LIBRARIES </summary>
-    
+<!--  
 //_____ #include <...> LIBRARIES: _______________________________________________________________//  
 #include <stdio.h>           //  Stdandard Input/Output functions:  
-                             //  -->             printf, scanf, putchar, getchar, puts, gets,...   
+                             //  ->             printf, scanf, putchar, getchar, puts, gets,...   
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <string.h>          //  String manipulation functions  
-                             //  -->             strcpy, strcat, strlen, strcmp,...  
+                             //  ->             strcpy, strcat, strlen, strcmp,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdlib.h>          //  Standard Library functions:  
-                             //  -->             malloc, free, rand, srand, exit,...  
+                             //  ->             malloc, free, rand, srand, exit,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <math.h>            //  Mathematical functions:  
-                             //  -->             sqrt, pow, sin, cos, tan,...  
+                             //  ->             sqrt, pow, sin, cos, tan,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <ctype.h>           //  Character handling functions:  
-                             //  -->             isalpha, isdigit, tolower, toupper,...  
+                             //  ->             isalpha, isdigit, tolower, toupper,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdbool.h>         //  Boolean type and values:  
-                             //  -->             true, false  
+                             //  ->             true, false  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdint.h>          //  Standard integer types:  
-                             //  -->             int8_t, uint16_t, int32_t,...  
+                             //  ->             int8_t, uint16_t, int32_t,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <limits.h>          //  Implementation-defined constants:  
-                             //  -->             INT_MAX, INT_MIN,...  
+                             //  ->             INT_MAX, INT_MIN,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <float.h>           //  Implementation-defined constants for floating-point types:  
-                             //  -->             FLT_MAX, FLT_MIN,...  
+                             //  ->             FLT_MAX, FLT_MIN,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <assert.h>          //  Diagnostics:  
-                             //  -->             assert  
+                             //  ->             assert  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <errno.h>           //  Error reporting:  
-                             //  -->             errno  
+                             //  ->             errno  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <time.h>            //  Time and date functions:   
-                             //  -->             time, localtime, strftime,...  
+                             //  ->             time, localtime, strftime,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdarg.h>          //  Variable arguments:  
-                             //  -->             va_start, va_arg, va_end,...  
+                             //  ->             va_start, va_arg, va_end,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stddef.h>          //  Standard definitions:  
-                             //  -->             NULL  
+                             //  ->             NULL  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <signal.h>          //  Signal handling:  
-                             //  -->             signal  
+                             //  ->             signal  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <setjmp.h>          //  Non-local jumps:  
-                             //  -->             setjmp, longjmp  
+                             //  ->             setjmp, longjmp  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <locale.h>          //  Localization:  
-                             //  -->             setlocale  
+                             //  ->             setlocale  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <wchar.h>           //  Wide character functions:  
-                             //  -->             wprintf, wscanf, wcslen,...  
+                             //  ->             wprintf, wscanf, wcslen,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <wctype.h>          //  Wide character classification and mapping functions:  
-                             //  -->             iswalpha, towlower, towupper,...  
+                             //  ->             iswalpha, towlower, towupper,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <fenv.h>            //  Floating-point environment:  
-                             //  -->             feclearexcept, fegetround, feraiseexcept,...  
+                             //  ->             feclearexcept, fegetround, feraiseexcept,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <inttypes.h>        //  Format conversion of integer types:  
-                             //  -->             PRId32, PRIu64, SCNd16, SCNu8,...  
+                             //  ->             PRId32, PRIu64, SCNd16, SCNu8,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <iso646.h>          //  Alternative operator spellings:  
-                             //  -->             and, or, not,...  
+                             //  ->             and, or, not,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdalign.h>        //  Alignments:  
-                             //  -->             alignas, alignof  
+                             //  ->             alignas, alignof  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdatomic.h>       //  Atomic types:  
-                             //  -->        atomic_flag, atomic_init, atomic_load, atomic_store,...  
+                             //  ->        atomic_flag, atomic_init, atomic_load, atomic_store,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <stdnoreturn.h>     //  No return function declaration:  
-                             //  -->             noreturn  
+                             //  ->             noreturn  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <uchar.h>           //  UTF-16 and UTF-32 character utilities:  
-                             //  -->             char16_t, char32_t, u16string, u32string,...  
+                             //  ->             char16_t, char32_t, u16string, u32string,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <tgmath.h>          //  Type-generic math:  
-                             //  -->             cabs, carg, cimag, creal,...  
+                             //  ->             cabs, carg, cimag, creal,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
 #include <complex.h>         //  Complex arithmetic:  
-                             //  -->             cabs, carg, cimag, creal, cexp, clog, cpow,...  
+                             //  ->             cabs, carg, cimag, creal, cexp, clog, cpow,...  
 //¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-  
+  -->
+</details>
+
+<details> 
+  <summary> stdio.h: </summary>
+
+   ***stdio.h-Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung***
+
+### **Input/Output:**  
+- printf: Formatierte Ausgabe auf die Konsole  
+- scanf: Formatierte Eingabe von der Konsole  
+- getchar: Ein Zeichen von der Konsole einlesen  
+- putchar: Ein Zeichen auf die Konsole ausgeben  
+- puts: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
+- gets (veraltet und unsicher): Eine Zeichenkette von der Konsole einlesen  
+- fgets: Eine Zeichenkette von der Konsole einlesen (sicherer als gets)  
+
+### **Dateioperationen:**   
+- fopen: Eine Datei öffnen  
+- fclose: Eine Datei schließen  
+- fprintf: Formatierte Ausgabe in eine Datei  
+- fscanf: Formatierte Eingabe von einer Datei  
+- fgetc: Ein Zeichen aus einer Datei lesen  
+- fputc: Ein Zeichen in eine Datei schreiben  
+- fgets: Eine Zeichenkette aus einer Datei lesen  
+- fputs: Eine Zeichenkette in eine Datei schreiben  
+
+### **Datei-Positionierung:**  
+- fseek: Die Position in einer Datei setzen  
+- ftell: Die aktuelle Position in einer Datei abrufen  
+- rewind: Die Position in eine Datei auf den Anfang setzen  
+
+### **Eingabe/Ausgabe mit Zeichenketten:**  
+- sprintf: Formatierte Ausgabe in eine Zeichenkette  
+- sscanf: Formatierte Eingabe von einer Zeichenkette  
+
+### **Fehlerbehandlung:**  
+- perror: Eine Fehlermeldung ausgeben, basierend auf der zuletzt aufgetretenen Fehlermeldung  
+- feof: Überprüfen, ob das Ende einer Datei erreicht wurde  
+- ferror: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
+
+### **Flushing:**  
+- fflush: Den Puffer (Buffer) für eine Datei leeren  
+
+### **Standard-Datei-Zeiger:**  
+- stdin: Standard-Eingabe (Tastatur)  
+- stdout: Standard-Ausgabe (Bildschirm)  
+- stderr: Standard-Fehlerausgabe (Bildschirm)  
+
+  *Dies ist keine vollständige Liste, aber sie enthält einige der grundlegenden Funktionen, die in der <stdio.h>-Bibliothek definiert sind. 
+   Es ist wichtig zu beachten, dass einige Funktionen als veraltet gelten (wie gets) und aus Sicherheitsgründen vermieden werden sollten.
+   Stattdessen sollten sicherere Alternativen wie fgets verwendet werden.*
+
 </details>
 
 <details> 
