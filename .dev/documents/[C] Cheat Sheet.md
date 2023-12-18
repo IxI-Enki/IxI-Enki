@@ -1,14 +1,17 @@
 <!-------------------------------------------------------- CHEAT SHEET -------------------------------------------------------->
 
 
-|👉|💡| C-CODE | **Cheatsheet** *<sup>"essentials"</sub>* | <sup>**click this icon:</sup> [⤵](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/%5BC%5D%20Cheat%20Sheet.md)** ***to expand lists*** |💡|👈|  
+   **Cheatsheet** "essentials"
+
+|👉|💡| C-CODE |  | <sup>**click this icon:</sup> [⤵](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/%5BC%5D%20Cheat%20Sheet.md)** ***to expand lists*** |💡|👈|  
 | :-: | :-: | :-: |:-: | :-------------:  |:-:|:-: |   
+
 
 ---
 
 <details><summary> <code>#include</code> ⤵ <sup>Libraries with Examples</sup></summary>
    <!----------------------------------------------------------------------------------->
-   <details><summary> <code>&lt;stdio.h&gt;</code> ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
+   <details><summary> <code>&lt;stdio.h&gt;</code> ⤵ <sup><mark>Input/Output Funktionen</mark> zur Verfügung</sup> </summary>
      
    ### **Input/Output:**  
    - `printf`: Formatierte Ausgabe auf die Konsole  
@@ -18,7 +21,6 @@
    - `puts`: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
    - ❗ `gets` <sub>(**veraltet und unsicher**)</sub> <s> Eine Zeichenkette von der Konsole einlesen</s>  
    - `fgets`: Eine Zeichenkette von der Konsole einlesen (**sicherer als gets**)  
-
    ### **Dateioperationen:**   
    - `fopen`: Eine Datei öffnen  
    - `fclose`: Eine Datei schließen  
@@ -28,24 +30,19 @@
    - `fputc`: Ein Zeichen in eine Datei schreiben  
    - `fgets`: Eine Zeichenkette aus einer Datei lesen  
    - `fputs`: Eine Zeichenkette in eine Datei schreiben  
-
    ### **Datei-Positionierung:**  
    - `fseek`: Die Position in einer Datei setzen  
    - `ftell`: Die aktuelle Position in einer Datei abrufen  
    - `rewind`: Die Position in eine Datei auf den Anfang setzen  
-
    ### **Eingabe/Ausgabe mit Zeichenketten:**  
    - `sprintf`: Formatierte Ausgabe in eine Zeichenkette  
    - `sscanf`: Formatierte Eingabe von einer Zeichenkette  
-
    ### **Fehlerbehandlung:**  
    - `perror`: Eine Fehlermeldung ausgeben, basierend auf der zuletzt aufgetretenen Fehlermeldung  
    - `feof`: Überprüfen, ob das Ende einer Datei erreicht wurde  
    - `ferror`: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
-
    ### **Flushing:**  
    - `fflush`: Buffer für eine Datei leeren  
-
    ### **Standard-Datei-Zeiger:**  
    - `stdin`: Standard-Eingabe (*Tastatur*)  
    - `stdout`: Standard-Ausgabe (*Bildschirm*)  
@@ -69,7 +66,6 @@
    - `strcmp`: Vergleicht zwei Zeichenketten  
    - `strncmp`: Vergleicht eine bestimmte Anzahl von Zeichen zweier Zeichenketten  
    - `strlen`: Gibt die Länge einer Zeichenkette zurück  
-
    ### **Zeichenkettenmanipulation (***ohne Nullzeichen***):**  
    - `strchr`: Sucht das erste Auftreten eines Zeichens in einer Zeichenkette  
    - `strrchr`: Sucht das letzte Auftreten eines Zeichens in einer Zeichenkette  
@@ -77,22 +73,18 @@
    - `strpbrk`: Sucht das erste Auftreten eines Zeichens aus einer Zeichenkette von Zeichen  
    - `strspn`: Gibt die Länge des Anfangs einer Zeichenkette zurück, die nur aus bestimmten Zeichen besteht  
    - `strcspn`: Gibt die Länge des Anfangs einer Zeichenkette zurück, die keine bestimmten Zeichen enthält  
-
    ### **Speichermanipulation:**  
    - `memcpy`: Kopiert einen Speicherbereich  
    - `memmove`: Kopiert einen Speicherbereich, auch wenn sich die Quelle und das Ziel überschneiden  
    - `memcmp`: Vergleicht zwei Speicherbereiche  
    - `memset`: Setzt einen Speicherbereich auf einen bestimmten Wert  
-
    ### **Zeichenkettenbearbeitung:**  
    - `strtok`: Teilt eine Zeichenkette in Token auf  
-
    ### **Zeilenumbrüche und Leerzeichen:**  
    - `isspace`: Überprüft, ob ein Zeichen ein Leerzeichen ist  
    - `isdigit`: Überprüft, ob ein Zeichen eine Ziffer ist  
    - `isalpha`: Überprüft, ob ein Zeichen ein Buchstabe ist  
    - `isalnum`: Überprüft, ob ein Zeichen eine Ziffer oder ein Buchstabe ist  
-
    ### **Konvertierung:**  
    - `atoi`: Konvertiert eine Zeichenkette in eine ganze Zahl  
    - `atol`: Konvertiert eine Zeichenkette in eine lange ganze Zahl  
@@ -113,29 +105,22 @@
    - `calloc`: Allokiert dynamischen Speicher und initialisiert alle Bytes auf 0  
    - `realloc`: Ändert die Größe eines zuvor mit `malloc` oder `calloc` allokierten Speicherblocks  
    - `free`: Gibt den durch `malloc`, `calloc` oder `realloc` allokierten Speicher frei  
-
    ### **Zufallszahlen:**  
    - `rand`: Generiert eine Pseudozufallszahl  
    - `srand`: Setzt den Startwert für den Zufallszahlengenerator  
-
    ### **Konvertierung von Zeichenketten zu Zahlen:**  
    - `atoi`: Konvertiert eine Zeichenkette in eine ganze Zahl (**integer**)  
    - `atol`: Konvertiert eine Zeichenkette in eine lange ganze Zahl (**long**)  
    - `atof`: Konvertiert eine Zeichenkette in eine Gleitkommazahl (**float**)  
-
    ### **Pseudozufallszahlengeneratoren:**  
    - `rand`: Generiert eine Pseudozufallszahl  
    - `srand`: Setzt den Startwert für den Zufallszahlengenerator  
-
    ### **Umgebungsvariablen:**  
    - `getenv`: Ruft den Wert einer Umgebungsvariable ab  
-
    ### **Prozesssteuerung:**  
    - `system`: Führt ein Systemkommando aus   
-
    ### **Exit-Funktion:**  
    - `exit`: Beendet das Programm  
-
    ### **Dynamische Speicherreservierung:**  
    - `abort`: Beendet das Programm unmittelbar mit einem Aufruf von `SIGABRT`  
    - `atexit`: Registriert Funktionen, die bei Programmbeendigung aufgerufen werden sollen  
@@ -160,26 +145,21 @@
    - `asin(x)`: Arkussinus von `x`  
    - `acos(x)`: Arkuscosinus von `x`  
    - `atan(x)`: Arkustangens von `x`  
-
    ### Hyperbolische Funktionen:  
    - `sinh(x)`: Hyperbelsinus von `x`  
    - `cosh(x)`: Hyperbelcosinus von `x`  
    - `tanh(x)`: Hyperbeltangens von `x`  
-
    ### Exponential & Logarithmusfunktionen:  
    - `exp(x)`: e<sup>`x`</sup>  
    - `log(x)`: ln(`x`)  
    - `log10(x)`: log<sub>10</sub>(`x`)  
-
    ### Potenzfunktionen:  
    - `pow(x, y)`: `x`<sup>`y`</sup>  
    - `sqrt(x)`: √(`x`)  
-
    ### Runden & Betrag:  
    - `ceil(x)`: Rundet `x` auf die nächstgrößere Ganzzahl  
    - `floor(x)`: Rundet `x` auf die nächstkleinere Ganzzahl  
    - `fabs(x)`: Gibt den absoluten Wert von `x` zurück  
-
    ### Weitere Funktionen:  
    - `fmod(x, y)`: Berechnet den Rest der Division von `x` durch `y`  
    - `hypot(x, y)`: Berechnet die Hypotenuse eines rechtwinkligen Dreiecks mit den Seitenlängen `x` und `y`  
@@ -202,97 +182,14 @@
    </details>
 </details>
 <!--end-->
-<!--                        
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <string.h>          //  String manipulation functions  
-                             //  ->                 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stdlib.h>          //  Standard Library functions:  
-                             //  ->             malloc, free, rand, srand, exit,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <math.h&gt;            //  Mathematical functions:  
-                             //  ->             sqrt, pow, sin, cos, tan,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <ctype.h>           //  Character handling functions:  
-                             //  ->             isalpha, isdigit, tolower, toupper,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stdbool.h>         //  Boolean type and values:  
-                             //  ->             true, false  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stdint.h>          //  Standard integer types:  
-                             //  ->             int8_t, uint16_t, int32_t,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <limits.h>          //  Implementation-defined constants:  
-                             //  ->             INT_MAX, INT_MIN,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <float.h>           //  Implementation-defined constants for floating-point types:  
-                             //  ->             FLT_MAX, FLT_MIN,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <assert.h>          //  Diagnostics:  
-                             //  ->             assert  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <errno.h>           //  Error reporting:  
-                             //  ->             errno  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <time.h>            //  Time and date functions:   
-                             //  ->             time, localtime, strftime,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stdarg.h>          //  Variable arguments:  
-                             //  ->             va_start, va_arg, va_end,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stddef.h>          //  Standard definitions:  
-                             //  ->             NULL  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <signal.h>          //  Signal handling:  
-                             //  ->             signal  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <setjmp.h>          //  Non-local jumps:  
-                             //  ->             setjmp, longjmp  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <locale.h>          //  Localization:  
-                             //  ->             setlocale  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <wchar.h>           //  Wide character functions:  
-                             //  ->             wprintf, wscanf, wcslen,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <wctype.h>          //  Wide character classification and mapping functions:  
-                             //  ->             iswalpha, towlower, towupper,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <fenv.h>            //  Floating-point environment:  
-                             //  ->             feclearexcept, fegetround, feraiseexcept,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <inttypes.h>        //  Format conversion of integer types:  
-                             //  ->             PRId32, PRIu64, SCNd16, SCNu8,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <iso646.h>          //  Alternative operator spellings:  
-                             //  ->             and, or, not,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stdalign.h>        //  Alignments:  
-                             //  ->             alignas, alignof  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stdatomic.h>       //  Atomic types:  
-                             //  ->        atomic_flag, atomic_init, atomic_load, atomic_store,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <stdnoreturn.h>     //  No return function declaration:  
-                             //  ->             noreturn  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <uchar.h>           //  UTF-16 and UTF-32 character utilities:  
-                             //  ->             char16_t, char32_t, u16string, u32string,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <tgmath.h>          //  Type-generic math:  
-                             //  ->             cabs, carg, cimag, creal,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-#include <complex.h>         //  Complex arithmetic:  
-                             //  ->             cabs, carg, cimag, creal, cexp, clog, cpow,...  
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯//  
-  -->
-</details>
+
+
 
 
   ---
 
 <details>
-  <summary> <code>variables</code> ⤵ <sup>with Examples</sup> </summary>
+  <summary> <code><var>variables</var></code> ⤵ <sup>with Examples</sup> </summary>
     
 - Ganzzahlige Typen  
     - `int integerVariable = 42;`  
