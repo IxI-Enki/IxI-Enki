@@ -154,37 +154,37 @@
    <details><summary> <code>&lt;math.h&gt;</code> ⤵ <sup> mathematischen Funktionen:</sup> </summary>
 
    ### Trigonometrische Funktionen:  
-   -`sin(x)`: Berechnet den Sinus von `x`  
-   -`cos(x)`: Berechnet den Cosinus von `x`  
-   -`tan(x)`: Berechnet den Tangens von `x`  
+   - `sin(x)`: Berechnet den Sinus von `x`  
+   - `cos(x)`: Berechnet den Cosinus von `x`  
+   - `tan(x)`: Berechnet den Tangens von `x`  
    
-   -`asin(x)`: Berechnet den Arkussinus von `x`  
-   -`acos(x)`: Berechnet den ArkusCosinus von `x`  
-   -`atan(x)`: Berechnet den Arkustangens von `x`  
+   - `asin(x)`: Berechnet den Arkussinus von `x`  
+   - `acos(x)`: Berechnet den ArkusCosinus von `x`  
+   - `atan(x)`: Berechnet den Arkustangens von `x`  
 
    ### Hyperbolische Funktionen:  
-   -`sinh(x)`: Berechnet den Hyperbelsinus von `x`  
-   -`cosh(x)`: Berechnet den Hyperbelcosinus von `x`  
-   -`tanh(x)`: Berechnet den Hyperbeltangens von `x`  
+   - `sinh(x)`: Berechnet den Hyperbelsinus von `x`  
+   - `cosh(x)`: Berechnet den Hyperbelcosinus von `x`  
+   - `tanh(x)`: Berechnet den Hyperbeltangens von `x`  
 
    ### Exponential & Logarithmusfunktionen:  
-   -`exp(x)`: Berechnet die Exponentialfunktion von `x` .. e<sup>x</sup>  
-   -`log(x)`: Berechnet den natürlichen Logarithmus von `x` .. ln(x)  
-   -`log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x` .. log<sub>10</sub>(x)  
+   - `exp(x)`: Berechnet die Exponentialfunktion von `x` .. e<sup>x</sup>  
+   - `log(x)`: Berechnet den natürlichen Logarithmus von `x` .. ln(x)  
+   - `log10(x)`: Berechnet den Logarithmus zur Basis 10 von `x` .. log<sub>10</sub>(x)  
 
    ### Potenzfunktionen:  
-   -`pow(x, y)`: Berechnet `x` hoch `y` .. x<sup>y</sup>  
-   -`sqrt(x)`: Berechnet die Quadratwurzel von `x` .. √(x)  
+   - `pow(x, y)`: Berechnet `x` hoch `y` .. x<sup>y</sup>  
+   - `sqrt(x)`: Berechnet die Quadratwurzel von `x` .. √(x)  
 
    ### Runden & Betrag:  
-   -`ceil(x)`: Rundet `x` auf die nächstgrößere Ganzzahl  
-   -`floor(x)`: Rundet `x` auf die nächstkleinere Ganzzahl  
-   -`fabs(x)`: Gibt den absoluten Wert von `x` zurück  
+   - `ceil(x)`: Rundet `x` auf die nächstgrößere Ganzzahl  
+   - `floor(x)`: Rundet `x` auf die nächstkleinere Ganzzahl  
+   - `fabs(x)`: Gibt den absoluten Wert von `x` zurück  
 
    ### Weitere Funktionen:  
-   -`fmod(x, y)`: Berechnet den Rest der Division von `x` durch `y`  
-   -`hypot(x, y)`: Berechnet die Hypotenuse eines rechtwinkligen Dreiecks mit den Seitenlängen `x` und `y`  
-   -`round(x)`: Rundet `x` auf die nächste Ganzzahl  
+   - `fmod(x, y)`: Berechnet den Rest der Division von `x` durch `y`  
+   - `hypot(x, y)`: Berechnet die Hypotenuse eines rechtwinkligen Dreiecks mit den Seitenlängen `x` und `y`  
+   - `round(x)`: Rundet `x` auf die nächste Ganzzahl  
 
    ❗*trigonometrische Funktionen verwenden Radianten*  
      **🧮 umwandeln mit: `deg2rad` & `rad2deg`**  
