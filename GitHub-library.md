@@ -29,8 +29,12 @@
 
 ### 🖇- [Mermaid Flowchart/Diagram Editor](https://mermaid.live)
   *erstelle `.mmd` Diagrame/Flowcharts* <sub> ***zum einbetten in `.md` Dateien*** </sub> 
+
   
 ---
+
+#### -> goes somewhere else in the future : [.md formating](https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d)
+
 
 <!--  ↧⋏⩚⫛⫱ -->
 
