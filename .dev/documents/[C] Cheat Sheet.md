@@ -181,7 +181,7 @@
   ---
 
 <details>
-  <summary> variables ⤵ <sup>with Examples</sup> </summary>
+  <summary> <code>variables</code> ⤵ <sup>with Examples</sup> </summary>
     
 - Ganzzahlige Typen  
     - `int integerVariable = 42;`  
