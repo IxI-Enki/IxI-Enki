@@ -8,65 +8,65 @@
 
 <details><summary> <code>#include</code> ⤵ <sup>Libraries with Examples</sup></summary>
    <!----------------------------------------------------------------------------------->
-   <details><summary> stdio.h ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
+   <details><summary> <code>stdio.h</code> ⤵ <sup>Bibliothek stellt Funktionen für Ein- und Ausgabe (Input/Output) zur Verfügung</sup> </summary>
      
    ### **Input/Output:**
-   - printf: Formatierte Ausgabe auf die Konsole  
-   - scanf: Formatierte Eingabe von der Konsole  
-   - getchar: Ein Zeichen von der Konsole einlesen  
-   - putchar: Ein Zeichen auf die Konsole ausgeben  
-   - puts: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
-   - gets (veraltet und unsicher): Eine Zeichenkette von der Konsole einlesen  
-   - fgets: Eine Zeichenkette von der Konsole einlesen (sicherer als gets)
+   - `printf`: Formatierte Ausgabe auf die Konsole  
+   - `scanf`: Formatierte Eingabe von der Konsole  
+   - `getchar`: Ein Zeichen von der Konsole einlesen  
+   - `putchar`: Ein Zeichen auf die Konsole ausgeben  
+   - `puts`: Eine Zeichenkette gefolgt von einem Zeilenumbruch ausgeben  
+   - <s>`gets` (veraltet und unsicher): Eine Zeichenkette von der Konsole einlesen</s>  
+   - `fgets`: Eine Zeichenkette von der Konsole einlesen (sicherer als gets)
 
    <sub><sup>
    ---
    </sup></sub>
    ### **Dateioperationen:**   
-   - fopen: Eine Datei öffnen  
-   - fclose: Eine Datei schließen  
-   - fprintf: Formatierte Ausgabe in eine Datei  
-   - fscanf: Formatierte Eingabe von einer Datei  
-   - fgetc: Ein Zeichen aus einer Datei lesen  
-   - fputc: Ein Zeichen in eine Datei schreiben  
-   - fgets: Eine Zeichenkette aus einer Datei lesen  
-   - fputs: Eine Zeichenkette in eine Datei schreiben  
+   - `fopen`: Eine Datei öffnen  
+   - `fclose`: Eine Datei schließen  
+   - `fprintf`: Formatierte Ausgabe in eine Datei  
+   - `fscanf`: Formatierte Eingabe von einer Datei  
+   - `fgetc`: Ein Zeichen aus einer Datei lesen  
+   - `fputc`: Ein Zeichen in eine Datei schreiben  
+   - `fgets`: Eine Zeichenkette aus einer Datei lesen  
+   - `fputs`: Eine Zeichenkette in eine Datei schreiben  
    
    <sub><sup>
    ---
    </sup></sub>
    ### **Datei-Positionierung:**  
-   - fseek: Die Position in einer Datei setzen  
-   - ftell: Die aktuelle Position in einer Datei abrufen  
-   - rewind: Die Position in eine Datei auf den Anfang setzen  
+   - `fseek`: Die Position in einer Datei setzen  
+   - `ftell`: Die aktuelle Position in einer Datei abrufen  
+   - `rewind`: Die Position in eine Datei auf den Anfang setzen  
    
    <sub><sup>
    ---
    </sup></sub>
    ### **Eingabe/Ausgabe mit Zeichenketten:**  
-   - sprintf: Formatierte Ausgabe in eine Zeichenkette  
-   - sscanf: Formatierte Eingabe von einer Zeichenkette  
+   - `sprintf`: Formatierte Ausgabe in eine Zeichenkette  
+   - `sscanf`: Formatierte Eingabe von einer Zeichenkette  
 
    <sub><sup>
    ---
    </sup></sub>
    ### **Fehlerbehandlung:**  
-   - perror: Eine Fehlermeldung ausgeben, basierend auf der zuletzt aufgetretenen Fehlermeldung  
-   - feof: Überprüfen, ob das Ende einer Datei erreicht wurde  
-   - ferror: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
+   - `perror`: Eine Fehlermeldung ausgeben, basierend auf der zuletzt aufgetretenen Fehlermeldung  
+   - `feof`: Überprüfen, ob das Ende einer Datei erreicht wurde  
+   - `ferror`: Überprüfen, ob ein Fehler beim Lesen/Schreiben aufgetreten ist  
    <sub><sup>
    ---
    </sup></sub>
    ### **Flushing:**  
-   - fflush: Den Puffer (Buffer) für eine Datei leeren  
+   - `fflush`: Den Puffer (Buffer) für eine Datei leeren  
 
    <sub><sup>
    ---
    </sup></sub>
    ### **Standard-Datei-Zeiger:**  
-   - stdin: Standard-Eingabe (Tastatur)  
-   - stdout: Standard-Ausgabe (Bildschirm)  
-   - stderr: Standard-Fehlerausgabe (Bildschirm)  
+   - `stdin`: Standard-Eingabe (Tastatur)  
+   - `stdout`: Standard-Ausgabe (Bildschirm)  
+   - `stderr`: Standard-Fehlerausgabe (Bildschirm)  
 
    <sub><sup>
    ---
@@ -81,7 +81,7 @@
   ---
   </sup></sub>
   <!----------------------------------------------------------------------------------->
-  <details><summary> string.h ⤵ <sup>Bibliothekn zur string-Bearbeitung: </summary>
+  <details><summary> <code>string.h</code> ⤵ <sup>Bibliothekn zur string-Bearbeitung: </summary>
 
    ### **string:**
    - test
