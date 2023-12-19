@@ -3,27 +3,28 @@
 
 - <p align="right"> Wir können &nbsp; <kbd>HTML tags</kbd> &nbsp; für &nbsp; formatierungen &nbsp; wie &nbsp; zB. &nbsp; sup-script: <sup>2</sup> &nbsp; </p> 
 
-$\color{black}{ 
-\Huge Latex!
-\space \huge Latex!
-\space \LARGE Latex!
-\space \Large Latex!
-\space \large Latex!
-\space \normalsize Latex!
+$$\color{black}{ 
+\Huge Latex
+\space \huge Latex
+\space \LARGE Latex
+\space \Large Latex
+\space \large Latex
+\space \normalsize Latex
 \space \small Latex!
-\space \scriptsize Latex!
-\space \tiny Latex!
-}$
-$\color{lightblue}{
-\quad \tiny für
-\quad \scriptsize für
-\quad \small für
-\quad \normalsize für
-\quad \large für
-\quad \Large für
-\quad \LARGE für
-\quad \huge für
-}$  
+\space \scriptsize Latex
+\space \tiny Latex
+} \color{lightblue}{
+\qquad \tiny für
+\qquad \scriptsize für
+\qquad \small für
+\qquad \normalsize für
+\qquad \large für
+\qquad \Large für
+\qquad \LARGE für
+\qquad \huge für
+}$$
+
+
 
 <p align="left"> $\color{red}{\Huge Mathematischen}$ $\qquad$ $\color{blue}{\quad \tiny Text}$ 
 <p align="left"> $\color{red}{\space \huge Mathematischen}$ $\qquad$ $\color{blue}{\quad \scriptsize Text}$
