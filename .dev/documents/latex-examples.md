@@ -1,8 +1,60 @@
 <!--________________________________________________________________ Beispiele ________________________________________________________________-->
 - ## Beispiele:
 
-- <p align="center"> Wir können $\color{red}{Latex\:für\:Mathematischen\:Text\:verwenden.}$ 
-<u>und</u>  &nbsp; <kbd>HTML tags</kbd> &nbsp; sup-script &nbsp; <sup>2</sup> &nbsp; </p> 
+- <p align="right"> Wir können &nbsp; <kbd>HTML tags</kbd> &nbsp; für &nbsp; formatierungen &nbsp; wie &nbsp; zB. &nbsp; sup-script: <sup>2</sup> &nbsp; </p> 
+
+$\color{black}{ 
+\Huge Latex!
+\space \huge Latex!
+\space \LARGE Latex!
+\space \Large Latex!
+\space \large Latex!
+\space \normalsize Latex!
+\space \small Latex!
+\space \scriptsize Latex!
+\space \tiny Latex!
+}$
+$\color{lightblue}{
+\quad \tiny für
+\quad \scriptsize für
+\quad \small für
+\quad \normalsize für
+\quad \large für
+\quad \Large für
+\quad \LARGE für
+\quad \huge für
+}$  
+
+<p align="left"> $\color{red}{\Huge Mathematischen}$ $\qquad$ $\color{blue}{\quad \tiny Text}$ 
+<p align="left"> $\color{red}{\space \huge Mathematischen}$ $\qquad$ $\color{blue}{\quad \scriptsize Text}$
+<p align="left"> $\color{red}{\space \LARGE Mathematischen}$ $\qquad$ $\color{blue}{\quad \small Text}$
+<p align="center"> $\color{orange}{\space \Large Mathematischen}$ $\qquad$ $\color{green}{\quad \normalsize Text}$  
+<p align="center"> $\color{orange}{\space \large Mathematischen}$ $\qquad$ $\color{green}{\quad \large Text}$  
+<p align="center"> $\color{orange}{\space \normalsize Mathematischen}$ $\qquad$ $\color{green}{\quad \Large Text}$  
+<p align="right"> $\color{yellow}{\space \small Mathematischen}$ $\qquad$ $\color{lightgreen}{\quad \LARGE Text}$  
+<p align="right"> $\color{yellow}{\space \scriptsize Mathematischen}$ $\qquad$ $\color{lightgreen}{\quad \huge Text}$  
+<p align="right"> $\color{yellow}{\space \tiny Mathematischen}$ $\qquad$ $\color{lightgreen}{\quad \Huge Text}$  
+</p> 
+
+`${\color{red}Red}$`  
+`${\color{green}Green}$`  
+`${\color{lightgreen}Light \space Green}$`  
+`${\color{blue}Blue}$`  
+`${\color{lightblue}Light \space Blue}$`  
+`${\color{black}Black}$`  
+`${\color{white}White}$`  
+`${\color{yellow}Yellow}$`  
+`${\color{orange}Orange}$`  
+
+
+  Horizontal $\quad$ space: `\quad`  
+  Large $\qquad$ horizontal $\qquad$ space: `\qquad`  
+ 
+  Small space: `\space`  
+  Medium $: space: `\:`  
+  Large $\; $space: `\;`  
+  Negative $ \! $ space: `\!` 
+
 
 
 - oder in Codeblöcken:  
@@ -24,7 +76,8 @@
 # grauer Text
 ```
 
-<style>{color:DarkOrange;} Task </style>
+
+
 
 - [x] ## test
 - [~] ~~Inapplicable task~~
@@ -87,28 +140,7 @@ $$
   
 `\quad`space:- $\quad$ -  
 `\qquad`space:- $\qquad$ -  
-`\,`_space_   
-$
-$\$,
-$
-_space_    
-
-\,$
--space- 
-\:$ 
--space- 
-\;$ 
--space- 
-\!$
--space  
-
-
-  Horizontal space: `\quad`  
-  Large horizontal space: `\qquad`  
-  Small space: `\,`  
-  Medium space: `\:`  
-  Large space: `\;`  
-  Negative space: `\!`  
+ 
 
   
 - #### Operators
