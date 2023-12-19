@@ -47,14 +47,36 @@ $$\color{white}{
 `${\color{yellow}Yellow}$`  
 `${\color{orange}Orange}$`  
 
-- #### Symbols
+$$\color{white}{
+\tiny ---------------------------------------------------------------------
+}$$
+- #### Operatoren:
   
-  - $\pi \approx 3.14159$ $\quad$ $\pm \, 0.2$ $\quad$ $\dfrac{0}{1} \neq \infty$ 
-  - $0 < x < 1$ $\quad$ $0 \leq x \leq 1$ $\quad$ $x \geq 10$
-  - $\forall \, x \in (1,2)$ $\quad$ $\exists \, x \notin [0,1]$
-  - $A \subset B$ $\quad$ $A \subseteq B$ $\quad$ $A \cup B$ $\quad$ $A \cap B$
-  - $X \implies Y$ $\quad$ $X \impliedby Y$ $\quad$ $a \to b$ $\quad$ $a \longrightarrow b$ $\quad$ $a \Rightarrow b$ $\quad$ $a \Longrightarrow b$ $\quad$ $a \propto b$
+  - $\pi \approx 3.14159$  
+    $\pm \, 0.2$  
+    $\dfrac{0}{1} \neq \infty$  
+    
+  - $0 < x < 1$  
+    $0 \leq x \leq 1$  
+    $x \geq 10$  
+    
+  - $\forall \, x \in (1,2)$  
+    $\exists \, x \notin [0,1]$  
+    
+  - $A \subset B$  
+    $A \subseteq B$  
+    $A \cup B$  
+    $A \cap B$  
 
+  - $X \implies Y$ $\qquad$ $X \impliedby Y$ $\qquad$ $a \to b$ $\qquad$ $a \longrightarrow b$ $\qquad$ $a \Rightarrow b$ $\qquad$ $a \Longrightarrow b$ $\qquad$ $a \propto b$
+
+  - $\bar a$ $\quad$ $\tilde a$ $\quad$ $\breve a$ $\quad$ $\hat a$ $\quad$ $a^ \prime$ $\quad$ $a^ \dagger$ $\quad$ $a^ \ast$ $\quad$ $a^ \star$ $\quad$ $\mathcal A$ $\quad$ $\mathrm a$ $\quad$ $\cdots$ $\quad$ $\vdots$
+
+
+
+$$\color{white}{
+\tiny ---------------------------------------------------------------------
+}$$
 
 
   Horizontal $\quad$ space: `\quad`  
@@ -156,23 +178,6 @@ $$
 - #### Operators
 
 
-
-$x + y$ $\quad$ $\quad$ $x - y$ $\quad$ $\quad$ $x \times y$  $\quad$ $\quad$ $x \div y$ $\quad$ $\quad$ $\dfrac{x}{y}$ $\quad$ $\quad$ $\sqrt{x}$ $\quad$ $\quad$
-
-
-
-  - $\bar a$
-  - $\tilde a$
-  - $\breve a$
-  - $\hat a$
-  - $a^ \prime$
-  - $a^ \dagger$
-  - $a^ \ast$
-  - $a^ \star$
-  - $\mathcal A$
-  - $\mathrm a$
-  - $\cdots$
-  - $\vdots$
 
 
 
