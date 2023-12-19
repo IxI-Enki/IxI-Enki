@@ -111,14 +111,6 @@ $$\color{white}{
 
 ##### *Example*:
 
-$$\color{white}{
-\tiny ---------------------------------------------------------------------
-}$$
-  
-- ##### *Inline equation*: $equation$
-
-- ##### *Display equation*: $$equation$$
-
 <pre>$$\small \text{Font size is small, eg. $\sum{x_i = 10}$}$$</pre>
 
 $$
@@ -126,6 +118,14 @@ $$
 \text{Font size is small, eg. $
 \sum{x_i = 10}$}
 $$
+
+$$\color{white}{
+\tiny ---------------------------------------------------------------------
+}$$
+  
+- ##### *Inline equation*: $equation$
+
+- ##### *Display equation*: $$equation$$
 
 $$\color{white}{
 \tiny ---------------------------------------------------------------------
