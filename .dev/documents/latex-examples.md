@@ -1,13 +1,44 @@
-<!-- Beispiele -->
+<!--________________________________________________________________ Beispiele ________________________________________________________________-->
+- ## Beispiele:
 
-<p align="center"> Wir können $\color{red}{Latex\:für\:Mathematischen\:Text\:verwenden.}$ 
-und  &nbsp; <kbd>HTML tags</kbd> &nbsp; wie <span style="color:red;">sup-script &nbsp; <sup>2</sup> &nbsp;</span> 
+- <p align="center"> Wir können $\color{red}{Latex\:für\:Mathematischen\:Text\:verwenden.}$ 
+<u>und</u>  &nbsp; <kbd>HTML tags</kbd> &nbsp; sup-script &nbsp; <sup>2</sup> &nbsp; </p> 
 
 
-</p>
+- oder in Codeblöcken:  
+`diff`
 
-code that we &nbsp; <kbd>like</kbd> &nbsp; such as superscript<sup>2</sup>.  instead. Also, <b>we</b> can <i>render</i> almost any 
+```diff
++ grüner Text
+```
+```diff
+- roter Text
+```
+```diff
+! oranger Text
+```
+```diff
+@@ pinker Text @@
+```
+```diff
+# grauer Text
+```
 
+<style>{color:DarkOrange;} Task </style>
+
+- [x] ## test
+- [~] ~~Inapplicable task~~
+- [ ] Incomplete task
+  - [x] Sub-task 1
+  - [~] ~~Sub-task 2~~
+  - [ ] Sub-task 3
+
+1. [x] Completed task
+1. [~] ~~Inapplicable task~~
+1. [ ] Incomplete task
+   1. [x] Sub-task 1
+   1. ~~[ ] Sub-task 2~~
+   1. [ ] Sub-task 3
 
   
 Inline equation: $equation$
