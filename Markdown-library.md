@@ -19,8 +19,8 @@
 - ## Getting started:
 
   - a. 
-  - b. [*Latex*](https://ashki23.github.io/markdown-latex.html#latex)
-
+  - #### b. [*Latex*](https://ashki23.github.io/markdown-latex.html#latex)
+    - [Examples](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/documents/latex-examples.md)
 
 
 
