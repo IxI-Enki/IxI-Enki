@@ -152,57 +152,24 @@ $x + y$ $\quad$ $\quad$ $x - y$ $\quad$ $\quad$ $x \times y$  $\quad$ $\quad$ $x
 
 - #### Symbols
   
-$\pi \approx 3.14159$
+  - $\pi \approx 3.14159$ $\quad$ $\pm \, 0.2$ $\quad$ $\dfrac{0}{1} \neq \infty$ 
+  - $0 < x < 1$ $\quad$ $0 \leq x \leq 1$ $\quad$ $x \geq 10$
+  - $\forall \, x \in (1,2)$ $\quad$ $\exists \, x \notin [0,1]$
+  - $A \subset B$ $\quad$ $A \subseteq B$ $\quad$ $A \cup B$ $\quad$ $A \cap B$
+  - $X \implies Y$ $\quad$ $X \impliedby Y$ $\quad$ $a \to b$ $\quad$ $a \longrightarrow b$ $\quad$ $a \Rightarrow b$ $\quad$ $a \Longrightarrow b$ $\quad$ $a \propto b$
 
-$\pm \, 0.2$
-
-$\dfrac{0}{1} \neq \infty$
-
-$0 < x < 1$
-
-$0 \leq x \leq 1$
-
-$x \geq 10$
-
-$\forall \, x \in (1,2)$
-
-$\exists \, x \notin [0,1]$
-
-$A \subset B$
-
-$A \subseteq B$
-
-$A \cup B$
-
-$A \cap B$
-
-$X \implies Y$
-
-$X \impliedby Y$
-
-$a \to b$
-
-$a \longrightarrow b$
-
-$a \Rightarrow b$
-
-$a \Longrightarrow b$
-
-$a \propto b$
-
-- $\bar a$
-- $\tilde a$
-- $\breve a$
-- $\hat a$
-- $a^ \prime$
-- $a^ \dagger$
-- $a^ \ast$
-- $a^ \star$
-- $\mathcal A$
-- $\mathrm a$
-- $\cdots$
-- $\vdots$
-
+  - $\bar a$
+  - $\tilde a$
+  - $\breve a$
+  - $\hat a$
+  - $a^ \prime$
+  - $a^ \dagger$
+  - $a^ \ast$
+  - $a^ \star$
+  - $\mathcal A$
+  - $\mathrm a$
+  - $\cdots$
+  - $\vdots$
 
 
 
@@ -308,7 +275,7 @@ Functions
 $$
 f(x)=
 \begin{cases}
-1/d_{ij} & \quad \text{when $d_{ij} \leq 160$}\\ 
+1/d_{ij} & \quad \text{when  $d_{ij} \leq 160$}\\ 
 0 & \quad \text{otherwise}
 \end{cases}
 $$
@@ -334,8 +301,8 @@ $$
 $$
 M = 
 \begin{bmatrix}
-\frac{5}{6} & \frac{1}{6}
-\frac{5}{6} & 0 & \frac{1}{6}
+\frac{5}{6} & \frac{1}{6} 0 \\
+\frac{5}{6} & 0 & \frac{1}{6} 0 \\
 0 & \frac{5}{6} & \frac{1}{6}
 \end{bmatrix}
 $$
