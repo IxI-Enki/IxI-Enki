@@ -1,7 +1,5 @@
 <!--________________________________________________________________ Beispiele ________________________________________________________________-->
-- ## Beispiele:
-
-- <p align="right"> Wir können &nbsp; <kbd>HTML tags</kbd> &nbsp; für &nbsp; formatierungen &nbsp; wie &nbsp; zB. &nbsp; sup-script: <sup>2</sup> &nbsp; </p> 
+- ## Latex Beispiele:
 
 $$\color{black}{ 
 \Huge Latex
@@ -24,7 +22,9 @@ $$\color{black}{
 \qquad \huge für
 }$$
 
-
+$$\color{white}{
+\tiny ---------------------------------------------------------------------
+}$$
 
 <p align="left"> $\color{red}{\Huge Mathematischen}$ $\qquad$ $\color{blue}{\quad \tiny Text}$ 
 <p align="left"> $\color{red}{\space \huge Mathematischen}$ $\qquad$ $\color{blue}{\quad \scriptsize Text}$
@@ -334,8 +334,8 @@ $$
 $$
 M = 
 \begin{bmatrix}
-\frac{5}{6} & \frac{1}{6} & 0 \\[0.3em]
-\frac{5}{6} & 0 & \frac{1}{6} \\[0.3em]
+\frac{5}{6} & \frac{1}{6}
+\frac{5}{6} & 0 & \frac{1}{6}
 0 & \frac{5}{6} & \frac{1}{6}
 \end{bmatrix}
 $$
