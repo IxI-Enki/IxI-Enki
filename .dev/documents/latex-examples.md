@@ -47,6 +47,15 @@ $$\color{white}{
 `${\color{yellow}Yellow}$`  
 `${\color{orange}Orange}$`  
 
+- #### Symbols
+  
+  - $\pi \approx 3.14159$ $\quad$ $\pm \, 0.2$ $\quad$ $\dfrac{0}{1} \neq \infty$ 
+  - $0 < x < 1$ $\quad$ $0 \leq x \leq 1$ $\quad$ $x \geq 10$
+  - $\forall \, x \in (1,2)$ $\quad$ $\exists \, x \notin [0,1]$
+  - $A \subset B$ $\quad$ $A \subseteq B$ $\quad$ $A \cup B$ $\quad$ $A \cap B$
+  - $X \implies Y$ $\quad$ $X \impliedby Y$ $\quad$ $a \to b$ $\quad$ $a \longrightarrow b$ $\quad$ $a \Rightarrow b$ $\quad$ $a \Longrightarrow b$ $\quad$ $a \propto b$
+
+
 
   Horizontal $\quad$ space: `\quad`  
   Large $\qquad$ horizontal $\qquad$ space: `\qquad`  
@@ -150,13 +159,7 @@ $$
 
 $x + y$ $\quad$ $\quad$ $x - y$ $\quad$ $\quad$ $x \times y$  $\quad$ $\quad$ $x \div y$ $\quad$ $\quad$ $\dfrac{x}{y}$ $\quad$ $\quad$ $\sqrt{x}$ $\quad$ $\quad$
 
-- #### Symbols
-  
-  - $\pi \approx 3.14159$ $\quad$ $\pm \, 0.2$ $\quad$ $\dfrac{0}{1} \neq \infty$ 
-  - $0 < x < 1$ $\quad$ $0 \leq x \leq 1$ $\quad$ $x \geq 10$
-  - $\forall \, x \in (1,2)$ $\quad$ $\exists \, x \notin [0,1]$
-  - $A \subset B$ $\quad$ $A \subseteq B$ $\quad$ $A \cup B$ $\quad$ $A \cap B$
-  - $X \implies Y$ $\quad$ $X \impliedby Y$ $\quad$ $a \to b$ $\quad$ $a \longrightarrow b$ $\quad$ $a \Rightarrow b$ $\quad$ $a \Longrightarrow b$ $\quad$ $a \propto b$
+
 
   - $\bar a$
   - $\tilde a$
