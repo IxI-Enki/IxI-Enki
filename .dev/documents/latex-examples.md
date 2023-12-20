@@ -9,20 +9,36 @@
 
 ---
 
-$$\color{grey}{ 
-\Huge  ■  
-\space \huge ■  
-\space \LARGE ■  
-\space \Large ■  
-\space \large ■  
-\space \normalsize ■  
-\space \small ■  
-\space \scriptsize ■  
+## `▶●◍□⇛`:
+
+$$\color{pink}{
+\tiny ---------------------------------------------------------------------
 }$$
 
+$$\color{white}{ 
+\Huge  ■ ▶●◍□⇛ } \color{white}{
+\space \huge ■ ▶●◍□⇛  } \color{grey}{
+\space \LARGE ■ ▶●◍□⇛  } \color{black}{
+\space \Large ■ ▶●◍□⇛  } \color{green}{
+\space \large ■ ▶●◍□⇛ } \color{lightgreen}{
+\space \normalsize ■ ▶●◍□⇛  } \color{lightblue}{
+\space \small ■ ▶●◍□⇛  } \color{blue}{
+\space \scriptsize ■ ▶●◍□⇛  } \color{blueviolet}{
+\space \tiny ■ ▶●◍□⇛
+}$$
 
 $$\color{red}{ 
-\tiny  ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+\tiny  ■ ▶●◍□⇛ 
+} \color{orange}{
+\scriptsize ■ ▶●◍□⇛  
+} \color{yellow}{
+\normalsize ■ ▶●◍□⇛  
+} \color{white}{
+\large ■ ▶●◍□⇛  
+} \color{lightgrey}{
+\Large ■ ▶●◍□⇛  
+} \color{grey}{
+ \Huge ■ ▶●◍□⇛
 }$$  
 
 ---
