@@ -7,13 +7,15 @@
   
 $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
 
-$\color{cyan}{\Huge ◼ }$
-$\color{forestgreen}{\Huge ◼ }$ 
-$\color{limegreen}{\Huge ◼ }$
-$\color{lightgreen}{\Huge ◼ }$
-$\color{green}{\Huge ◼ }$
-$\color{cadetblue}{\Huge ◼ }$
-$\color{yellowgreen}{\Huge ◼ }$ 
+| <sub>Bsp</sub> | code |
+| :---: | :--: |
+| $\color{cyan}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |
+$\color{forestgreen}{\Huge ◼ }$  | `$\color{limegreen}{\Huge ◼ }$` |
+$\color{limegreen}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |
+$\color{lightgreen}{\Huge ◼ }$ | `$\color{lightgreen}{\Huge ◼ }$` |
+$\color{green}{\Huge ◼ }$ | `$\color{green}{\Huge ◼ }$` |
+$\color{cadetblue}{\Huge ◼ }$ | `$\color{cadetblue}{\Huge ◼ }$` |
+$\color{yellowgreen}{\Huge ◼ }$ | `$\color{yellowgreen}{\Huge ◼ }$` |
 
 ---
 
