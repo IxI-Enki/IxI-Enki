@@ -7,7 +7,7 @@
   
 $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
 
-| <sub>Bsp</sub> | code |
+| <sub>Bsp</sub> | code: Zeichen"`◼`"durch *Text* der Wahl ersetzen |
 | :---: | :--: |
 | $\color{cyan}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |
 $\color{forestgreen}{\Huge ◼ }$  | `$\color{limegreen}{\Huge ◼ }$` |
