@@ -1,14 +1,65 @@
 <!--________________________________________________________________ Beispiele ________________________________________________________________-->
 - ## Latex Beispiele:
 
-$$\color{black}{ 
+<!-- Ⅳ ① ② ⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ■ ▮ ▼ ◼ ● ◀     -->
+
+
+  
+[ ◼ Farben ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
+
+---
+
+$$\color{grey}{ 
+\Huge  ■  
+\space \huge ■  
+\space \LARGE ■  
+\space \Large ■  
+\space \large ■  
+\space \normalsize ■  
+\space \small ■  
+\space \scriptsize ■  
+}$$
+
+
+$$\color{red}{ 
+\tiny  ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+}$$  
+
+---
+
+This example shows some instances of using the \texttt{xcolor} package 
+to change the color of elements in \LaTeX.
+
+\begin{itemize}
+\color{blue}
+\item First item
+\item Second item
+\end{itemize}
+
+
+
+---  
+
+$\color{seagreen}{\noindent
+{ \rule{\linewidth}{2mm}}
+\end{document}
+}$
+
+---  
+
+
+
+{[ Farben ]}$(https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX}$ ) }$
+
+
+$$\color{grey}{ 
 \Huge Latex
 \space \huge Latex
 \space \LARGE Latex
 \space \Large Latex
 \space \large Latex
 \space \normalsize Latex
-\space \small Latex!
+\space \small Latex
 \space \scriptsize Latex
 \space \tiny Latex
 } \color{lightblue}{
