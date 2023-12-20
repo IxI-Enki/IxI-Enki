@@ -5,28 +5,6 @@
 ⬤⬅⬊⬋❤❥❣❢✖✗✘✕✎➡➥➦➨➧⚠♽♼♾♻✔✓☢☣-->
 
 
-\rowcolors[\hline]{3}{green!25}{yellow!50} \arrayrulecolor{red!75!gray}
-\begin{tabular}{ll}
-test & row \number\rownum\\
-test & row \number\rownum\\
-test & row \number\rownum\\
-test & row \number\rownum\\
-\arrayrulecolor{black}
-test & row \number\rownum\\
-test & row \number\rownum\\
-\rowcolor{blue!25}
-test & row \number\rownum\\
-test & row \number\rownum\\
-\hiderowcolors
-test & row \number\rownum\\
-test & row \number\rownum\\
-\showrowcolors
-test & row \number\rownum\\
-test & row \number\rownum\\
-\multicolumn{1}%
-{>{\columncolor
-{red!12}}l}{test} & row \number\rownum\\
-\end{tabular}
 
 <sub><sup>farbname</sup></sub>
 
@@ -38,7 +16,7 @@ $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Us
 | | | | | | | | | | | | | | <sub>Bsp</sub> | code: Zeichen"`◼`"durch *Text* der Wahl ersetzen |  
 | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :--: | :---: | :--: |  
 |  $\color{SkyBlue}{\Huge ❤ }$  |  $\color{Turquoise}{\Huge ❥ }$  |  $\color{Aqua}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{Aquamarine}{\Huge ◼ }$  |  $\color{Cerulean}{\Huge ◼ }$  |   $\color{CornflowerBlue}{\Huge ◼ }$ |  $\color{LightSeaGreen}{\Huge ◼ }$  |  $\color{LightSkyBlue}{\Huge ◼ }$  |  $\color{MediumTurquoise}{\Huge ◼ }$  |  $\color{MediumSpringGreen}{\Huge ◼ }$ |  $\color{NavyBlue}{\Huge ◼ }$ | $\color{MidnightBlue}{\Huge ◼ }$  | $\color{cyan}{\Huge ◼ }$ | `$\color{cyan}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 1 -->
-|  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{forestgreen}{\Huge ◼ }$  | `$\color{forestgreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 2 -->
+|  $\color{red}{\Huge ⚠ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{forestgreen}{\Huge ◼ }$  | `$\color{forestgreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 2 -->
 |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{limegreen}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 3 -->
 |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{lightgreen}{\Huge ◼ }$ | `$\color{lightgreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 4 -->
 |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{green}{\Huge ◼ }$ | `$\color{green}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 5 -->
