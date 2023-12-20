@@ -2,7 +2,7 @@
 - ## Latex Beispiele:
 
 <!-- Ⅳ ① ② ⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ■ ▮ ▼ ◼ ● ◀     
-⬤⬅⬊⬋❤❥❣❢✖✗✘✕✎➡➥➦➨➧⚠♽♼♾♻✔✓☢☣-->
+⬤⬅⬊⬋❤❥❣❢✖✗✘✕✎➡➥➦➨➧⚠♽♼♾♻✔✓-->
 
 
 
@@ -10,13 +10,15 @@
 
 <sub><sup>farbname</sup></sub>
 
+- *Refer to the xcolor package [documentation](https://mirror.easyname.at/ctan/macros/latex/contrib/xcolor/xcolor.pdf) for tabulated lists of colors provided by the svgnames and x11names options.*
+   > <p align=left > $\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad$ $\color{Gold}{ ☇\qquad\small Seite \space 38 \space - \space \color{grau}{4 \space Colors \space by \space Name }}$ </p>
   
 $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
 
 | | | | | | | | | | | | | | <sub>Bsp</sub> | code: Zeichen"`◼`"durch *Text* der Wahl ersetzen |  
 | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :--: | :---: | :--: |  
 |  $\color{SkyBlue}{\Huge ❤ }$  |  $\color{Turquoise}{\Huge ❥ }$  |  $\color{Aqua}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{Aquamarine}{\Huge ◼ }$  |  $\color{Cerulean}{\Huge ◼ }$  |   $\color{CornflowerBlue}{\Huge ◼ }$ |  $\color{LightSeaGreen}{\Huge ◼ }$  |  $\color{LightSkyBlue}{\Huge ◼ }$  |  $\color{MediumTurquoise}{\Huge ◼ }$  |  $\color{MediumSpringGreen}{\Huge ◼ }$ |  $\color{NavyBlue}{\Huge ◼ }$ | $\color{MidnightBlue}{\Huge ◼ }$  | $\color{cyan}{\Huge ◼ }$ | `$\color{cyan}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 1 -->
-|  $\color{red}{\Huge ⚠ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{forestgreen}{\Huge ◼ }$  | `$\color{forestgreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 2 -->
+|  $\color{red}{\Huge ⚠ }$  |  $\color{DarkGoldenrod1}{\Huge ☢ }$  |  $\color{DarkGoldenrod4}{\Huge ☣ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{forestgreen}{\Huge ◼ }$  | `$\color{forestgreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 2 -->
 |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{limegreen}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 3 -->
 |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{lightgreen}{\Huge ◼ }$ | `$\color{lightgreen}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 4 -->
 |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |   $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$  |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$ | $\color{green}{\Huge ◼ }$ | `$\color{green}{\Huge ◼ }$` |  <!-- ZEILEN ENDE 5 -->
