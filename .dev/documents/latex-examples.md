@@ -1,5 +1,6 @@
 <!--________________________________________________________________ Beispiele ________________________________________________________________-->
-- ## Latex Beispiele:
+
+$\{\Large Latex}$ Beispiele:
 
 <!-- Ⅳ ① ② ⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ■ ▮ ▼ ◼ ● ◀     
 ⬤⬅⬊⬋❤❥❣❢✖✗✘✕✎➡➥➦➨➧⚠♽♼♾♻✔✓-->
@@ -7,13 +8,9 @@
   
 $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
 
-
-<sub><sup>farbname</sup></sub>
-
-<sub><sup>farbname</sup></sub>
-
-- *Refer to the xcolor package [documentation](https://mirror.easyname.at/ctan/macros/latex/contrib/xcolor/xcolor.pdf) for tabulated lists of colors provided by the svgnames and x11names options.*
-   > <sub><p align=left > $\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\color{Gold}{ ☇\qquad\tiny Seite \space 38 \space - \space \color{grau}{4 \space Colors \space by \space Name }}$ </sub></p>
+*Refer to the xcolor package [documentation](https://mirror.easyname.at/ctan/macros/latex/contrib/xcolor/xcolor.pdf) for tabulated lists of colors provided by the svgnames and x11names options.* <p align="left" > $\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\color{Gold}{ ☇\qquad\tiny Seite \space 38 \space - \space \space Colors \space by \space Name }$</p>
+  
+---  
 
 | | | | | | | | | | | | | | <sub>Bsp</sub> | code: Zeichen"`◼`"durch *Text* der Wahl ersetzen |  
 | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :--: | :---: | :--: |  
@@ -60,31 +57,6 @@ $$\color{red}{
 }$$  
 
 ---
-
-This example shows some instances of using the \texttt{xcolor} package 
-to change the color of elements in \LaTeX.
-
-\begin{itemize}
-\color{blue}
-\item First item
-\item Second item
-\end{itemize}
-
-
-
----  
-
-$\color{seagreen}{\noindent
-{ \rule{\linewidth}{2mm}}
-\end{document}
-}$
-
----  
-
-
-
-{[ Farben ]}$(https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX}$ ) }$
-
 
 $$\color{grey}{ 
 \Huge Latex
