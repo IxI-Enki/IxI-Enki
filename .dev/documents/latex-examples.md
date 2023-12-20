@@ -9,8 +9,8 @@ $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Us
 
 | | | | | | | | | | | | | | <sub>Bsp</sub> | code: Zeichen"`◼`"durch *Text* der Wahl ersetzen |  
 | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :--: | :---: | :--: |  
-| | | | | | | | | | | | | | $\color{cyan}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |  
-| | | | | | | | | | | | | | $\color{forestgreen}{\Huge ◼ }$  | `$\color{limegreen}{\Huge ◼ }$` |  
+| | | | | | | | | | | | | | $\color{cyan}{\Huge ◼ }$ | `$\color{cyan}{\Huge ◼ }$` |  
+| | | | | | | | | | | | | | $\color{forestgreen}{\Huge ◼ }$  | `$\color{forestgreen}{\Huge ◼ }$` |  
 | | | | | | | | | | | | | | $\color{limegreen}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |  
 | | | | | | | | | | | | | | $\color{lightgreen}{\Huge ◼ }$ | `$\color{lightgreen}{\Huge ◼ }$` |  
 | | | | | | | | | | | | | | $\color{green}{\Huge ◼ }$ | `$\color{green}{\Huge ◼ }$` |  
