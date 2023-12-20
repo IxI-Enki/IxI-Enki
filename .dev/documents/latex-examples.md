@@ -13,7 +13,7 @@ $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Us
 <sub><sup>farbname</sup></sub>
 
 - *Refer to the xcolor package [documentation](https://mirror.easyname.at/ctan/macros/latex/contrib/xcolor/xcolor.pdf) for tabulated lists of colors provided by the svgnames and x11names options.*
-   > <p align=left > $\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad$ $\color{Gold}{ ☇\qquad\small Seite \space 38 \space - \space \color{grau}{4 \space Colors \space by \space Name }}$ </p>
+   > <sub><p align=left > $\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\color{Gold}{ ☇\qquad\tiny Seite \space 38 \space - \space \color{grau}{4 \space Colors \space by \space Name }}$ </sub></p>
 
 | | | | | | | | | | | | | | <sub>Bsp</sub> | code: Zeichen"`◼`"durch *Text* der Wahl ersetzen |  
 | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :--: | :---: | :--: |  
