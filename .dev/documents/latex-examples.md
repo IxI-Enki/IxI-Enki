@@ -3,13 +3,16 @@
 
 <!-- Ⅳ ① ② ⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ■ ▮ ▼ ◼ ● ◀     -->
 
+<sub><sup>farbname</sup></sub>
+
+<sub><sup>farbname</sup></sub>
 
   
 $\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
 
 | | | | | | | | | | | | | | <sub>Bsp</sub> | code: Zeichen"`◼`"durch *Text* der Wahl ersetzen |  
 | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :---: | :--: | :--: | :---: | :--: |  
-| | | | | | | | | | | | | | $\color{cyan}{\Huge ◼ }$ | `$\color{cyan}{\Huge ◼ }$` |  
+| | | | | | | | | | |  $\color{cyan}{\Huge ◼ }$ |  $\color{cyan}{\Huge ◼ }$ | $\color{blue}{\Huge ◼ }$  | $\color{cyan}{\Huge ◼ }$ | `$\color{cyan}{\Huge ◼ }$` |  
 | | | | | | | | | | | | | | $\color{forestgreen}{\Huge ◼ }$  | `$\color{forestgreen}{\Huge ◼ }$` |  
 | | | | | | | | | | | | | | $\color{limegreen}{\Huge ◼ }$ | `$\color{limegreen}{\Huge ◼ }$` |  
 | | | | | | | | | | | | | | $\color{lightgreen}{\Huge ◼ }$ | `$\color{lightgreen}{\Huge ◼ }$` |  
