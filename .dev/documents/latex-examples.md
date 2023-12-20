@@ -5,7 +5,15 @@
 
 
   
-[ ◼ Farben ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
+$\color{seagreen}{\Huge ◼ }$ [ Farbe ](https://www.overleaf.com/learn/latex/Using_colors_in_LaTeX )     
+
+$\color{cyan}{\Huge ◼ }$
+$\color{forestgreen}{\Huge ◼ }$ 
+$\color{limegreen}{\Huge ◼ }$
+$\color{lightgreen}{\Huge ◼ }$
+$\color{green}{\Huge ◼ }$
+$\color{cadetblue}{\Huge ◼ }$
+$\color{yellowgreen}{\Huge ◼ }$ 
 
 ---
 
