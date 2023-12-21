@@ -59,6 +59,12 @@
 ---
 </details>
 
+
+$\color{red}{
+\Large POSE \space - \space Csharp:  \quad \space Probetest \huge \space 2
+}$
+-  🤖❗  [ ***`C# Test`*** Vorbereitungstest ](https://github.com/IxI-Enki/probetest-pose-002)
+ 📌<sup>angeheftet bis 9.1.2024</sup>
 <!-- NÄCHSTE Übungen -->
 ▷   *zu erledigen*   🔜
 
