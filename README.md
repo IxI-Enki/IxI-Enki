@@ -4,6 +4,8 @@
    | *currently* ***learning*** *to* `code`                                                        | 
    | :-------------------------------------------------------------------------------------- |   
    | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
+
+ Ỉ͌̅͋̈́̓̚͡x̑͌̄́̏̏̉̊̎͑̓͡ȉ̑̈͌̔͋̎͆͒͝
  
 > [!TIP]
 > <details>  
