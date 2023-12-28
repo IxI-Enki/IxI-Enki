@@ -1,4 +1,5 @@
-<p align="center"> ̣ _. ̹ ̱  ̪ ̮̖ ̮͙ ̦ ̻ ̺ ͍ ͖̝ ̻͕̹ ͖̝ ͙͖ ̪̤ ̠̖̺ ͖͖̬ ̰ ̗̩̹̹ ̥̙ ̙̯͙͚ ̟͕̣ ̺̫̪ ̭ ͇̺ ̻͙̳ ͉̭̱ ̲̰̤̯ ̙̼ ̹̱̗ ̭̻ ̺͚̖ ̹͍̰ ̺͓̘̱̳͍ ̱͓̤͈̝ ̩͍̟͓̘̘͚   _ <sup>⁈</sup>(Ꜣꜥ<sub><sup>ノ</sup></sub>◥益<sub><sup>◤</sup></sub>)<sub><sup>ノ</sup></sub> ǝpoɔ __(<sup><sub>ʘ</sub></sup>言ʘ<sup> ╬ </sup>)<sup>‽</sup> _ ̲̣̩̖̪̦̝͚ ̝̤͎͔̬̳ ͖̪̼͔͚̩ ̫ ͎̫̯̹͙ͅ ̙͉̩ ̗ ̗̦̖ ̜̦̘͔ ̺̝͙ ̠ ̳̲̰ ͙ ̮͖͎ ̞̱ ̺̥ ̗ ̮ ̗̩̹̹ ̥̙ ̙̯͙͚ ̟͕̣ ̤͉̼ ͔͕ ̹ ̮̭ ̪ ̰̮͔ ͎̦ ͓ͅ ̬ ̻ ̺ ̩͈ ̫̮ ̲  ̪ ̱._ </p>
+<p align="center"> ̣ _. ̹ ̱  ̪ ̮̖ ̮͙ ̦ ̻ ̺ ͍ ͖̝ ̻͕̹ ͖̝ ͙͖ ̪̤ ̠̖̺ ͖͖̬ ̰ ̗̩̹̹ ̥̙ ̙̯͙͚ ̟͕̣ ̺̫̪ ̭ ͇̺ ̻͙̳ ͉̭̱ ̲̰̤̯ ̙̼ ̹̱̗ ̭̻ ̺͚̖ ̹͍̰ ̺͓̘̱̳͍ ̱͓̤͈̝ ̩͍̟͓̘̘͚   _ <sup>⁈</sup>(Ꜣꜥ<sub><sup>ノ</sup></sub>◥益<sub><sup>◤</sup></sub>)<sub><sup>ノ</sup></sub> ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆
+ __(<sup><sub>ʘ</sub></sup>言ʘ<sup> ╬ </sup>)<sup>‽</sup> _ ̲̣̩̖̪̦̝͚ ̝̤͎͔̬̳ ͖̪̼͔͚̩ ̫ ͎̫̯̹͙ͅ ̙͉̩ ̗ ̗̦̖ ̜̦̘͔ ̺̝͙ ̠ ̳̲̰ ͙ ̮͖͎ ̞̱ ̺̥ ̗ ̮ ̗̩̹̹ ̥̙ ̙̯͙͚ ̟͕̣ ̤͉̼ ͔͕ ̹ ̮̭ ̪ ̰̮͔ ͎̦ ͓ͅ ̬ ̻ ̺ ̩͈ ̫̮ ̲  ̪ ̱._ </p>
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
