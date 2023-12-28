@@ -1,4 +1,4 @@
-<p align="center"><sup>⁈</sup>(Ꜣꜥ<sub><sup>ノ</sup></sub>◥益<sub><sup>◤</sup></sub>)<sub><sup>ノ</sup></sub>__ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆___(<sup><sub>ʘ</sub></sup>言ʘ<sup> ╬ </sup>)<sup>‽</sup></p>
+<p align="center"> ___♥(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و♡___</p>
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
@@ -7,7 +7,7 @@
    | :-------------------------------------------------------------------------------------- |   
    | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
 
-<!-- Zalgo Text : ḏ͉̖̥̳̖̥̲̳̳͍̖͢ǫ̦̟͍̦͕͉n̨̫̟̟̦'̡͓͇̣̱̝ͅṯ̣͖̱̣̘̩̙̯̘̬͢ͅ f̢̲̳͇͕ą̥̮̝̖̯͖l͈̤̟̝̖͜ b̧̮̗̥͈̘̰̪͖͚̫͉ͅȩ̝̠͙͔͉̲̫͎͇ḩ̮̖̝̳̦̞i̱͕̲̬͓͇͎͜n̡̪͍̦̤͎̱ḑ͇͎̯̲̩̥̜̙̜̞̭ o̡͈̖̰̳͓̥̮͕n͎̭̣̩̮͜    https://fsymbols.com/generators/zalgo/        ֎ ֍ ۞⌡Ꙇ꙳  --> 
+<!-- Zalgo Text : ḏ͉̖̥̳̖̥̲̳̳͍̖͢ǫ̦̟͍̦͕͉n̨̫̟̟̦'̡͓͇̣̱̝ͅṯ̣͖̱̣̘̩̙̯̘̬͢ͅ f̢̲̳͇͕ą̥̮̝̖̯͖l͈̤̟̝̖͜ b̧̮̗̥͈̘̰̪͖͚̫͉ͅȩ̝̠͙͔͉̲̫͎͇ḩ̮̖̝̳̦̞i̱͕̲̬͓͇͎͜n̡̪͍̦̤͎̱ḑ͇͎̯̲̩̥̜̙̜̞̭ o̡͈̖̰̳͓̥̮͕n͎̭̣̩̮͜    https://fsymbols.com/generators/zalgo/    <sup>⁈</sup>(Ꜣꜥ<sub><sup>ノ</sup></sub>◥益<sub><sup>◤</sup></sub>)ノ    ֎ ֍ ۞⌡Ꙇ꙳  --> 
 
 
 <!-- Symbols:      ¸｡﹀︿﹇﹈﹄﹉﹊﹋﹌﹍﹎﹏﹃﹂﹁︷︸ﾡ｣｢￢﹥﹤﹖﹗﹐﹑﹒﹔﹕  
