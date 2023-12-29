@@ -1,4 +1,42 @@
-<p align="center"> ___ <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___  </p>
+
+$$\color{bisque}{
+📑 \Huge ( }
+\color{white}{
+\Huge ˆ }
+\Large \color{white}{
+⌣ }
+\color{white}{
+\Huge ˆ }
+\color{bisque}{ԅ)}
+\quad \large \color{greenyellow}{
+ǝ͋ }
+\Large \color{lawngreen}{
+pͮͧ̾ͬ }
+\Large \color{greenyellow}{
+o̿̈̅͛ }
+\large \color{lawngreen}{
+ɔ̉͒́̽͆ }
+\color{bisque}{
+\quad \Huge ( }
+\color{pink}{
+\large • }
+\color{white}{
+\Huge ‾ }
+\color{white}{
+\Large ⌣ }
+\color{white}{
+\Huge ‾ }
+\color{pink}{
+\large • }
+\color{bisque}{
+\Huge )و }
+\color{white}{
+\small 💾 }
+$$  
+
+
+
+<!-- <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___ -->
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
