@@ -1,4 +1,4 @@
-
+<!--
 $$\color{bisque}{
 📑 \Huge ( }
 \color{white}{
@@ -33,10 +33,11 @@ o̿̈̅͛ }
 \color{white}{
 \small 💾 }
 $$  
+-->
 
 
+<p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___ </p>
 
-<!-- <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___ -->
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
