@@ -1,3 +1,42 @@
+$$
+\color {white}{\small ^｡ \qquad  ° \quad ^⋆ }\color {moccasin}{\normalsize \qquad  ^｡ }\color {lavendar}{\quad  \tiny ⋆  \space }\color {moccasin}{^ ﾟ \qquad }\color {lavendar}{｡ \quad \small ^⋆ }\color {white}{\quad  ⋆ }\color {lavendar}{\tiny ^｡ }\color {white}{\qquad \quad ﾟ \qquad \small ^⋆ }\color {moccasin}{\space \space  ｡ \tiny \quad ^｡ \space ^⋆ }\color {white}{\qquad ｡ \space ⋆ }\color {moccasin}{\quad ^｡ \space ^ ﾟ \quad ^⋆ }\color {lavendar}{\normalsize \qquad  ^｡ \quad  }\color {white}{\Huge ☾ \qquad }\color {moccasin}{\tiny ⋆  }\color {white}{\space ^ ﾟ }\color {lavendar}{\qquad ｡ \quad }\color {white}{\small ^⋆ \quad  ⋆ }\color {moccasin}{\tiny ^｡ \qquad }\color {lavendar}{\quad ﾟ }\color {moccasin}{\qquad \small ^⋆ }\color {white}{\space \space  ｡ \tiny \quad ^｡ }\color {lavendar}{\space ^⋆ }\color {moccasin}{\qquad ｡ \space ⋆}\color {white}{ \quad ^｡ \space ^ ﾟ}
+$$
+
+$$
+\color{bisque}{\large    ( \Huge ^ﾉ }
+\color{black}{\large ◕}
+\color{red}{\small ヮ}
+\color{black}{\normalsize ◕}
+\color{bisque}{\large  ) \large ^ﾉ }
+\color{yellow}{\small \space ^* }
+\color{white}{:}
+\color{moccasin}{･ﾟ \space }
+\color{yellow}{ ^✧ \qquad }
+\color{seagreen}{\Huge ᴴᵃᵖᵖʸ \space\space ⁿᵉʷ \space\space ʸᵉᵃʳ }
+\color{white}{ \qquad ^🍺} 
+\color{bisque}{ \small ^٩}
+\color{bisque}{\large ( }
+\color{black}{\large ^■ }
+\color{red}{\small ⌣ }
+\color{black}{\large ^■}
+\color{black}{\huge ^⫬ }
+\color{bisque}{\normalsize ԅ}
+\color{bisque}{\large ) }
+$$
+
+<!-- ♥(ˆ⌣ˆԅ)
+(っ ºДº)っ ︵ ⌨
+
+☚(ﾟヮﾟ☚)
+
+(◍ᴗ◍)♡ ✧*。
+
+🍺٩(º◡º )
+
+(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)
+-->
+
+
 <!--
 $$\color{bisque}{
 📑 \Huge ( }
@@ -36,7 +75,7 @@ $$
 -->
 
 
-<p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___ </p>
+<!--   <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___ </p>   -->
 
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
