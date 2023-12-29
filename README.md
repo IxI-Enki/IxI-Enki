@@ -5,7 +5,7 @@ $$
 $$
 \color{bisque}{\large    ( \Huge ^ﾉ }
 \color{black}{\large ◕}
-\color{red}{\small ヮ}
+\color{lightcoral}{\small ヮ}
 \color{black}{\normalsize ◕}
 \color{bisque}{\large  ) \large ^ﾉ }
 \color{yellow}{\small \space ^* }
@@ -17,7 +17,7 @@ $$
 \color{bisque}{ \small ^٩}
 \color{bisque}{\large ( }
 \color{black}{\large ^■ }
-\color{red}{\small ⌣ }
+\color{lightcoral}{\small ⌣ }
 \color{black}{\large ^■}
 \color{black}{\huge ^⫬ }
 \color{bisque}{\normalsize ԅ}
