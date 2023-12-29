@@ -1,4 +1,4 @@
-<p align="center"> ___♥(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و♡___</p>
+<p align="center"> ___ <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___  </p>
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
