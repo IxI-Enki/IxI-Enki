@@ -2,6 +2,7 @@ $$
 \color {white}{\small ^｡ \qquad  ° \quad ^⋆ }\color {lightblue}{\normalsize \qquad  ^｡ }\color {deepskyblue}{\quad  \tiny ⋆  \space }\color {lightblue}{^ ﾟ \qquad }\color {lavendar}{｡ \quad \small ^⋆ }\color {white}{\quad  ⋆ }\color {deepskyblue}{\tiny ^｡ }\color {white}{\qquad \quad ﾟ \qquad \small ^⋆ }\color {lightblue}{\space \space  ｡ \tiny \quad ^｡ \space ^⋆ }\color {white}{\qquad ｡ \space ⋆ }\color {lightblue}{\quad ^｡ \space ^ ﾟ \quad ^⋆ }\color {deepskyblue}{\normalsize \qquad  ^｡ \quad  }\color {white}{\Huge ☾ \qquad }\color {lightblue}{\tiny ⋆  }\color {white}{\space ^ ﾟ }\color {deepskyblue}{\qquad ｡ \quad }\color {white}{\small ^⋆ \quad  ⋆ }\color {lightblue}{\tiny ^｡ \qquad }\color {deepskyblue}{\quad ﾟ }\color {lightblue}{\qquad \small ^⋆ }\color {white}{\space \space  ｡ \tiny \quad ^｡ }\color {deepskyblue}{\space ^⋆ }\color {lightblue}{\qquad ｡ \space ⋆}\color {white}{ \quad ^｡ \space ^ ﾟ}
 $$
 
+<!--
 $$
 \color{bisque}{\large    ( \Huge ^ﾉ }
 \color{black}{\large ◕}
@@ -23,7 +24,7 @@ $$
 \color{bisque}{\normalsize ԅ}
 \color{bisque}{\large ) }
 $$
-
+-->
 
 
 <!-- 
@@ -41,7 +42,7 @@ $$
 -->
 
 
-<!--
+
 $$\color{bisque}{
 📑 \Huge ( }
 \color{white}{
@@ -51,14 +52,12 @@ $$\color{bisque}{
 \color{white}{
 \Huge ˆ }
 \color{bisque}{ԅ)}
-\quad \large \color{greenyellow}{
-ǝ͋ }
-\Large \color{lawngreen}{
-pͮͧ̾ͬ }
-\Large \color{greenyellow}{
-o̿̈̅͛ }
+\quad \small \color{green}{
+... }
 \large \color{lawngreen}{
-ɔ̉͒́̽͆ }
+code }
+\small \color{green}{
+... }
 \color{bisque}{
 \quad \Huge ( }
 \color{pink}{
@@ -76,10 +75,9 @@ o̿̈̅͛ }
 \color{white}{
 \small 💾 }
 $$  
--->
 
 
-<!--   <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ ǝ͋pͮͧ̾ͬo̿̈̅͛ɔ̉͒́̽͆ ____ (•‾⌣‾•)و<sup>💾</sup>___ </p>   -->
+ <!-- <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ code ____ (•‾⌣‾•)و<sup>💾</sup> </p> -->
 
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
