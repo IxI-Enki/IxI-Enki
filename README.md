@@ -42,7 +42,7 @@ $$
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)
 -->
 
-
+<!--
 
 $$\color{bisque}{
 📑 \Huge ( }
@@ -76,9 +76,9 @@ code }
 \color{white}{
 \small 💾 }
 $$  
+-->
 
-
- <!-- <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ code ____ (•‾⌣‾•)و<sup>💾</sup> </p> -->
+ <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ code ____ (•‾⌣‾•)و<sup>💾</sup> </p> 
 
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
