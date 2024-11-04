@@ -1,8 +1,12 @@
-<!--
+<!-- STERNEN-NACHT - HEADER -->
 $$
 \color {white}{\small ^｡ \qquad  ° \quad ^⋆ }\color {lightblue}{\normalsize \qquad  ^｡ }\color {deepskyblue}{\quad  \tiny ⋆  \space }\color {lightblue}{^ ﾟ \qquad }\color {lavendar}{｡ \quad \small ^⋆ }\color {white}{\quad  ⋆ }\color {deepskyblue}{\tiny ^｡ }\color {white}{\qquad \quad ﾟ \qquad \small ^⋆ }\color {lightblue}{\space \space  ｡ \tiny \quad ^｡ \space ^⋆ }\color {white}{\qquad ｡ \space ⋆ }\color {lightblue}{\quad ^｡ \space ^ ﾟ \quad ^⋆ }\color {deepskyblue}{\normalsize \qquad  ^｡ \quad  }\color {white}{\Huge ☾ \qquad }\color {lightblue}{\tiny ⋆  }\color {white}{\space ^ ﾟ }\color {deepskyblue}{\qquad ｡ \quad }\color {white}{\small ^⋆ \quad  ⋆ }\color {lightblue}{\tiny ^｡ \qquad }\color {deepskyblue}{\quad ﾟ }\color {lightblue}{\qquad \small ^⋆ }\color {white}{\space \space  ｡ \tiny \quad ^｡ }\color {deepskyblue}{\space ^⋆ }\color {lightblue}{\qquad ｡ \space ⋆}\color {white}{ \quad ^｡ \space ^ ﾟ}
 $$
+
+<!--
 -->
+
+<!-- FROHES NEUES JAHR - HEADER -->
 <!--
 $$
 \color{bisque}{\large    ( \Huge ^ﾉ }
@@ -27,23 +31,8 @@ $$
 $$
 -->
 
-
-<!-- 
-<p align="center">  (っ ºДº)っ ︵ ⌨ </p>
-
-♥(ˆ⌣ˆԅ)
-
-☚(ﾟヮﾟ☚)
-
-(◍ᴗ◍)♡ ✧*。
-
-🍺٩(º◡º )
-
-(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)
--->
-
+<!-- LATEX - CODE - HEADER  -->
 <!--
-
 $$\color{bisque}{
 📑 \Huge ( }
 \color{white}{
@@ -77,10 +66,28 @@ code }
 \small 💾 }
 $$  
 -->
- <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ code ____ (•‾⌣‾•)و<sup>💾</sup> </p> 
 
+<!-- STANDARD - CODE - HEADER -->
 <!--
+ <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ code ____ (•‾⌣‾•)و<sup>💾</sup> </p> 
 -->
+
+<!-- SOME OTHER - HEADERS -->
+
+<!-- 
+<p align="center">  (っ ºДº)っ ︵ ⌨ </p>
+
+♥(ˆ⌣ˆԅ)
+
+☚(ﾟヮﾟ☚)
+
+(◍ᴗ◍)♡ ✧*。
+
+🍺٩(º◡º )
+
+(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ ･: *ヽ(◕ヮ◕ヽ)
+-->
+
 
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
