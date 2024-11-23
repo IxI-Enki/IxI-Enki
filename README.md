@@ -93,13 +93,14 @@ $$
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
 ---
+
+<!--   
    |                                 `code`                                                          |  
    | :---------------------------------------------------------------------------------------------: |  
    | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
 
 </div>
 
-<!--   
    [![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white)](#)
    [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
    [![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black)](#)
