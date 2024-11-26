@@ -95,7 +95,8 @@ $$
 
 <div align="center">
 
-![𓂍 ꂅnki 𓂍](https://github.com/user-attachments/assets/c5b514d0-9d92-4ddd-9b07-801f01cda95b)  
+![𓂍 ꂅnki 𓂍](https://github.com/user-attachments/assets/ba059c5e-adfa-46c4-92bd-890cd7f8a913)
+
 
 </div>
 
