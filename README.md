@@ -95,7 +95,7 @@ $$
 
 <div align="center">
 
-![](https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/814540/d81f551aa6632cad534642e51a061cd112dd214d.gif)
+![𓂍 ꂅnki 𓂍](https://github.com/user-attachments/assets/c5b514d0-9d92-4ddd-9b07-801f01cda95b)  
 
 </div>
 
