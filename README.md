@@ -95,9 +95,9 @@ $$
 ---
 
 <!--   |  *currently learning to*                                                                   |  --> 
-   | <p align="center">  <sub>📑</sub>(ˆ⌣ˆԅ) ____ *learning to* `code` ____ (•‾⌣‾•)و<sup>💾</sup> </p>       |
-   | :---------------------------------------------------------------------------------------------: |  
-   | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
+  | <sub>📑</sub>(ˆ⌣ˆԅ) |                                  *learning to* `code`                                           | (•‾⌣‾•)و<sup>💾</sup> |
+  |:-------------------- | :---------------------------------------------------------------------------------------------: | ----------------------: |
+  |                      | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) |                         |
 
 </div>
 
