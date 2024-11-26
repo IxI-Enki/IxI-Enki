@@ -1,10 +1,10 @@
 <!-- STERNEN-NACHT - HEADER -->
+<!--
 $$
 \color {white}{\small ^｡ \qquad  ° \quad ^⋆ }\color {lightblue}{\normalsize \qquad  ^｡ }\color {deepskyblue}{\quad  \tiny ⋆  \space }\color {lightblue}{^ ﾟ \qquad }\color {lavendar}{｡ \quad \small ^⋆ }\color {white}{\quad  ⋆ }\color {deepskyblue}{\tiny ^｡ }\color {white}{\qquad \quad ﾟ \qquad \small ^⋆ }\color {lightblue}{\space \space  ｡ \tiny \quad ^｡ \space ^⋆ }\color {white}{\qquad ｡ \space ⋆ }\color {lightblue}{\quad ^｡ \space ^ ﾟ \quad ^⋆ }\color {deepskyblue}{\normalsize \qquad  ^｡ \quad  }\color {white}{\Huge ☾ \qquad }\color {lightblue}{\tiny ⋆  }\color {white}{\space ^ ﾟ }\color {deepskyblue}{\qquad ｡ \quad }\color {white}{\small ^⋆ \quad  ⋆ }\color {lightblue}{\tiny ^｡ \qquad }\color {deepskyblue}{\quad ﾟ }\color {lightblue}{\qquad \small ^⋆ }\color {white}{\space \space  ｡ \tiny \quad ^｡ }\color {deepskyblue}{\space ^⋆ }\color {lightblue}{\qquad ｡ \space ⋆}\color {white}{ \quad ^｡ \space ^ ﾟ}
 $$
-
-<!--
 -->
+
 
 <!-- FROHES NEUES JAHR - HEADER -->
 <!--
@@ -64,12 +64,12 @@ code }
 \Huge )و }
 \color{white}{
 \small 💾 }
-$$  
+$$ 
 -->
 
 <!-- STANDARD - CODE - HEADER -->
-<!--
  <p align="center"> <sub>📑</sub>(ˆ⌣ˆԅ) ____ code ____ (•‾⌣‾•)و<sup>💾</sup> </p> 
+<!--
 -->
 
 <!-- SOME OTHER - HEADERS -->
@@ -93,14 +93,14 @@ $$
 <!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
 ---
-</div>
 
-<!--   
-   |                                 `code`                                                          |  
+   |  *currently learning to* `code`                                                                 |  
    | :---------------------------------------------------------------------------------------------: |  
    | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) | 
 
+</div>
 
+<!--   
    [![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white)](#)
    [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
    [![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black)](#)
