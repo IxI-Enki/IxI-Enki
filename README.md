@@ -5,7 +5,6 @@ $$
 <!--
 -->
 
-
 <!-- FROHES NEUES JAHR - HEADER -->
 <!--
 $$
@@ -90,18 +89,17 @@ $$
 
 <div align="center">
  
-<!-- https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                  -->
+<!--                          https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                          -->
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
 ---
 
-<!--   |  *currently learning to*                                                                   |  --> 
   | <sub>📑</sub>(ˆ⌣ˆԅ) |                                  *learning to* `code`                                           | (•‾⌣‾•)و<sup>💾</sup> |
   |:-------------------- | :---------------------------------------------------------------------------------------------: | ----------------------: |
   |                      | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) |                         |
 
 </div>
 
-<!--   
+<!--   BADGES 
    [![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white)](#)
    [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
    [![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black)](#)
@@ -149,11 +147,7 @@ $$
    [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
    [![Opera GX](https://img.shields.io/badge/Opera%20GX-EE2950?logo=operagx&logoColor=fff)](#)
    [![Tor](https://img.shields.io/badge/Tor-7D4698?logo=Tor-Browser&logoColor=white)](#)
-
 -->
-
-
-
 
 <!-- Zalgo Text : ḏ͉̖̥̳̖̥̲̳̳͍̖͢ǫ̦̟͍̦͕͉n̨̫̟̟̦'̡͓͇̣̱̝ͅṯ̣͖̱̣̘̩̙̯̘̬͢ͅ f̢̲̳͇͕ą̥̮̝̖̯͖l͈̤̟̝̖͜ b̧̮̗̥͈̘̰̪͖͚̫͉ͅȩ̝̠͙͔͉̲̫͎͇ḩ̮̖̝̳̦̞i̱͕̲̬͓͇͎͜n̡̪͍̦̤͎̱ḑ͇͎̯̲̩̥̜̙̜̞̭ o̡͈̖̰̳͓̥̮͕n͎̭̣̩̮͜    https://fsymbols.com/generators/zalgo/    <sup>⁈</sup>(Ꜣꜥ<sub><sup>ノ</sup></sub>◥益<sub><sup>◤</sup></sub>)ノ    ֎ ֍ ۞⌡Ꙇ꙳  --> 
 
