@@ -93,6 +93,12 @@ $$
 ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
 ---
 
+<div align="center">
+
+![](https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/814540/d81f551aa6632cad534642e51a061cd112dd214d.gif)
+
+</div>
+
   | <sub>📑</sub>(ˆ⌣ˆԅ) |                                  *learning to* `code`                                           | (•‾⌣‾•)و<sup>💾</sup> |
   |:-------------------- | :---------------------------------------------------------------------------------------------: | ----------------------: |
   |                      | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) |                         |
