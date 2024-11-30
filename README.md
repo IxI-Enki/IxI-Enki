@@ -101,7 +101,7 @@ $$
 
 </div>
 
-  | <sub>📑</sub>(ˆ⌣ˆԅ) |                                  *learning* $\Large\color{forestgreen}{to}$ `code`              | (•‾⌣‾•)و<sup>💾</sup> |
+  | <sub>📑</sub>(ˆ⌣ˆԅ) |                                  *learning* $\Large\color{lime}{to}$ `code`              | (•‾⌣‾•)و<sup>💾</sup> |
   |:-------------------- | :---------------------------------------------------------------------------------------------: | ----------------------: |
   |                      | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) |                         |
 
