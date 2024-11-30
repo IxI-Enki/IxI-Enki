@@ -192,19 +192,22 @@ $$
 >   —————————————————  
 >   <!--  Links to the different coding language's and plattforms - shortcuts.  -->  
 >   
-> [![Zsh](https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff)](#)&[![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/shell-library.md)  
+> [![Zsh](https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff)](#)<sup>&</sup>[![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/shell-library.md)  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
 > [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C-library.md)  
-> [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#) → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
+> <!--[![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#) → [ᴇᴍᴘᴛʏLɪɴᴋ]() --> 
 > [![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C%23-library.md)  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
 > [![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#) → [ᴇᴍᴘᴛʏLɪɴᴋ]()   <!-- https://websiteberater.com/der-unterschied-zwischen-markup-und-markdown/ -->  
+>
 > [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/Html-library.md)  
+>
 > [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) → [ᴇᴍᴘᴛʏLɪɴᴋ]()  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
-> [![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=fff)](#) SQL → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/SQL-library.md)      
+> [![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=fff)](#) <sup>SQL</sup> → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/SQL-library.md)      
 >   −−−−−−−−−−−−−−−−−−−−  
 > [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/GitHub-library.md)  
+>
 > [![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/VisualStudio-library.md)  
 >   —————————————————  
 >   <!--  add further new expiriences here  -->   
