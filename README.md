@@ -109,12 +109,13 @@ $$
 
 <div align="right">
  
+<!--
 |        |   |
 |                                                  --:                                                |                            :-:                                         |   
 |  [![Soundcloud](https://img.shields.io/badge/Soundcloud-FF3300?logo=Soundcloud&logoColor=white)](#) | [ ϺΪΓДКЏĿΪӾ](https://soundcloud.com/ix-ilukarim)                       |   
 |  [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](#)      | [6_Enki_9](https://www.youtube.com/@JanRitt_IxI)                       |   
 |  [![Steam](https://img.shields.io/badge/Steam-%23000000.svg?logo=steam&logoColor=white)](#)         | [𓂍 ꂅnki 𓂍 ](https://steamcommunity.com/profiles/76561198206790724/)  |  
-<!-- |  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](#)   | [ J. R. ](https://www.youtube.com/@JanRitt_IxI)                        | -->       
+|  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](#)   | [ J. R. ](https://www.youtube.com/@JanRitt_IxI)                        | -->       
 
 </div> 
 
