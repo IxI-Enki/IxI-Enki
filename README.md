@@ -188,7 +188,8 @@ $$
 
 <div align="center">
 
-  [![  Github Stats  ](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=IxI-Enki&theme=github_dark)](https://github.com/IxI-Enki) </p>   
+  | [![  Github Stats  ](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=IxI-Enki&theme=github_dark)](#) | [![  Used Languages  ](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IxI-Enki&theme=github_dark)](#) |  
+  |:---------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
 
 </div>
  
