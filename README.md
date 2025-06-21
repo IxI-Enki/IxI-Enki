@@ -185,13 +185,19 @@ $$
 █▄─▄▄▀█
 ██─██─█
 ▀▄▄▄▄▀▀                          ---->
+
+<div align="center">
+
+  [![  Github Stats  ](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=IxI-Enki&theme=github_dark)](https://github.com/IxI-Enki) </p>   
+
+</div>
  
 > [!TIP]
 > <details>  
 >   <summary>  𝔡𝔬𝔫'𝔱  𝔣𝔞𝔩𝔩 𝔟𝔢𝔥𝔦𝔫𝔡 𝔬𝔫 </summary>  
 >   —————————————————  
 >   <!--  Links to the different coding language's and plattforms - shortcuts.  -->  
->   
+> 
 > [![Zsh](https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff)](#)<sup>&</sup>[![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/shell-library.md)  
 >   ‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥  
 > [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#) → [ᵇᵒᵒᵏᵐᵃʳᵏˢ](https://github.com/IxI-Enki/IxI-Enki/blob/main/C-library.md)  
