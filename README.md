@@ -188,7 +188,7 @@ $$
 
 <div align="center">
 
-  [![  Used Languages  ](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IxI-Enki&theme=github_dark)](#) 
+<!-- [![  Used Languages  ](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IxI-Enki&theme=github_dark)](#)  -->
 
    ℑ𝔣 𝔶𝔬𝔲 𝔠𝔬𝔪𝔢 𝔴𝔦𝔱𝔥 𝔪𝔢, 𝔡𝔬𝔫'𝔱 𝔣𝔞𝔩𝔩 𝔟𝔢𝔥𝔦𝔫𝔡 [🎶](https://www.youtube.com/watch?v=xvmRWHaeLqQ)
    
