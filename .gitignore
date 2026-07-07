@@ -1,0 +1,61 @@
+# ============================================================
+# IxI-Enki GitHub profile repo .gitignore
+# Planning hub: plain HTML/CSS portfolio site + spec-kit scaffolding
+# Satellites (die_glocke, dashboards, mcp-server-generator) live elsewhere.
+# ============================================================
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ---- IDE / editor ----
+# Keep .cursor/ tracked (project-shared rules/skills); only ignore local state.
+.vscode/
+.cursor/hooks/state/
+*.swp
+*~
+.idea/
+
+# ---- Node (satellite / tooling) ----
+node_modules/
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# ---- Python (MCP-Gen-PRO target tooling) ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+*.local
+secrets.json
+credentials.json
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- spec-kit generated cache / registry ----
+.specify/extensions/.cache/
+.specify/extensions/.registry
+
+# ---- Generated knowledge-graph output (AST, regenerable) ----
+graphify-out/
+
+# ---- Maintainer private docs (never publish) ----
+docs/README.private.md
+
+# ---- Misc backups / temp ----
+*.bak
+*.tmp

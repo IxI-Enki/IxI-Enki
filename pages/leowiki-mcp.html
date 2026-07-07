@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeoWiki MCP — Case Study · Jan Ritt</title>
+  <meta name="description" content="Case study: MCP server with semantic search for LeoWiki — 17× retrieval improvement, OAuth 2.1 + RBAC, deployed on Raspberry Pi 5.">
+  <link rel="stylesheet" href="../assets/css/site.css?v=73">
+  <script src="../assets/js/site.js?v=22" defer></script>
+</head>
+<body class="neu page-leowiki-mcp">
+
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-parallax bg-parallax--grid"><div class="bg-grid"></div></div>
+    <div class="bg-parallax bg-parallax--grad">
+      <div class="bg-gradient-blobs">
+        <span class="bg-grad-blob bg-grad-blob--1"></span>
+        <span class="bg-grad-blob bg-grad-blob--2"></span>
+        <span class="bg-grad-blob bg-grad-blob--3"></span>
+        <span class="bg-grad-blob bg-grad-blob--4"></span>
+      </div>
+    </div>
+    <div class="bg-parallax bg-parallax--blob1"><div class="blob blob-1"></div></div>
+    <div class="bg-parallax bg-parallax--blob2"><div class="blob blob-2"></div></div>
+    <div class="bg-parallax bg-parallax--blob3"><div class="blob blob-3"></div></div>
+  </div>
+
+  <header class="site">
+    <div class="wrap">
+      <a class="brand brand--mcp" href="../" title="IxI-Enki">
+        <img src="../assets/img/leowiki-mcp-logo.png" alt="LeoWiki MCP" class="brand-mcp-logo">
+      </a>
+      <nav class="main">
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="./leowiki-mcp.html" class="nav-flagship active" title="LeoWiki MCP"><img src="../assets/img/leowiki-mcp-logo.png" alt="LeoWiki MCP" class="nav-flagship-logo"><span class="nav-flagship-label" data-i18n="nav.flagship">LeoWiki MCP</span></a>
+        <a href="./projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="./skills.html" data-i18n="nav.skills">Skills</a>
+        <a href="./cv.html" data-i18n="nav.cv">CV</a>
+        <span class="lang-switch" data-lang="en" role="group" aria-label="Language"><span class="ls-knob" aria-hidden="true"><svg class="ls-flag ls-flag-en" viewBox="0 0 24 16"><rect width="24" height="16" fill="#2E4F8F"/><path d="M0 0L24 16M24 0L0 16" stroke="#fff" stroke-width="3.4"/><path d="M0 0L24 16M24 0L0 16" stroke="#B33130" stroke-width="1.4"/><rect x="9.6" width="4.8" height="16" fill="#fff"/><rect y="5.6" width="24" height="4.8" fill="#fff"/><rect x="10.7" width="2.6" height="16" fill="#B33130"/><rect y="6.7" width="24" height="2.6" fill="#B33130"/></svg><svg class="ls-flag ls-flag-de" viewBox="0 0 24 16"><rect width="24" height="16" fill="#fff"/><rect width="24" height="5.3" fill="#B33130"/><rect y="10.7" width="24" height="5.3" fill="#B33130"/></svg></span><span class="ls-opt" data-lang="en">EN</span><span class="ls-opt" data-lang="de">DE</span></span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ══ HEAD ══ -->
+  <section class="hero" style="padding-bottom:24px">
+    <div class="wrap">
+      <p class="kicker reveal" data-i18n-page
+         data-en="Case study · Diploma thesis 2026 · HTL Leonding"
+         data-de="Case-Study · Diplomarbeit 2026 · HTL Leonding">Case study · Diploma thesis 2026 · HTL Leonding</p>
+      <div style="display:flex; align-items:center; gap:20px; flex-wrap:wrap; margin-top:10px">
+        <img src="../assets/img/leowiki-mcp-logo.png" alt="LeoWiki MCP logo" class="reveal hero-mcp-logo">
+        <h1 class="reveal reveal-d1" style="flex:1; min-width:280px" data-i18n-page
+            data-en="Development of an MCP&nbsp;Server with Semantic Search for LeoWiki"
+            data-de="Entwicklung eines MCP&#8209;Servers mit semantischer Suche für LeoWiki">Development of an MCP&nbsp;Server with Semantic Search for LeoWiki</h1>
+      </div>
+      <p class="lead reveal reveal-d2" style="margin-top:16px" data-i18n-page
+         data-en="The school wiki's keyword search fails on natural-language questions. We built the missing layer: a vector database with German‑optimized embeddings behind an MCP server, so AI assistants like Claude, ChatGPT and Mistral Le Chat can answer questions from the wiki — permission-aware, self-hosted."
+         data-de="Die Stichwortsuche des Schul‑Wikis scheitert an natürlichsprachigen Fragen. Wir haben die fehlende Schicht gebaut: eine Vektordatenbank mit Deutsch‑optimierten Embeddings hinter einem MCP‑Server — damit KI‑Assistenten wie Claude, ChatGPT und Mistral Le Chat Fragen aus dem Wiki beantworten können. Berechtigungsbewusst, self-hosted.">The school wiki's keyword search fails on natural-language questions. We built the missing layer: a vector database with German‑optimized embeddings behind an MCP server, so AI assistants like Claude, ChatGPT and Mistral Le Chat can answer questions from the wiki — permission-aware, self-hosted.</p>
+      <div class="facts reveal reveal-d2" style="margin-top:14px">
+        <span><b>Team</b> · Jan Ritt &amp; Imre Obermüller</span>
+        <span><b>Supervisor</b> · Rainer Stropek</span>
+      </div>
+      <div class="reveal reveal-d3" style="margin-top:22px; display:flex; gap:12px; flex-wrap:wrap">
+        <!-- Freigabe-Status: Imre ✓ · Sperrvermerk keiner · Schul-OK holt Jan ein (vor Public-Schaltung prüfen!) -->
+        <a class="btn btn-primary btn-shine" href="../assets/thesis.pdf" data-i18n-page
+           data-en="📄 Read the full thesis (PDF, 170 pages)"
+           data-de="📄 Diplomarbeit lesen (PDF, 170 Seiten)">📄 Read the full thesis (PDF, 170 pages)</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--double" aria-hidden="true"><span class="sec-divider__rule sec-divider__rule--back"></span><span class="sec-divider__rule sec-divider__rule--front"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core"><span class="sec-divider__chapter" data-i18n-page data-en="FF1" data-de="FF1">FF1</span></span></span></div></div>
+
+  <!-- ══ HEADLINE RESULT (FF1) ══ -->
+  <section style="padding-top:24px">
+    <div class="wrap">
+      <div class="card reveal" style="padding:28px; border-left: 4px solid var(--accent)">
+        <h2 data-i18n-page data-en="Result: 17× better retrieval" data-de="Ergebnis: 17× besseres Retrieval">Result: 17× better retrieval</h2>
+        <p class="lead" data-i18n-page
+           data-en="Measured on 78 verified question-answer pairs across 12 wiki namespaces (10,841 indexed chunks). Bars show MRR on a 0–1 scale:"
+           data-de="Gemessen an 78 verifizierten Frage-Antwort-Paaren über 12 Wiki-Namespaces (10.841 Chunks). Balken zeigen MRR auf einer 0–1-Skala:">Measured on 78 verified question-answer pairs across 12 wiki namespaces (10,841 indexed chunks). Bars show MRR on a 0–1 scale:</p>
+
+        <div class="kwsem">
+          <p class="kwsem-head" data-i18n-page data-en="DokuWiki keyword search" data-de="DokuWiki-Stichwortsuche">DokuWiki keyword search</p>
+          <div class="kwsem-row kwsem-row--bad" style="--v:5.1%">
+            <div class="kwsem-label"><b data-i18n-page data-en="Full-question query" data-de="Ganze Frage als Abfrage">Full-question query</b><span data-i18n-page data-en="AND logic · 49 / 78 return nothing" data-de="AND-Logik · 49 / 78 ohne Treffer">AND logic · 49 / 78 return nothing</span></div>
+            <div class="kwsem-track"><span class="kwsem-bar"></span></div>
+            <div class="kwsem-val">0.051</div>
+          </div>
+          <div class="kwsem-row kwsem-row--mid" style="--v:36.5%">
+            <div class="kwsem-label"><b data-i18n-page data-en="Hand-optimized keywords" data-de="Manuell optimierte Keywords">Hand-optimized keywords</b><span data-i18n-page data-en="best-case manual · 29 / 78 return nothing" data-de="Best Case manuell · 29 / 78 ohne Treffer">best-case manual · 29 / 78 return nothing</span></div>
+            <div class="kwsem-track"><span class="kwsem-bar"></span></div>
+            <div class="kwsem-val">0.365</div>
+          </div>
+          <div class="kwsem-jump"><span data-i18n-page data-en="Semantic jump ≈ +0.39 MRR" data-de="Semantischer Sprung ≈ +0,39 MRR">Semantic jump ≈ +0.39 MRR</span> →</div>
+          <p class="kwsem-head" data-i18n-page data-en="Semantic RAG retrieval" data-de="Semantisches RAG-Retrieval">Semantic RAG retrieval</p>
+          <div class="kwsem-row kwsem-row--good" style="--v:88.3%">
+            <div class="kwsem-label"><b>Octen-Embedding-4B</b><span data-i18n-page data-en="best local model · top-10 hit 94.9%" data-de="bestes lokales Modell · Top-10-Treffer 94,9 %">best local model · top-10 hit 94.9%</span></div>
+            <div class="kwsem-track"><span class="kwsem-bar"></span></div>
+            <div class="kwsem-val">0.883</div>
+          </div>
+        </div>
+
+        <div class="kwsem-stats">
+          <div class="kwsem-stat"><b>17×</b><span data-i18n-page data-en="MRR vs full-question keyword search (0.883 vs 0.051)" data-de="MRR vs. Ganze-Frage-Stichwortsuche (0,883 vs. 0,051)">MRR vs full-question keyword search (0.883 vs 0.051)</span></div>
+          <div class="kwsem-stat"><b>2.4×</b><span data-i18n-page data-en="vs hand-optimized keywords (0.883 vs 0.365)" data-de="vs. manuell optimierte Keywords (0,883 vs. 0,365)">vs hand-optimized keywords (0.883 vs 0.365)</span></div>
+          <div class="kwsem-stat"><b>+89.8 pp</b><span data-i18n-page data-en="top-10 hit rate (5.1% → 94.9%)" data-de="Top-10-Trefferquote (5,1 % → 94,9 %)">top-10 hit rate (5.1% → 94.9%)</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__ripple" aria-hidden="true"><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span></span><span class="sec-divider__core"><span class="sec-divider__node"></span></span></span></div></div>
+
+  <!-- ══ ARCHITECTURE ══ -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <h2 class="reveal" data-i18n-page data-en="Architecture" data-de="Architektur">Architecture</h2>
+      <p class="lead reveal" data-i18n-page
+         data-en="Two phases: an offline preparation pipeline (fetch → evaluate → chunk → embed → deploy) and a runtime query flow on the Raspberry Pi 5."
+         data-de="Zwei Phasen: eine Offline-Aufbereitungs-Pipeline (Fetch → Evaluierung → Chunking → Embedding → Deploy) und der Runtime-Query-Fluss auf dem Raspberry Pi 5.">Two phases: an offline preparation pipeline (fetch → evaluate → chunk → embed → deploy) and a runtime query flow on the Raspberry Pi 5.</p>
+      <figure class="fig reveal" style="margin-top:18px">
+        <img src="../assets/img/figures/fig_05_system_overview.png" alt="System overview" loading="lazy">
+      </figure>
+
+      <div class="grid grid-3" style="margin-top:18px">
+        <div class="card reveal">
+          <h3 data-i18n-page data-en="Enrichment" data-de="Enrichment">Enrichment</h3>
+          <p style="margin-top:8px; font-size:.9rem; color:var(--muted)" data-i18n-page
+             data-en="Content evaluation with GPT-4o-mini (text) and Qwen-2.5-VL (images &amp; PDF graphics) before content-aware chunking."
+             data-de="Inhalts-Evaluierung mit GPT-4o-mini (Text) und Qwen-2.5-VL (Bilder &amp; PDF-Grafiken) vor dem Content-Aware-Chunking.">Content evaluation with GPT-4o-mini (text) and Qwen-2.5-VL (images &amp; PDF graphics) before content-aware chunking.</p>
+        </div>
+        <div class="card reveal reveal-d1">
+          <h3 data-i18n-page data-en="MCP server" data-de="MCP‑Server">MCP server</h3>
+          <p style="margin-top:8px; font-size:.9rem; color:var(--muted)" data-i18n-page
+             data-en="FastMCP 3.0 (Python) with a two-tool RBAC search design, five middleware layers, MCP resources &amp; prompts — over stdio and HTTP Streamable."
+             data-de="FastMCP 3.0 (Python) mit Two-Tool-RBAC-Suchdesign, fünf Middleware-Schichten, MCP-Resources &amp; -Prompts — über stdio und HTTP Streamable.">FastMCP 3.0 (Python) with a two-tool RBAC search design, five middleware layers, MCP resources &amp; prompts — over stdio and HTTP Streamable.</p>
+        </div>
+        <div class="card reveal reveal-d2">
+          <h3 data-i18n-page data-en="Security" data-de="Sicherheit">Security</h3>
+          <p style="margin-top:8px; font-size:.9rem; color:var(--muted)" data-i18n-page
+             data-en="OAuth 2.1 via Scalekit, JWT role decoding and role-based access control on every search — teachers, students and admins each see only their content."
+             data-de="OAuth 2.1 via Scalekit, JWT-Rollen-Decoding und rollenbasierte Zugriffskontrolle bei jeder Suche — Lehrer, Schüler und Admins sehen nur ihre Inhalte.">OAuth 2.1 via Scalekit, JWT role decoding and role-based access control on every search — teachers, students and admins each see only their content.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-2" style="margin-top:18px">
+        <figure class="fig reveal">
+          <img src="../assets/img/figures/fig_13_rbac_architecture.png" alt="RBAC architecture" loading="lazy">
+        </figure>
+        <figure class="fig reveal reveal-d1">
+          <img src="../assets/img/figures/fig_09_mcp_nxm_problem.png" alt="MCP N×M problem" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core"><span class="sec-divider__chapter" data-i18n-page data-en="FF3" data-de="FF3">FF3</span></span></span></div></div>
+
+  <!-- ══ MODEL EVALUATION (FF3) ══ -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <h2 class="reveal" data-i18n-page data-en="Embedding evaluation — an engineering trade-off" data-de="Embedding-Evaluation — ein Engineering-Trade-off">Embedding evaluation — an engineering trade-off</h2>
+      <p class="lead reveal" data-i18n-page
+         data-en="Five models benchmarked on the full corpus. The local quality leader (Octen-4B) could not run on the target hardware — so production pragmatically uses the API model that ties it within 1.1 points of MRR:"
+         data-de="Fünf Modelle auf dem vollen Korpus gebenchmarkt. Der lokale Qualitätsführer (Octen-4B) lief nicht auf der Zielhardware — die Produktion nutzt daher pragmatisch das API-Modell, das nur 1,1 MRR-Punkte dahinter liegt:">Five models benchmarked on the full corpus. The local quality leader (Octen-4B) could not run on the target hardware — so production pragmatically uses the API model that ties it within 1.1 points of MRR:</p>
+      <div class="bench reveal">
+        <div class="bench-row bench-row--prod" style="--mrr:88.3%">
+          <div class="bench-name"><b>Octen-Embedding-4B</b><span data-i18n-page data-en="local · 4.0B · MTEB #2 (DE) · nDCG 0.899" data-de="lokal · 4,0B · MTEB #2 (DE) · nDCG 0,899">local · 4.0B · MTEB #2 (DE) · nDCG 0.899</span><br><em class="bench-tag" data-i18n-page data-en="quality leader" data-de="Qualitätsführer">quality leader</em></div>
+          <div class="bench-bar"><span></span><i>0.883</i></div>
+          <div class="bench-hit">94.9%<small data-i18n-page data-en="hit" data-de="Treffer">hit</small></div>
+        </div>
+        <div class="bench-row bench-row--prod" style="--mrr:87.2%">
+          <div class="bench-name"><b>text-embedding-3-large</b><span data-i18n-page data-en="OpenAI API · 3,072 dim · nDCG 0.897" data-de="OpenAI API · 3.072 dim · nDCG 0,897">OpenAI API · 3,072 dim · nDCG 0.897</span><br><em class="bench-tag bench-tag--prod" data-i18n-page data-en="production" data-de="Produktion">production</em></div>
+          <div class="bench-bar"><span></span><i>0.872</i></div>
+          <div class="bench-hit">97.4%<small data-i18n-page data-en="hit" data-de="Treffer">hit</small></div>
+        </div>
+        <div class="bench-tier"><span data-i18n-page data-en="Tier 1 ≥ 0.87 · production-grade" data-de="Tier 1 ≥ 0,87 · produktionsreif">Tier 1 ≥ 0.87 · production-grade</span></div>
+        <div class="bench-row" style="--mrr:80.2%">
+          <div class="bench-name"><b>PIXIE-Rune-v1.0</b><span data-i18n-page data-en="local · 568M · MTEB #3 (DE) · nDCG 0.823" data-de="lokal · 568M · MTEB #3 (DE) · nDCG 0,823">local · 568M · MTEB #3 (DE) · nDCG 0.823</span></div>
+          <div class="bench-bar"><span></span><i>0.802</i></div>
+          <div class="bench-hit">88.5%<small data-i18n-page data-en="hit" data-de="Treffer">hit</small></div>
+        </div>
+        <div class="bench-row" style="--mrr:78.8%">
+          <div class="bench-name"><b>snowflake-arctic-embed-l-v2.0</b><span data-i18n-page data-en="local · 568M · MTEB #7 (DE) · nDCG 0.822" data-de="lokal · 568M · MTEB #7 (DE) · nDCG 0,822">local · 568M · MTEB #7 (DE) · nDCG 0.822</span></div>
+          <div class="bench-bar"><span></span><i>0.788</i></div>
+          <div class="bench-hit">92.3%<small data-i18n-page data-en="hit" data-de="Treffer">hit</small></div>
+        </div>
+        <div class="bench-row" style="--mrr:75.6%">
+          <div class="bench-name"><b>bge-m3-unsupervised</b><span data-i18n-page data-en="RAGFlow default · 568M · nDCG 0.800" data-de="RAGFlow-Default · 568M · nDCG 0,800">RAGFlow default · 568M · nDCG 0.800</span></div>
+          <div class="bench-bar"><span></span><i>0.756</i></div>
+          <div class="bench-hit">93.6%<small data-i18n-page data-en="hit" data-de="Treffer">hit</small></div>
+        </div>
+        <div class="bench-legend">
+          <span><i style="background:linear-gradient(90deg,var(--primary),var(--accent))"></i><span data-i18n-page data-en="Production tier (MRR ≥ 0.87)" data-de="Produktions-Tier (MRR ≥ 0,87)">Production tier (MRR ≥ 0.87)</span></span>
+          <span><i style="background:linear-gradient(90deg,var(--primary),var(--secondary))"></i><span>MRR · 0–1</span></span>
+          <span data-i18n-page data-en="% badge = top-10 hit rate" data-de="%-Badge = Top-10-Trefferquote">% badge = top-10 hit rate</span>
+        </div>
+      </div>
+      <p class="reveal" style="margin-top:14px; font-size:.86rem; color:var(--muted)" data-i18n-page
+         data-en="Methodology: MRR, nDCG@10, MAP, precision@k, hit rate + LLM-as-Judge and RAGAS · chunk-size experiments (256/512/1024) · hybrid vs. dense retrieval · keyword baseline · Wilcoxon signed-rank tests with bootstrap confidence intervals."
+         data-de="Methodik: MRR, nDCG@10, MAP, Precision@k, Hit-Rate + LLM-as-Judge und RAGAS · Chunk-Size-Experimente (256/512/1024) · Hybrid- vs. Dense-Retrieval · Keyword-Baseline · Wilcoxon-Tests mit Bootstrap-Konfidenzintervallen.">Methodology: MRR, nDCG@10, MAP, precision@k, hit rate + LLM-as-Judge and RAGAS · chunk-size experiments (256/512/1024) · hybrid vs. dense retrieval · keyword baseline · Wilcoxon signed-rank tests with bootstrap confidence intervals.</p>
+      <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap" class="reveal">
+        <a class="btn btn-ghost" href="https://ixi-enki.github.io/project-diploma-performance-analysis/" data-i18n-page data-en="MTEB DE reference" data-de="MTEB-DE-Referenz">MTEB DE reference</a>
+        <a class="btn btn-ghost" href="https://ixi-enki.github.io/artificial-intelligence-provider-analysis/" data-i18n-page data-en="AI provider landscape" data-de="AI-Provider-Landschaft">AI provider landscape</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--double" aria-hidden="true"><span class="sec-divider__rule sec-divider__rule--back"></span><span class="sec-divider__rule sec-divider__rule--front"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__ripple" aria-hidden="true"><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+
+  <!-- ══ DEPLOYMENT ══ -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <h2 class="reveal" data-i18n-page data-en="Deployment — production on 5 watts" data-de="Deployment — Produktion mit 5 Watt">Deployment — production on 5 watts</h2>
+      <p class="lead reveal" data-i18n-page
+         data-en="Four Docker Compose services on a Raspberry Pi 5 (8 GB, ARM64): Caddy for TLS &amp; reverse proxy, the MCP server, Qdrant for vector search, and a watchdog for JSONL auto-ingestion. Mean end-to-end search latency: ~226 ms (stdio) / ~321 ms (HTTP)."
+         data-de="Vier Docker-Compose-Services auf einem Raspberry Pi 5 (8 GB, ARM64): Caddy für TLS &amp; Reverse-Proxy, der MCP‑Server, Qdrant für die Vektorsuche und ein Watchdog für JSONL-Auto-Ingestion. Mittlere End-to-End-Suchlatenz: ~226 ms (stdio) / ~321 ms (HTTP).">Four Docker Compose services on a Raspberry Pi 5 (8 GB, ARM64): Caddy for TLS &amp; reverse proxy, the MCP server, Qdrant for vector search, and a watchdog for JSONL auto-ingestion. Mean end-to-end search latency: ~226 ms (stdio) / ~321 ms (HTTP).</p>
+      <figure class="fig reveal" style="margin-top:18px">
+        <img src="../assets/img/figures/fig_08_deployment.png" alt="Deployment architecture on Raspberry Pi 5" loading="lazy">
+      </figure>
+      <div class="card reveal" style="margin-top:18px; padding:18px 22px">
+        <p class="kicker" style="margin-bottom:12px" data-i18n-page data-en="Production stack" data-de="Produktions-Stack">Production stack</p>
+        <div class="icon-row">
+          <img src="../assets/img/icons/python.svg" alt="Python" title="Python">
+          <img src="../assets/img/icons/fastapi.svg" alt="FastAPI" title="FastAPI / FastMCP">
+          <img src="../assets/img/icons/mcp.svg" alt="MCP" title="Model Context Protocol">
+          <img src="../assets/img/icons/qdrantLogoText.svg" alt="Qdrant" title="Qdrant vector database" style="height:24px">
+          <img src="../assets/img/icons/openai.svg" alt="OpenAI" title="OpenAI embeddings (production)">
+          <img src="../assets/img/icons/docker.svg" alt="Docker" title="Docker Compose">
+          <img src="../assets/img/icons/caddy.svg" alt="Caddy" title="Caddy reverse proxy">
+          <img src="../assets/img/icons/scalekit.png" alt="Scalekit" title="Scalekit — OAuth 2.1">
+          <img src="../assets/img/icons/raspberryPi.svg" alt="Raspberry Pi" title="Raspberry Pi 5">
+          <img src="../assets/img/icons/dokuwiki.svg" alt="DokuWiki" title="DokuWiki (LeoWiki)">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+
+  <!-- ══ CLIENT COMPAT (FF2) ══ -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <h2 class="reveal" data-i18n-page data-en="Works with the AI clients people actually use" data-de="Funktioniert mit den KI‑Clients, die wirklich genutzt werden">Works with the AI clients people actually use</h2>
+      <div class="grid grid-3" style="margin-top:16px">
+        <div class="card reveal" style="text-align:center"><img class="client-icon" src="../assets/img/icons/claude.svg" alt="Claude"><h3>Claude</h3><p style="font-size:.85rem; color:var(--muted); margin-top:6px">Remote MCP ✓ · OAuth 2.1 ✓ · Tools ✓</p></div>
+        <div class="card reveal reveal-d1" style="text-align:center"><img class="client-icon" src="../assets/img/icons/chatgpt.svg" alt="ChatGPT"><h3>ChatGPT</h3><p style="font-size:.85rem; color:var(--muted); margin-top:6px">Remote MCP ✓ · OAuth 2.1 ✓ · Tools ✓</p></div>
+        <div class="card reveal reveal-d2" style="text-align:center"><img class="client-icon" src="../assets/img/icons/mistral.svg" alt="Mistral Le Chat"><h3>Mistral Le Chat</h3><p style="font-size:.85rem; color:var(--muted); margin-top:6px">Remote MCP ✓ · OAuth 2.1 ✓ · Tools ✓</p></div>
+      </div>
+      <p class="reveal" style="margin-top:12px; font-size:.86rem; color:var(--muted)" data-i18n-page
+         data-en="Gemini and Copilot (consumer) did not support remote MCP with OAuth 2.1 as of February 2026 — documented in the thesis compatibility matrix."
+         data-de="Gemini und Copilot (Consumer) unterstützten Remote-MCP mit OAuth 2.1 mit Stand Februar 2026 nicht — dokumentiert in der Kompatibilitätsmatrix der Arbeit.">Gemini and Copilot (consumer) did not support remote MCP with OAuth 2.1 as of February 2026 — documented in the thesis compatibility matrix.</p>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--double" aria-hidden="true"><span class="sec-divider__rule sec-divider__rule--back"></span><span class="sec-divider__rule sec-divider__rule--front"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core"><span class="sec-divider__node"></span></span></span></div></div>
+
+  <!-- ══ LINKS / FOOT ══ -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="card reveal" style="padding:26px">
+        <h3 data-i18n-page data-en="Repositories &amp; material" data-de="Repositories &amp; Material">Repositories &amp; material</h3>
+        <p style="margin-top:8px; font-size:.92rem; color:var(--muted)" data-i18n-page
+           data-en="⏳ The pipeline and evaluation repositories are being prepared for publication. Joint work with Imre Obermüller:"
+           data-de="⏳ Die Pipeline- und Evaluations-Repositories werden für die Veröffentlichung vorbereitet. Gemeinsame Arbeit mit Imre Obermüller:">⏳ The pipeline and evaluation repositories are being prepared for publication. Joint work with Imre Obermüller:</p>
+        <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap">
+          <a class="btn btn-primary btn-shine" href="../assets/thesis.pdf" data-i18n-page data-en="📄 Thesis (PDF)" data-de="📄 Diplomarbeit (PDF)">📄 Thesis (PDF)</a>
+          <a class="btn btn-ghost" href="https://github.com/Imre7777/mcp-diploma-thesis-final" data-i18n-page data-en="MCP server repo (Imre)" data-de="MCP‑Server-Repo (Imre)">MCP server repo (Imre)</a>
+          <a class="btn btn-ghost" href="./projects.html" data-i18n-page data-en="More projects →" data-de="Mehr Projekte →">More projects →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="../">IxI<span class="x">-</span>Enki</a>
+        <p class="footer-tag" data-i18n="footer.tag">Software architecture &amp; AI engineering — retrieval, MCP, local LLMs.</p>
+        <span class="footer-status"><span class="fs-dot" aria-hidden="true"></span><span data-i18n="facts.statusv">open to work</span></span>
+      </div>
+      <nav class="footer-col" aria-label="Footer">
+        <p class="footer-h" data-i18n="footer.explore">Explore</p>
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="./leowiki-mcp.html" data-i18n="nav.flagship">LeoWiki MCP</a>
+        <a href="./projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="./skills.html" data-i18n="nav.skills">Skills</a>
+        <a href="./cv.html" data-i18n="nav.cv">CV</a>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-h" data-i18n="footer.connect">Connect</p>
+        <a href="mailto:janritt.office@gmail.com">janritt.office@gmail.com</a>
+        <a href="https://github.com/IxI-Enki">github.com/IxI-Enki</a>
+        <p class="footer-loc" data-i18n="footer.loc">Seitenstetten · Lower Austria</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>© 2026 Jan Ritt</span>
+      <span class="footer-sig">𓂍 ꂅnki 𓂍</span>
+    </div>
+  </footer>
+
+</body>
+</html>

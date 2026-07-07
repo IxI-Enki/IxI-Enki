@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Ritt · IxI-Enki — Software Architecture &amp; AI Engineering</title>
+  <meta name="description" content="Jan Ritt (IxI-Enki) — software architecture and AI engineering. Retrieval pipelines, MCP servers, secure AI integrations. HTL Leonding, Austria.">
+  <link rel="stylesheet" href="./assets/css/site.css?v=76">
+  <script src="./assets/js/site.js?v=22" defer></script>
+</head>
+<body class="neu">
+
+  <!-- animierter Hintergrund -->
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-parallax bg-parallax--grid"><div class="bg-grid"></div></div>
+    <div class="bg-parallax bg-parallax--grad">
+      <div class="bg-gradient-blobs">
+        <span class="bg-grad-blob bg-grad-blob--1"></span>
+        <span class="bg-grad-blob bg-grad-blob--2"></span>
+        <span class="bg-grad-blob bg-grad-blob--3"></span>
+        <span class="bg-grad-blob bg-grad-blob--4"></span>
+      </div>
+    </div>
+    <div class="bg-parallax bg-parallax--blob1"><div class="blob blob-1"></div></div>
+    <div class="bg-parallax bg-parallax--blob2"><div class="blob blob-2"></div></div>
+    <div class="bg-parallax bg-parallax--blob3"><div class="blob blob-3"></div></div>
+  </div>
+
+  <!-- ══ NAV ══ -->
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="./">IxI<span class="x">-</span>Enki</a>
+      <nav class="main">
+        <a href="./index.html" class="active" data-i18n="nav.home">Home</a>
+        <a href="./pages/leowiki-mcp.html" class="nav-flagship" title="LeoWiki MCP"><img src="./assets/img/leowiki-mcp-logo.png" alt="LeoWiki MCP" class="nav-flagship-logo"><span class="nav-flagship-label" data-i18n="nav.flagship">LeoWiki MCP</span></a>
+        <a href="./pages/projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="./pages/skills.html" data-i18n="nav.skills">Skills</a>
+        <a href="./pages/cv.html" data-i18n="nav.cv">CV</a>
+        <span class="lang-switch" data-lang="en" role="group" aria-label="Language"><span class="ls-knob" aria-hidden="true"><svg class="ls-flag ls-flag-en" viewBox="0 0 24 16"><rect width="24" height="16" fill="#2E4F8F"/><path d="M0 0L24 16M24 0L0 16" stroke="#fff" stroke-width="3.4"/><path d="M0 0L24 16M24 0L0 16" stroke="#B33130" stroke-width="1.4"/><rect x="9.6" width="4.8" height="16" fill="#fff"/><rect y="5.6" width="24" height="4.8" fill="#fff"/><rect x="10.7" width="2.6" height="16" fill="#B33130"/><rect y="6.7" width="24" height="2.6" fill="#B33130"/></svg><svg class="ls-flag ls-flag-de" viewBox="0 0 24 16"><rect width="24" height="16" fill="#fff"/><rect width="24" height="5.3" fill="#B33130"/><rect y="10.7" width="24" height="5.3" fill="#B33130"/></svg></span><span class="ls-opt" data-lang="en">EN</span><span class="ls-opt" data-lang="de">DE</span></span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ══ HERO ══ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kicker reveal" data-i18n="hero.kicker">Software Architecture · AI Engineering</p>
+        <h1 class="reveal reveal-d1 hero-title-gradient"><span class="hero-prefix"></span><br><span class="hero-loop"></span><span class="tw-caret" aria-hidden="true">|</span></h1>
+        <p class="lead reveal reveal-d2" data-i18n="hero.lead">
+          Retrieval pipelines, MCP servers and secure AI integrations — architected, benchmarked and
+          deployed on real hardware. HTL Leonding graduate, focused on software architecture and AI infrastructure.
+        </p>
+        <div class="facts reveal reveal-d2">
+          <span><b data-i18n="facts.name">Name</b> · <span class="decode">Jan Ritt</span></span>
+          <span><b data-i18n="facts.age">Age</b> · <span class="decode">35</span></span>
+          <span><b data-i18n="facts.edu">Education</b> · <span class="decode" data-i18n="facts.eduv">HTL Leonding — Informatics</span></span>
+          <span><b data-i18n="facts.loc">Location</b> · <span class="decode" data-i18n="facts.locv">Seitenstetten, Lower Austria</span></span>
+          <span><b data-i18n="facts.status">Status</b> · <span class="accent-text decode" style="font-weight:600" data-i18n="facts.statusv">open to work</span></span>
+        </div>
+        <div class="hero-actions reveal reveal-d3">
+          <a class="btn btn-primary btn-shine" href="./pages/leowiki-mcp.html" data-i18n="hero.cta1">Flagship case study</a>
+          <!-- ⏳ cv.pdf folgt -->
+          <a class="btn btn-ghost btn-draw" href="./assets/cv.pdf" data-i18n="hero.cta2">Download CV</a>
+        </div>
+      </div>
+      <div class="hero-media reveal reveal-d2">
+        <!-- Web-Derivat (640px, 76 KB) aus IxI-Enki_Jan.png -->
+        <img class="portrait" src="./assets/img/portrait_web.jpg" alt="Portrait of Jan Ritt" width="640" height="853">
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__ripple" aria-hidden="true"><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+
+  <!-- ══ STATS ══ -->
+  <section class="home-sec">
+    <div class="wrap">
+      <div class="card section-band stats-band reveal">
+        <p class="kicker" data-i18n="stats.title">Diploma thesis, measured</p>
+        <div class="grid grid-4">
+
+          <!-- 17× — keyword → semantic jump -->
+          <div class="stat">
+            <div class="stat-top">
+              <div class="viz-bars" aria-hidden="true">
+                <span class="vb vb-low" title="keyword 0.051"></span>
+                <span class="vb vb-high" title="semantic 0.872"><i class="vb-arrow">▲</i></span>
+              </div>
+            </div>
+            <div class="num" data-count="17">0<span class="unit">×</span></div>
+            <div class="lbl" data-i18n="stats.s1">retrieval improvement (MRR) over keyword search</div>
+          </div>
+
+          <!-- 10,841 — indexed chunks -->
+          <div class="stat">
+            <div class="stat-top">
+              <div class="viz-grid" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+            <div class="num" data-count="10841">0</div>
+            <div class="lbl" data-i18n="stats.s2">indexed content chunks from the school wiki</div>
+          </div>
+
+          <!-- 3 — compatible AI clients -->
+          <div class="stat">
+            <div class="stat-top">
+              <div class="viz-clients" aria-hidden="true">
+                <img src="./assets/img/icons/claude.svg" alt="Claude" title="Claude — fully compatible">
+                <img src="./assets/img/icons/chatgpt.svg" alt="ChatGPT" title="ChatGPT — fully compatible">
+                <img src="./assets/img/icons/mistral.svg" alt="Mistral Le Chat" title="Mistral Le Chat — fully compatible">
+                <img class="dim" src="./assets/img/icons/gemini.svg" alt="Gemini" title="Gemini — tested, no consumer remote MCP (Feb 2026)">
+                <img class="dim" src="./assets/img/icons/copilot.svg" alt="Copilot" title="MS Copilot — tested, no consumer remote MCP (Feb 2026)">
+              </div>
+            </div>
+            <div class="num" data-count="3">0</div>
+            <div class="lbl" data-i18n="stats.s3">fully MCP-compatible clients (of 5 tested)</div>
+          </div>
+
+          <!-- 226 ms — latency gauge -->
+          <div class="stat">
+            <div class="stat-top">
+              <svg class="viz-gauge" viewBox="0 0 64 40" aria-hidden="true">
+                <path d="M6 36 A26 26 0 0 1 58 36" fill="none" stroke="var(--border)" stroke-width="6" stroke-linecap="round"/>
+                <path d="M6 36 A26 26 0 0 1 44 14.6" fill="none" stroke="var(--accent)" stroke-width="6" stroke-linecap="round"/>
+                <line x1="32" y1="36" x2="44" y2="17" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="32" cy="36" r="3.5" fill="var(--primary)"/>
+              </svg>
+            </div>
+            <div class="num" data-count="226">0<span class="unit">&nbsp;ms</span></div>
+            <div class="lbl" data-i18n="stats.s4">mean search latency on a Raspberry Pi 5</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--double" aria-hidden="true"><span class="sec-divider__rule sec-divider__rule--back"></span><span class="sec-divider__rule sec-divider__rule--front"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core"><span class="sec-divider__node"></span></span></span></div></div>
+
+  <!-- ══ FLAGSHIP TEASER ══ -->
+  <section class="home-sec">
+    <div class="wrap">
+      <div class="card section-band section-band--flagship reveal">
+        <div class="sec-head">
+          <h2 data-i18n="sec.flagship">Flagship</h2>
+          <a class="more" href="./pages/leowiki-mcp.html" data-i18n="sec.flagship.more">Full case study →</a>
+        </div>
+          <p class="kicker" data-i18n="flag.kicker">Diploma thesis · HTL Leonding</p>
+          <h3 class="flag-title">
+            <img src="./assets/img/leowiki-mcp-logo.png" alt="LeoWiki MCP">
+            <span data-i18n="flag.title">MCP server with semantic search for LeoWiki</span>
+          </h3>
+          <p class="lead" style="margin-top:10px" data-i18n="flag.lead">
+            Natural-language search over the school wiki for AI assistants — German‑optimized embeddings,
+            OAuth 2.1 + RBAC, deployed 24/7 on a Raspberry Pi 5.
+          </p>
+          <figure class="fig pipeline-fig" aria-labelledby="pipeline-fig-title">
+            <div class="pipeline-fig__frame">
+              <header class="pipeline-fig__header">
+                <p class="pipeline-fig__title" id="pipeline-fig-title">Five-Stage Offline Preparation Pipeline</p>
+                <p class="pipeline-fig__subtitle">DokuWiki &rarr; vector index &middot; runs once on content change &middot; produces 6,002 embeddings</p>
+              </header>
+              <div class="pipeline-fig__body">
+                <div class="pipeline-fig__flow" role="group" aria-label="Five-stage offline preparation pipeline from wiki fetch to vector indexing">
+                  <ol class="pipeline-fig__stages">
+                    <li class="pipeline-stage-group pipeline-stage-group--1">
+                      <div class="pipeline-stage-bg pipeline-stage-bg--1" aria-hidden="true"></div>
+                      <div class="pipeline-stage pipeline-stage--1">
+                      <div class="pipeline-stage__hdr">
+                        <span class="pipeline-stage__num" aria-hidden="true">1</span>
+                        <span class="pipeline-stage__name">Wiki Fetcher</span>
+                      </div>
+                      <div class="pipeline-stage__body">
+                        <img class="pipeline-stage__icon" src="./assets/img/icons/dokuwiki.svg" alt="" aria-hidden="true">
+                        <p class="pipeline-stage__section">Input</p>
+                        <ul class="pipeline-stage__rows">
+                          <li><strong>Pages:</strong> 196</li>
+                          <li><strong>Media files:</strong> 320</li>
+                          <li><strong>Protocol:</strong> JSON-RPC API</li>  x, 
+                        </ul>
+                      </div>
+                      </div>
+                    </li>
+                    <li class="pipeline-arrow pipeline-arrow--s1 pipeline-arrow--v" aria-hidden="true"><svg viewBox="0 0 24 14"><polygon points="0,4 16,4 16,0 24,7 16,14 16,10 0,10"/></svg></li>
+                    <li class="pipeline-stage-group pipeline-stage-group--2">
+                      <div class="pipeline-stage-bg pipeline-stage-bg--2" aria-hidden="true"></div>
+                      <div class="pipeline-stage pipeline-stage--2">
+                      <div class="pipeline-stage__hdr">
+                        <span class="pipeline-stage__num" aria-hidden="true">2</span>
+                        <span class="pipeline-stage__name">Deep Evaluator</span>
+                      </div>
+                      <div class="pipeline-stage__body">
+                        <p class="pipeline-stage__section">AI Scoring</p>
+                        <ul class="pipeline-stage__rows">
+                          <li class="pipeline-stage__row">
+                            <img class="pipeline-stage__row-icon" src="./assets/img/icons/chatgpt.svg" alt="" aria-hidden="true">
+                            <span><strong>Text:</strong> GPT-4o-mini</span>
+                          </li>
+                          <li class="pipeline-stage__row">
+                            <img class="pipeline-stage__row-icon" src="./assets/img/icons/qwen.svg" alt="" aria-hidden="true">
+                            <span><strong>Images:</strong> Qwen-2.5-VL</span>
+                          </li>
+                          <li><strong>Output:</strong> quality scores</li>
+                        </ul>
+                      </div>
+                      </div>
+                    </li>
+                    <li class="pipeline-arrow pipeline-arrow--s2 pipeline-arrow--v" aria-hidden="true"><svg viewBox="0 0 24 14"><polygon points="0,4 16,4 16,0 24,7 16,14 16,10 0,10"/></svg></li>
+                    <li class="pipeline-stage-group pipeline-stage-group--3">
+                      <div class="pipeline-stage-bg pipeline-stage-bg--3" aria-hidden="true"></div>
+                      <div class="pipeline-stage pipeline-stage--3">
+                      <div class="pipeline-stage__hdr">
+                        <span class="pipeline-stage__num" aria-hidden="true">3</span>
+                        <span class="pipeline-stage__name">Chunker</span>
+                      </div>
+                      <div class="pipeline-stage__body">
+                        <img class="pipeline-stage__icon" src="./assets/img/icons/python.svg" alt="" aria-hidden="true">
+                        <p class="pipeline-stage__section">Preprocessing</p>
+                        <ul class="pipeline-stage__rows">
+                          <li><strong>Strategy:</strong> ContentAware</li>
+                          <li><strong>Chunk size:</strong> 512 tokens</li>
+                          <li><strong>Total:</strong> 10,841 chunks</li>
+                        </ul>
+                      </div>
+                      </div>
+                    </li>
+                    <li class="pipeline-arrow pipeline-arrow--s3 pipeline-arrow--v" aria-hidden="true"><svg viewBox="0 0 24 14"><polygon points="0,4 16,4 16,0 24,7 16,14 16,10 0,10"/></svg></li>
+                    <li class="pipeline-stage-group pipeline-stage-group--4">
+                      <div class="pipeline-stage-bg pipeline-stage-bg--4" aria-hidden="true"></div>
+                      <div class="pipeline-stage pipeline-stage--4">
+                      <div class="pipeline-stage__hdr">
+                        <span class="pipeline-stage__num" aria-hidden="true">4</span>
+                        <span class="pipeline-stage__name">Embedder</span>
+                      </div>
+                      <div class="pipeline-stage__body">
+                        <img class="pipeline-stage__icon" src="./assets/img/icons/openai.svg" alt="" aria-hidden="true">
+                        <p class="pipeline-stage__section">Vectorisation</p>
+                        <ul class="pipeline-stage__rows">
+                          <li><strong>Model:</strong> text-emb-3-large</li>
+                          <li><strong>API:</strong> OpenAI</li>
+                          <li><strong>Dimensions:</strong> 3,072</li>
+                        </ul>
+                      </div>
+                      </div>
+                    </li>
+                    <li class="pipeline-arrow pipeline-arrow--s4 pipeline-arrow--v" aria-hidden="true"><svg viewBox="0 0 24 14"><polygon points="0,4 16,4 16,0 24,7 16,14 16,10 0,10"/></svg></li>
+                    <li class="pipeline-stage-group pipeline-stage-group--5">
+                      <div class="pipeline-stage-bg pipeline-stage-bg--5" aria-hidden="true"></div>
+                      <div class="pipeline-stage pipeline-stage--5">
+                      <div class="pipeline-stage__hdr">
+                        <span class="pipeline-stage__num" aria-hidden="true">5</span>
+                        <span class="pipeline-stage__name">Indexing</span>
+                      </div>
+                      <div class="pipeline-stage__body">
+                        <img class="pipeline-stage__icon" src="./assets/img/icons/qdrant.svg" alt="" aria-hidden="true">
+                        <p class="pipeline-stage__section">Persistence</p>
+                        <ul class="pipeline-stage__rows">
+                          <li><strong>Target:</strong> Qdrant REST</li>
+                          <li><strong>Vectors:</strong> 6,002</li>
+                          <li><strong>Collection:</strong> educational_content</li>
+                        </ul>
+                      </div>
+                      </div>
+                    </li>
+                    <li class="pipeline-feedback" aria-hidden="true">
+                      <svg viewBox="-28 -20 1028 68" preserveAspectRatio="none" aria-hidden="true">
+                        <path d="M 950 2 L 950 30 Q 950 40 940 40 L 70 40 Q 24 40 24 34 L 24 21" fill="none" stroke="#f29131" stroke-width="2.5" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+                        <polygon points="24,-7 18,20 30,20" fill="#f29131"/>
+                      </svg>
+                      <span class="pipeline-feedback__label">Re-index on content change</span>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </figure>
+          <p style="margin-top:16px; font-size:.88rem; color:var(--muted)" data-i18n="flag.role">
+            Built together with Imre Obermüller — diploma thesis at HTL Leonding.
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+
+  <!-- ══ PROJECTS GLIMPSE ══ -->
+  <section class="home-sec">
+    <div class="wrap">
+      <div class="card section-band section-band--projects reveal">
+        <div class="sec-head">
+          <h2 data-i18n="sec.projects">Selected projects</h2>
+          <a class="more" href="./pages/projects.html" data-i18n="sec.projects.more">All projects →</a>
+        </div>
+        <div class="grid grid-3">
+        <div class="card reveal">
+          <div style="display:flex; justify-content:space-between; gap:8px; align-items:start">
+            <h3>Leonidas</h3><span class="badge-soon" data-i18n-page data-en="release in progress" data-de="Release in Arbeit">release in progress</span>
+          </div>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="AI chat assistant inside DokuWiki — streaming LLM client with MCP tool access to the wiki knowledge base."
+             data-de="AI‑Chat-Assistent direkt im DokuWiki — streamender LLM-Client mit MCP‑Tool-Zugriff auf die Wiki-Wissensbasis.">AI chat assistant inside DokuWiki — streaming LLM client with MCP tool access to the wiki knowledge base.</p>
+          <div class="stack">PHP · JavaScript · MCP · Docker</div>
+        </div>
+        <a class="card reveal reveal-d1" href="https://github.com/IxI-Enki/die_glocke">
+          <h3>die_glocke</h3>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="Browser-based MCP-server generator — configure tools, download a ready-to-install package as ZIP."
+             data-de="Browserbasierter MCP‑Server-Generator — Tools konfigurieren, fertiges Install-Paket als ZIP laden.">Browser-based MCP-server generator — configure tools, download a ready-to-install package as ZIP.</p>
+          <div class="stack">JavaScript · MCP</div>
+        </a>
+        <div class="card reveal reveal-d2">
+          <div style="display:flex; justify-content:space-between; gap:8px; align-items:start">
+            <h3>PSE Nexus</h3><span class="badge-soon" data-i18n-page data-en="release in progress" data-de="Release in Arbeit">release in progress</span>
+          </div>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="Modular CLI/TUI toolkit with an own Python TUI framework — 98% branch coverage on the core library."
+             data-de="Modulares CLI/TUI-Toolkit mit eigenem Python-TUI-Framework — 98 % Branch-Coverage auf der Core-Library.">Modular CLI/TUI toolkit with an own Python TUI framework — 98% branch coverage on the core library.</p>
+          <div class="stack">Python · PowerShell · TUI</div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--double" aria-hidden="true"><span class="sec-divider__rule sec-divider__rule--back"></span><span class="sec-divider__rule sec-divider__rule--front"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__ripple" aria-hidden="true"><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+
+  <!-- ══ SKILLS ══ -->
+  <section class="home-sec">
+    <div class="wrap">
+      <div class="card section-band section-band--skills reveal">
+        <div class="sec-head">
+          <h2 data-i18n="sec.skills">Skills</h2>
+          <a class="more" href="./pages/skills.html" data-i18n-page data-en="Full skill matrix →" data-de="Komplette Skill-Matrix →">Full skill matrix →</a>
+        </div>
+        <div class="grid grid-4 skills-preview-grid">
+        <div class="card skill-preview-card reveal">
+          <h3 class="primary-text" data-i18n-page data-en="AI &amp; Retrieval" data-de="AI &amp; Retrieval">AI &amp; Retrieval</h3>
+          <p>RAG · Embeddings · Qdrant · Eval (MRR/nDCG, LLM-as-Judge, RAGAS) · LM Studio · Ollama</p>
+        </div>
+        <div class="card skill-preview-card reveal reveal-d1">
+          <h3 class="primary-text">MCP &amp; Agents</h3>
+          <p>MCP server &amp; tools · FastMCP · OAuth 2.1 · agent workflows · Claude/Cursor plugins</p>
+        </div>
+        <div class="card skill-preview-card reveal reveal-d2">
+          <h3 class="primary-text">Backend &amp; Architecture</h3>
+          <p>Python · C#/.NET · PHP · JSON-RPC · REST · RBAC · spec-driven design</p>
+        </div>
+        <div class="card skill-preview-card reveal reveal-d3">
+          <h3 class="primary-text">Infra &amp; Quality</h3>
+          <p>Docker Compose · Linux/ARM · CI · pytest · Playwright · benchmark suites</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__ripple" aria-hidden="true"><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span></span><span class="sec-divider__core"><span class="sec-divider__node"></span></span></span></div></div>
+
+  <!-- ══ CONTACT ══ -->
+  <section class="home-sec">
+    <div class="wrap">
+      <div class="card contact-card reveal">
+        <h2 data-i18n="sec.contact">Contact</h2>
+        <p class="lead" data-i18n="contact.lead">Open for software architecture &amp; AI engineering roles —<br>within commuting range of Linz, Steyr or Amstetten, or fully remote.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:janritt.office@gmail.com">
+            <img src="./assets/img/icons/google-gmail-red-white.svg" alt="" aria-hidden="true">
+            janritt.office@gmail.com
+          </a>
+          <a class="btn btn-github" href="https://github.com/IxI-Enki">
+            <img src="./assets/img/icons/github-white.png" alt="" aria-hidden="true">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="site">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="./">IxI<span class="x">-</span>Enki</a>
+        <p class="footer-tag" data-i18n="footer.tag">Software architecture &amp; AI engineering — retrieval, MCP, local LLMs.</p>
+        <span class="footer-status"><span class="fs-dot" aria-hidden="true"></span><span data-i18n="facts.statusv">open to work</span></span>
+      </div>
+      <nav class="footer-col" aria-label="Footer">
+        <p class="footer-h" data-i18n="footer.explore">Explore</p>
+        <a href="./index.html" data-i18n="nav.home">Home</a>
+        <a href="./pages/leowiki-mcp.html" data-i18n="nav.flagship">LeoWiki MCP</a>
+        <a href="./pages/projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="./pages/skills.html" data-i18n="nav.skills">Skills</a>
+        <a href="./pages/cv.html" data-i18n="nav.cv">CV</a>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-h" data-i18n="footer.connect">Connect</p>
+        <a href="mailto:janritt.office@gmail.com">janritt.office@gmail.com</a>
+        <a href="https://github.com/IxI-Enki">github.com/IxI-Enki</a>
+        <p class="footer-loc" data-i18n="footer.loc">Seitenstetten · Lower Austria</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>© 2026 Jan Ritt</span>
+      <span class="footer-sig">𓂍 ꂅnki 𓂍</span>
+    </div>
+  </footer>
+
+</body>
+</html>

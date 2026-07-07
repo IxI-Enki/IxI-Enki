@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills · Jan Ritt — IxI-Enki</title>
+  <meta name="description" content="Skill matrix of Jan Ritt — AI retrieval engineering, MCP, local LLMs, backend, databases, infrastructure.">
+  <link rel="stylesheet" href="../assets/css/site.css?v=73">
+  <script src="../assets/js/site.js?v=22" defer></script>
+</head>
+<body class="neu">
+
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-parallax bg-parallax--grid"><div class="bg-grid"></div></div>
+    <div class="bg-parallax bg-parallax--grad">
+      <div class="bg-gradient-blobs">
+        <span class="bg-grad-blob bg-grad-blob--1"></span>
+        <span class="bg-grad-blob bg-grad-blob--2"></span>
+        <span class="bg-grad-blob bg-grad-blob--3"></span>
+        <span class="bg-grad-blob bg-grad-blob--4"></span>
+      </div>
+    </div>
+    <div class="bg-parallax bg-parallax--blob1"><div class="blob blob-1"></div></div>
+    <div class="bg-parallax bg-parallax--blob2"><div class="blob blob-2"></div></div>
+    <div class="bg-parallax bg-parallax--blob3"><div class="blob blob-3"></div></div>
+  </div>
+
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="../">IxI<span class="x">-</span>Enki</a>
+      <nav class="main">
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="./leowiki-mcp.html" class="nav-flagship" title="LeoWiki MCP"><img src="../assets/img/leowiki-mcp-logo.png" alt="LeoWiki MCP" class="nav-flagship-logo"><span class="nav-flagship-label" data-i18n="nav.flagship">LeoWiki MCP</span></a>
+        <a href="./projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="./skills.html" class="active" data-i18n="nav.skills">Skills</a>
+        <a href="./cv.html" data-i18n="nav.cv">CV</a>
+        <span class="lang-switch" data-lang="en" role="group" aria-label="Language"><span class="ls-knob" aria-hidden="true"><svg class="ls-flag ls-flag-en" viewBox="0 0 24 16"><rect width="24" height="16" fill="#2E4F8F"/><path d="M0 0L24 16M24 0L0 16" stroke="#fff" stroke-width="3.4"/><path d="M0 0L24 16M24 0L0 16" stroke="#B33130" stroke-width="1.4"/><rect x="9.6" width="4.8" height="16" fill="#fff"/><rect y="5.6" width="24" height="4.8" fill="#fff"/><rect x="10.7" width="2.6" height="16" fill="#B33130"/><rect y="6.7" width="24" height="2.6" fill="#B33130"/></svg><svg class="ls-flag ls-flag-de" viewBox="0 0 24 16"><rect width="24" height="16" fill="#fff"/><rect width="24" height="5.3" fill="#B33130"/><rect y="10.7" width="24" height="5.3" fill="#B33130"/></svg></span><span class="ls-opt" data-lang="en">EN</span><span class="ls-opt" data-lang="de">DE</span></span>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:24px">
+    <div class="wrap">
+      <p class="kicker reveal" data-i18n-page data-en="Skill matrix" data-de="Skill-Matrix">Skill matrix</p>
+      <h1 class="reveal reveal-d1" style="margin-top:10px">Skills</h1>
+      <p class="lead reveal reveal-d2" style="margin-top:14px" data-i18n-page
+         data-en="Hover a skill for where and how I've used it. Every entry traces to shipped work — honest scope, no padding."
+         data-de="Mit der Maus über einen Skill: wo und wie ich ihn eingesetzt habe. Jeder Eintrag aus ausgelieferter Arbeit — ehrlich, ohne Aufblähen.">Hover a skill for where and how I've used it. Every entry traces to shipped work — honest scope, no padding.</p>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__ripple" aria-hidden="true"><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+
+  <section style="padding-top:24px">
+    <div class="wrap">
+      <div class="grid skills-matrix-grid">
+
+        <!-- ── AI & Retrieval Engineering ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/huggingface.svg" alt=""><span data-i18n-page data-en="AI &amp; Retrieval Engineering" data-de="AI &amp; Retrieval Engineering">AI &amp; Retrieval Engineering</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/pipeline.svg" alt="">RAG Pipelines<span class="tip-pop" role="tooltip"><span class="tp-head">RAG Pipelines</span><span data-i18n-page data-en="Built the 5-stage LeoWiki RAG pipeline (dev_dito) — fetch → evaluate → chunk → embed → deploy." data-de="5-Stufen-RAG-Pipeline für LeoWiki gebaut (dev_dito) — Fetch → Evaluierung → Chunking → Embedding → Deploy.">Built the 5-stage LeoWiki RAG pipeline (dev_dito).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/embedding.svg" alt="">Embeddings<span class="tip-pop" role="tooltip"><span class="tp-head">Embeddings</span><span data-i18n-page data-en="sentence-transformers embeddings, benchmarked across 5 models in the thesis." data-de="sentence-transformers-Embeddings, in der Diplomarbeit über 5 Modelle gebenchmarkt.">sentence-transformers, 5-model benchmark (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/vision.svg" alt="">VL-Enrichment<span class="tip-pop" role="tooltip"><span class="tp-head">VL-Enrichment</span><span data-i18n-page data-en="Qwen-2.5-VL enriches images &amp; PDF graphics before chunking (thesis pipeline)." data-de="Qwen-2.5-VL reichert Bilder &amp; PDF-Grafiken vor dem Chunking an (Thesis-Pipeline).">Qwen-2.5-VL enrichment of images/PDFs (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/benchmark.svg" alt="">Model Selection<span class="tip-pop" role="tooltip"><span class="tp-head">Model Selection</span><span data-i18n-page data-en="Compared BGE, Octen-4B, Arctic &amp; OpenAI; chose production model on a documented trade-off." data-de="BGE, Octen-4B, Arctic &amp; OpenAI verglichen; Produktionsmodell über dokumentierten Trade-off gewählt.">Benchmarked BGE/Octen/Arctic/OpenAI (thesis FF3).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Content-Aware Chunking<span class="tip-pop" role="tooltip"><span class="tp-head">Content-Aware Chunking</span><span data-i18n-page data-en="512-token content-aware chunking over 196 wiki pages → 10,841 chunks." data-de="512-Token-Content-Aware-Chunking über 196 Wiki-Seiten → 10.841 Chunks.">512-token chunking, 10,841 chunks (thesis).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Vector Search ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/qdrant.svg" alt=""><span>Vector Search</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/qdrant.svg" alt="">Qdrant<span class="tip-pop" role="tooltip"><span class="tp-head">Qdrant</span><span data-i18n-page data-en="6,002 vectors in production Qdrant on the Raspberry Pi 5." data-de="6.002 Vektoren in produktivem Qdrant auf dem Raspberry Pi 5.">6,002 vectors in production Qdrant (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/graph.svg" alt="">HNSW<span class="tip-pop" role="tooltip"><span class="tp-head">HNSW</span><span data-i18n-page data-en="HNSW index configured &amp; tuned in the Qdrant deployment." data-de="HNSW-Index im Qdrant-Deployment konfiguriert &amp; getunt.">HNSW index in the Qdrant deployment.</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Dense &amp; Hybrid Retrieval<span class="tip-pop" role="tooltip"><span class="tp-head">Dense &amp; Hybrid Retrieval</span><span data-i18n-page data-en="Ran a hybrid-vs-dense retrieval experiment in the evaluation framework." data-de="Hybrid-vs-Dense-Retrieval-Experiment im Evaluations-Framework durchgeführt.">Hybrid-vs-dense experiment (thesis eval).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">BM25 Baselines<span class="tip-pop" role="tooltip"><span class="tp-head">BM25 Baselines</span><span data-i18n-page data-en="Keyword/BM25 baseline measured against semantic search (0.051 vs 0.872 MRR)." data-de="Keyword/BM25-Baseline gegen semantische Suche gemessen (0,051 vs 0,872 MRR).">BM25 baseline vs semantic (thesis FF1).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Namespace Filtering<span class="tip-pop" role="tooltip"><span class="tp-head">Namespace Filtering</span><span data-i18n-page data-en="namespace_filter on the MCP search tool enforces RBAC scope per query." data-de="namespace_filter am MCP-Such-Tool erzwingt RBAC-Scope je Anfrage.">namespace_filter on the MCP search tool.</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Evaluation & Benchmarking ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/semantic/benchmark.svg" alt=""><span data-i18n-page data-en="Evaluation &amp; Benchmarking" data-de="Evaluation &amp; Benchmarking">Evaluation &amp; Benchmarking</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0">MRR · nDCG · MAP · P@k<span class="tip-pop" role="tooltip"><span class="tp-head">MRR · nDCG · MAP · P@k</span><span data-i18n-page data-en="Implemented all four retrieval metrics in the thesis evaluation framework." data-de="Alle vier Retrieval-Metriken im Thesis-Evaluations-Framework implementiert.">All four metrics implemented (thesis eval).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">LLM-as-Judge<span class="tip-pop" role="tooltip"><span class="tp-head">LLM-as-Judge</span><span data-i18n-page data-en="LLM-as-Judge scoring in the evaluation pipeline (dev_dito)." data-de="LLM-as-Judge-Scoring in der Evaluations-Pipeline (dev_dito).">LLM-as-Judge scorer (dev_dito eval).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/ragas.svg" alt="">RAGAS<span class="tip-pop" role="tooltip"><span class="tp-head">RAGAS</span><span data-i18n-page data-en="RAGAS evaluator integrated alongside the custom metrics." data-de="RAGAS-Evaluator neben den eigenen Metriken integriert.">RAGAS evaluator (dev_dito eval).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Wilcoxon + Bootstrap CIs<span class="tip-pop" role="tooltip"><span class="tp-head">Wilcoxon + Bootstrap CIs</span><span data-i18n-page data-en="Wilcoxon signed-rank tests &amp; bootstrap confidence intervals on all comparisons." data-de="Wilcoxon-Vorzeichen-Rang-Tests &amp; Bootstrap-Konfidenzintervalle auf allen Vergleichen.">Significance tests on all comparisons (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Ground-Truth Curation<span class="tip-pop" role="tooltip"><span class="tp-head">Ground-Truth Curation</span><span data-i18n-page data-en="Curated &amp; manually verified 78 question-answer pairs as the eval ground truth." data-de="78 Frage-Antwort-Paare als Eval-Ground-Truth kuratiert &amp; manuell verifiziert.">78 verified QA pairs (thesis).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── MCP & Agent Systems ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/mcp.svg" alt=""><span>MCP &amp; Agent Systems</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/mcp.svg" alt="">MCP Servers &amp; Tools<span class="tip-pop" role="tooltip"><span class="tp-head">MCP Servers &amp; Tools</span><span data-i18n-page data-en="The diploma thesis itself: an MCP server exposing LeoWiki to AI clients." data-de="Die Diplomarbeit selbst: ein MCP-Server, der LeoWiki für KI-Clients verfügbar macht.">LeoWiki MCP server (diploma thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/fastapi.svg" alt="">FastMCP<span class="tip-pop" role="tooltip"><span class="tp-head">FastMCP</span><span data-i18n-page data-en="FastMCP server in the thesis &amp; in my own Claude/Cursor plugin." data-de="FastMCP-Server in der Diplomarbeit &amp; im eigenen Claude/Cursor-Plugin.">FastMCP in thesis &amp; own plugin.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/proxy.svg" alt="">MCP Tool Proxies<span class="tip-pop" role="tooltip"><span class="tp-head">MCP Tool Proxies</span><span data-i18n-page data-en="MCP tool proxy in Leonidas bridges the chat client to the wiki server." data-de="MCP-Tool-Proxy in Leonidas verbindet den Chat-Client mit dem Wiki-Server.">MCP tool proxy in Leonidas (SYP).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/claudeCode.svg" alt="">Claude / Cursor Plugins<span class="tip-pop" role="tooltip"><span class="tp-head">Claude / Cursor Plugins</span><span data-i18n-page data-en="Own multi-agent plugin with a FastMCP intelligence server (ixi-plugin)." data-de="Eigenes Multi-Agent-Plugin mit FastMCP-Intelligence-Server (ixi-plugin).">Own plugin + MCP server (ixi-plugin).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/workflow.svg" alt="">Agent Workflows<span class="tip-pop" role="tooltip"><span class="tp-head">Agent Workflows</span><span data-i18n-page data-en="Arrow-syntax git-flow with sub-agent orchestration for Claude/Cursor." data-de="Arrow-Syntax-Git-Flow mit Sub-Agent-Orchestrierung für Claude/Cursor.">Agent git-flow with orchestration.</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Local LLM Operations ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/ollama.svg" alt=""><span>Local LLM Operations</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/lmStudio.svg" alt="">LM Studio<span class="tip-pop" role="tooltip"><span class="tp-head">LM Studio</span><span data-i18n-page data-en="VL-enrichment &amp; the Leonidas LLM client run against LM Studio." data-de="VL-Enrichment &amp; der Leonidas-LLM-Client laufen gegen LM Studio.">VL-enrichment &amp; Leonidas client.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/ollama.svg" alt="">Ollama<span class="tip-pop" role="tooltip"><span class="tp-head">Ollama</span><span data-i18n-page data-en="Ollama embedding provider in the pipeline; tested adapter in Leonidas." data-de="Ollama-Embedding-Provider in der Pipeline; getesteter Adapter in Leonidas.">Ollama provider (pipeline &amp; Leonidas).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/gpu.svg" alt="">GPU Inference<span class="tip-pop" role="tooltip"><span class="tp-head">GPU Inference</span><span data-i18n-page data-en="Embedding evaluations ran on an RTX 4080 Laptop (12 GB)." data-de="Embedding-Evaluationen liefen auf einem RTX 4080 Laptop (12 GB).">Eval on RTX 4080 (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/fallback.svg" alt="">API Fallback<span class="tip-pop" role="tooltip"><span class="tp-head">API Fallback</span><span data-i18n-page data-en="Local model led on quality but couldn't run on the Pi → OpenAI API in production." data-de="Lokales Modell führte bei Qualität, lief aber nicht auf dem Pi → OpenAI-API in Produktion.">Documented local→API trade-off (thesis).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Programming Languages ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/python.svg" alt=""><span data-i18n-page data-en="Programming Languages" data-de="Programmiersprachen">Programming Languages</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/python.svg" alt="">Python<span class="tip-pop" role="tooltip"><span class="tp-head">Python</span><span data-i18n-page data-en="Primary language of the thesis pipeline &amp; eval (1.3 MB Python, 149 files)." data-de="Hauptsprache der Thesis-Pipeline &amp; Eval (1,3 MB Python, 149 Dateien).">Thesis pipeline &amp; eval (149 files).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/csharp.svg" alt="">C#<span class="tip-pop" role="tooltip"><span class="tp-head">C#</span><span data-i18n-page data-en="xConsole TUI framework, ginf_projects (8 programs), project-connect backend." data-de="xConsole-TUI-Framework, ginf_projects (8 Programme), project-connect-Backend.">xConsole, ginf_projects, connect API.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/php.svg" alt="">PHP<span class="tip-pop" role="tooltip"><span class="tp-head">PHP</span><span data-i18n-page data-en="DokuWiki plugins for Dev Dito &amp; Leonidas (487 KB PHP)." data-de="DokuWiki-Plugins für Dev Dito &amp; Leonidas (487 KB PHP).">DokuWiki plugins (Dev Dito, Leonidas).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/typescript.svg" alt="">TypeScript<span class="tip-pop" role="tooltip"><span class="tp-head">TypeScript</span><span data-i18n-page data-en="Angular frontend (project-connect) &amp; the Auto Writer VS Code extension." data-de="Angular-Frontend (project-connect) &amp; die Auto-Writer-VS-Code-Extension.">Angular frontend &amp; VS Code extension.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/javascript.svg" alt="">JavaScript<span class="tip-pop" role="tooltip"><span class="tp-head">JavaScript</span><span data-i18n-page data-en="die_glocke generator &amp; the DBI Survival Kit VS Code extension." data-de="die_glocke-Generator &amp; die DBI-Survival-Kit-VS-Code-Extension.">die_glocke &amp; DBI Survival Kit.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/java.svg" alt="">Java<span class="tip-pop" role="tooltip"><span class="tp-head">Java</span><span data-i18n-page data-en="JPA exercise lab (Maven, Java 21) &amp; the Auto Writer scaffolding target." data-de="JPA-Übungs-Lab (Maven, Java 21) &amp; das Auto-Writer-Scaffolding-Ziel.">JPA lab (Maven, Java 21).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/powershell.svg" alt="">PowerShell<span class="tip-pop" role="tooltip"><span class="tp-head">PowerShell</span><span data-i18n-page data-en="PSE Nexus CLI/TUI toolkit &amp; the IxI git-flow automation." data-de="PSE-Nexus-CLI/TUI-Toolkit &amp; die IxI-Git-Flow-Automation.">PSE Nexus toolkit &amp; git-flow.</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Backend & APIs ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/netCore.svg" alt=""><span>Backend &amp; APIs</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/netCore.svg" alt="">.NET<span class="tip-pop" role="tooltip"><span class="tp-head">.NET</span><span data-i18n-page data-en="project-connect backend (C#/.NET) with SQL Server session management." data-de="project-connect-Backend (C#/.NET) mit SQL-Server-Session-Management.">project-connect backend (C#/.NET).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/fastapi.svg" alt="">FastAPI / ASGI<span class="tip-pop" role="tooltip"><span class="tp-head">FastAPI / ASGI</span><span data-i18n-page data-en="HTTP MCP transport runs on the FastMCP/Starlette ASGI stack." data-de="HTTP-MCP-Transport läuft auf dem FastMCP/Starlette-ASGI-Stack.">HTTP MCP transport (FastMCP/ASGI).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">JSON-RPC 2.0<span class="tip-pop" role="tooltip"><span class="tp-head">JSON-RPC 2.0</span><span data-i18n-page data-en="DokuWiki JSON-RPC 2.0 fetch is the entry of the ingestion pipeline." data-de="DokuWiki-JSON-RPC-2.0-Fetch ist der Einstieg der Ingestion-Pipeline.">DokuWiki JSON-RPC fetch (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/openApi.svg" alt="">REST · OpenAPI<span class="tip-pop" role="tooltip"><span class="tp-head">REST · OpenAPI</span><span data-i18n-page data-en="REST API in project-connect; OpenAPI used in the Postman workflow." data-de="REST-API in project-connect; OpenAPI im Postman-Workflow genutzt.">project-connect REST API.</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Auth & Security ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/scalekit.png" alt=""><span data-i18n-page data-en="Auth &amp; Security" data-de="Auth &amp; Security">Auth &amp; Security</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0">OAuth 2.1<span class="tip-pop" role="tooltip"><span class="tp-head">OAuth 2.1</span><span data-i18n-page data-en="OAuth 2.1 integration secures the MCP server (thesis ch. 6)." data-de="OAuth-2.1-Integration sichert den MCP-Server (Diplomarbeit Kap. 6).">OAuth 2.1 on the MCP server (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">JWT<span class="tip-pop" role="tooltip"><span class="tp-head">JWT</span><span data-i18n-page data-en="JWT role decoding drives the RBAC check on every retrieval." data-de="JWT-Rollen-Decoding steuert die RBAC-Prüfung bei jedem Retrieval.">JWT role decoding (thesis RBAC).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">RBAC<span class="tip-pop" role="tooltip"><span class="tp-head">RBAC</span><span data-i18n-page data-en="Two-tool role-based access control (teacher/student/admin) on the server." data-de="Two-Tool-RBAC (Lehrer/Schüler/Admin) am Server.">Two-tool RBAC (thesis ch. 5).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/scalekit.png" alt="">Scalekit<span class="tip-pop" role="tooltip"><span class="tp-head">Scalekit</span><span data-i18n-page data-en="Scalekit provides the OAuth 2.1 identity layer in the production server." data-de="Scalekit liefert die OAuth-2.1-Identitätsschicht im Produktivserver.">Scalekit OAuth integration (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Error Masking · Audit Log<span class="tip-pop" role="tooltip"><span class="tp-head">Error Masking · Audit Log</span><span data-i18n-page data-en="mask_error_details + audit-logging middleware in the FastMCP chain." data-de="mask_error_details + Audit-Logging-Middleware in der FastMCP-Kette.">Error masking + audit middleware (thesis).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Databases ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/postgresql.svg" alt=""><span data-i18n-page data-en="Databases" data-de="Datenbanken">Databases</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/oracle.svg" alt="">Oracle PL/SQL<span class="tip-pop" role="tooltip"><span class="tp-head">Oracle PL/SQL</span><span data-i18n-page data-en="300+ Oracle PL/SQL snippets in the DBI Survival Kit extension." data-de="300+ Oracle-PL/SQL-Snippets in der DBI-Survival-Kit-Extension.">300+ PL/SQL snippets (DBI kit).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/postgresql.svg" alt="">PostgreSQL<span class="tip-pop" role="tooltip"><span class="tp-head">PostgreSQL</span><span data-i18n-page data-en="PostgreSQL snippet set &amp; test suite in the DBI Survival Kit." data-de="PostgreSQL-Snippet-Set &amp; Testsuite im DBI Survival Kit.">PostgreSQL snippets &amp; tests (DBI kit).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/microsoftSqlServer.svg" alt="">SQL Server<span class="tip-pop" role="tooltip"><span class="tp-head">SQL Server</span><span data-i18n-page data-en="SQL Server backs session management in project-connect." data-de="SQL Server trägt das Session-Management in project-connect.">project-connect session store.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/java.svg" alt="">JPA / Hibernate<span class="tip-pop" role="tooltip"><span class="tp-head">JPA / Hibernate</span><span data-i18n-page data-en="Five progressively harder JPA exercises with entities, JPQL &amp; lifecycle." data-de="Fünf aufsteigend schwere JPA-Übungen mit Entities, JPQL &amp; Lifecycle.">JPA exercise lab (5 exercises).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/semantic/embedding.svg" alt="">Vector DBs<span class="tip-pop" role="tooltip"><span class="tp-head">Vector DBs</span><span data-i18n-page data-en="Qdrant in production for the thesis retrieval system." data-de="Qdrant in Produktion für das Thesis-Retrieval-System.">Qdrant in production (thesis).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Containers & Deployment ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/docker.svg" alt=""><span>Containers &amp; Deployment</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/docker.svg" alt="">Docker · Compose<span class="tip-pop" role="tooltip"><span class="tp-head">Docker · Compose</span><span data-i18n-page data-en="Four-service Compose stack (Caddy, MCP, Qdrant, watchdog) in production." data-de="Vier-Service-Compose-Stack (Caddy, MCP, Qdrant, Watchdog) in Produktion.">4-service Compose stack (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/caddy.svg" alt="">Caddy<span class="tip-pop" role="tooltip"><span class="tp-head">Caddy</span><span data-i18n-page data-en="Caddy terminates TLS &amp; reverse-proxies the MCP server." data-de="Caddy terminiert TLS &amp; reverse-proxyt den MCP-Server.">TLS &amp; reverse proxy (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/linux.svg" alt="">Linux / ARM64<span class="tip-pop" role="tooltip"><span class="tp-head">Linux / ARM64</span><span data-i18n-page data-en="Production target is ARM64 Linux on the Raspberry Pi 5." data-de="Produktionsziel ist ARM64-Linux auf dem Raspberry Pi 5.">ARM64 Linux production host.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/raspberryPi.svg" alt="">Raspberry Pi<span class="tip-pop" role="tooltip"><span class="tp-head">Raspberry Pi</span><span data-i18n-page data-en="The whole stack runs 24/7 on a Raspberry Pi 5 (~5 W idle)." data-de="Der ganze Stack läuft 24/7 auf einem Raspberry Pi 5 (~5 W idle).">24/7 on a Raspberry Pi 5 (thesis).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Healthchecks · Watchdogs<span class="tip-pop" role="tooltip"><span class="tp-head">Healthchecks · Watchdogs</span><span data-i18n-page data-en="Docker HEALTHCHECK + a watchdog service for JSONL auto-ingestion." data-de="Docker-HEALTHCHECK + Watchdog-Service für JSONL-Auto-Ingestion.">HEALTHCHECK + ingestion watchdog.</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── CI & Testing ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/githubActions.svg" alt=""><span>CI &amp; Testing</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/githubActions.svg" alt="">GitHub Actions<span class="tip-pop" role="tooltip"><span class="tp-head">GitHub Actions</span><span data-i18n-page data-en="CI workflow (lint/type/test) on every push in dev_dito." data-de="CI-Workflow (Lint/Type/Test) bei jedem Push in dev_dito.">CI on every push (dev_dito).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/pytest.svg" alt="">pytest<span class="tip-pop" role="tooltip"><span class="tp-head">pytest</span><span data-i18n-page data-en="pytest suites across the thesis pipeline modules." data-de="pytest-Suites über die Thesis-Pipeline-Module.">pytest in the thesis pipeline.</span></span></span>
+            <span class="skill-chip tip" tabindex="0">Playwright E2E<span class="tip-pop" role="tooltip"><span class="tp-head">Playwright E2E</span><span data-i18n-page data-en="Playwright end-to-end tests for the Leonidas DokuWiki plugin." data-de="Playwright-End-to-End-Tests für das Leonidas-DokuWiki-Plugin.">E2E tests for Leonidas.</span></span></span>
+            <span class="skill-chip tip" tabindex="0">MSTest<span class="tip-pop" role="tooltip"><span class="tp-head">MSTest</span><span data-i18n-page data-en="MSTest unit tests for the xConsole_screen struct &amp; WinAPI layer." data-de="MSTest-Unit-Tests für die xConsole_screen-Struct &amp; WinAPI-Schicht.">Unit tests in xConsole_screen.</span></span></span>
+            <span class="skill-chip tip" tabindex="0">HTTP Mocking<span class="tip-pop" role="tooltip"><span class="tp-head">HTTP Mocking</span><span data-i18n-page data-en="75 HTTP-mocked tests for the Moodle tool in PSE Nexus (zero live calls)." data-de="75 HTTP-gemockte Tests für das Moodle-Tool in PSE Nexus (keine Live-Calls).">75 mocked tests (PSE Nexus moodle).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><span data-i18n-page data-en="Formal test protocols" data-de="Formale Testprotokolle">Formal test protocols</span><span class="tip-pop" role="tooltip"><span class="tp-head" data-i18n-page data-en="Formal test protocols" data-de="Formale Testprotokolle">Formal test protocols</span><span data-i18n-page data-en="Test specification, protocol &amp; report as PDFs per Leonidas plugin." data-de="Test-Spezifikation, -Protokoll &amp; -Report als PDFs je Leonidas-Plugin.">Test protocols as PDFs (Leonidas).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Frontend & UI ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/angular.svg" alt=""><span>Frontend &amp; UI</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/angular.svg" alt="">Angular<span class="tip-pop" role="tooltip"><span class="tp-head">Angular</span><span data-i18n-page data-en="Angular frontend serving the project-connect multiplayer app." data-de="Angular-Frontend für die project-connect-Multiplayer-App.">project-connect frontend (Angular).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/html.svg" alt="">HTML<span class="tip-pop" role="tooltip"><span class="tp-head">HTML</span><span data-i18n-page data-en="This portfolio &amp; the die_glocke generator — plain HTML, no framework." data-de="Dieses Portfolio &amp; der die_glocke-Generator — pures HTML, kein Framework.">This site &amp; die_glocke (no framework).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/css.svg" alt="">CSS<span class="tip-pop" role="tooltip"><span class="tp-head">CSS</span><span data-i18n-page data-en="This site's theme: neumorphism, animated background, i18n — hand-written CSS." data-de="Das Theme dieser Seite: Neumorphismus, animierter Hintergrund, i18n — handgeschriebenes CSS.">Hand-written theme (this site).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/typescript.svg" alt="">TypeScript<span class="tip-pop" role="tooltip"><span class="tp-head">TypeScript</span><span data-i18n-page data-en="project-connect frontend &amp; the Auto Writer VS Code extension." data-de="project-connect-Frontend &amp; die Auto-Writer-VS-Code-Extension.">Frontend &amp; VS Code extension.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><span data-i18n-page data-en="Own TUI frameworks" data-de="Eigene TUI-Frameworks">Own TUI frameworks</span><span class="tip-pop" role="tooltip"><span class="tp-head" data-i18n-page data-en="Own TUI frameworks" data-de="Eigene TUI-Frameworks">Own TUI frameworks</span><span data-i18n-page data-en="Built two: xConsole (C#) and tui_kit (Python, multi-window + IPC)." data-de="Zwei gebaut: xConsole (C#) und tui_kit (Python, Multi-Window + IPC).">xConsole (C#) &amp; tui_kit (Python).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Wiki & Knowledge Systems ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/dokuwiki.svg" alt=""><span data-i18n-page data-en="Wiki &amp; Knowledge Systems" data-de="Wiki- &amp; Wissenssysteme">Wiki &amp; Knowledge Systems</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/dokuwiki.svg" alt="">DokuWiki Plugins<span class="tip-pop" role="tooltip"><span class="tp-head">DokuWiki Plugins</span><span data-i18n-page data-en="Dev Dito service addon &amp; the Leonidas chat plugin, both for DokuWiki." data-de="Dev-Dito-Service-Addon &amp; das Leonidas-Chat-Plugin, beide für DokuWiki.">Dev Dito &amp; Leonidas plugins.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/markdown.svg" alt="">Markdown<span class="tip-pop" role="tooltip"><span class="tp-head">Markdown</span><span data-i18n-page data-en="Thesis docs, specs, prompts &amp; every plan — Markdown throughout." data-de="Thesis-Docs, Specs, Prompts &amp; jeder Plan — durchgehend Markdown.">Thesis docs, specs &amp; plans.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/latex.svg" alt="">LaTeX<span class="tip-pop" role="tooltip"><span class="tp-head">LaTeX</span><span data-i18n-page data-en="The 170-page diploma thesis is a compilable LaTeX document (HTL template)." data-de="Die 170-seitige Diplomarbeit ist ein kompilierbares LaTeX-Dokument (HTL-Template).">170-page thesis in LaTeX.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/jupyter.svg" alt="">Jupyter<span class="tip-pop" role="tooltip"><span class="tp-head">Jupyter</span><span data-i18n-page data-en="Notebooks for embedding analysis &amp; figures in dev_dito." data-de="Notebooks für Embedding-Analyse &amp; Figures in dev_dito.">Analysis notebooks (dev_dito).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Game Dev ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/unity.svg" alt=""><span>Game Dev</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/unity.svg" alt="">Unity 6<span class="tip-pop" role="tooltip"><span class="tp-head">Unity 6</span><span data-i18n-page data-en="backpackmage — a 2D RPG in Unity 6 (86 scripts), playable in-browser via WebGL." data-de="backpackmage — ein 2D-RPG in Unity 6 (86 Skripte), im Browser via WebGL spielbar.">backpackmage RPG (Unity 6).</span></span></span>
+            <span class="skill-chip tip" tabindex="0">WebGL Deployment<span class="tip-pop" role="tooltip"><span class="tp-head">WebGL Deployment</span><span data-i18n-page data-en="backpackmage-webgl is live &amp; playable on GitHub Pages." data-de="backpackmage-webgl ist live &amp; auf GitHub Pages spielbar.">Live playable WebGL build.</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Tools & IDEs ── -->
+        <div class="card reveal skill-group">
+          <h3><img src="../assets/img/icons/cursor.svg" alt=""><span>Tools &amp; IDEs</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/cursor.svg" alt="">Cursor<span class="tip-pop" role="tooltip"><span class="tp-head">Cursor</span><span data-i18n-page data-en="AI-first daily driver; own Cursor plugin with agents &amp; rules." data-de="AI-first im täglichen Einsatz; eigenes Cursor-Plugin mit Agents &amp; Rules.">Daily driver + own plugin.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/vsCode.svg" alt="">VS Code<span class="tip-pop" role="tooltip"><span class="tp-head">VS Code</span><span data-i18n-page data-en="Built two VS Code extensions (DBI Survival Kit, Auto Writer)." data-de="Zwei VS-Code-Extensions gebaut (DBI Survival Kit, Auto Writer).">Author of 2 extensions.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/claudeCode.svg" alt="">Claude Code<span class="tip-pop" role="tooltip"><span class="tp-head">Claude Code</span><span data-i18n-page data-en="Own Claude Code plugin with agents, commands &amp; an MCP server." data-de="Eigenes Claude-Code-Plugin mit Agents, Commands &amp; MCP-Server.">Own plugin (agents + MCP).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/git.svg" alt="">Git<span class="tip-pop" role="tooltip"><span class="tp-head">Git</span><span data-i18n-page data-en="Built an arrow-syntax git-flow automation with hooks &amp; guardrails." data-de="Arrow-Syntax-Git-Flow-Automation mit Hooks &amp; Guardrails gebaut.">Own git-flow automation.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/github.svg" alt="">GitHub<span class="tip-pop" role="tooltip"><span class="tp-head">GitHub</span><span data-i18n-page data-en="324 repositories; Actions CI; Pages hosting for live demos." data-de="324 Repositories; Actions-CI; Pages-Hosting für Live-Demos.">324 repos, Actions, Pages.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/postman.svg" alt="">Postman<span class="tip-pop" role="tooltip"><span class="tp-head">Postman</span><span data-i18n-page data-en="API exploration &amp; testing during project-connect backend work." data-de="API-Erkundung &amp; Tests bei der project-connect-Backend-Arbeit.">API testing (project-connect).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><img src="../assets/img/icons/windows11.svg" alt="">Windows<span class="tip-pop" role="tooltip"><span class="tp-head">Windows</span><span data-i18n-page data-en="Primary dev OS; PSE Nexus is a Windows-native PowerShell+Python toolkit." data-de="Haupt-Dev-OS; PSE Nexus ist ein Windows-natives PowerShell+Python-Toolkit.">PSE Nexus (Windows-native).</span></span></span>
+          </div>
+        </div>
+
+        <!-- ── Architecture & Method ── -->
+        <div class="card reveal reveal-d1 skill-group">
+          <h3><img src="../assets/img/icons/htlIcon.svg" alt=""><span data-i18n-page data-en="Architecture &amp; Method" data-de="Architektur &amp; Methodik">Architecture &amp; Method</span></h3>
+          <div class="chips">
+            <span class="skill-chip tip" tabindex="0"><span data-i18n-page data-en="Spec-driven development" data-de="Spec-driven Development">Spec-driven development</span><span class="tip-pop" role="tooltip"><span class="tp-head" data-i18n-page data-en="Spec-driven development" data-de="Spec-driven Development">Spec-driven development</span><span data-i18n-page data-en="Spec-Kit workflow (spec → plan → tasks) in dev_dito &amp; Leonidas." data-de="Spec-Kit-Workflow (Spec → Plan → Tasks) in dev_dito &amp; Leonidas.">Spec-Kit in dev_dito &amp; Leonidas.</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><span data-i18n-page data-en="Gap analyses &amp; debt tracking" data-de="Gap-Analysen &amp; Debt-Tracking">Gap analyses &amp; debt tracking</span><span class="tip-pop" role="tooltip"><span class="tp-head" data-i18n-page data-en="Gap analyses &amp; debt tracking" data-de="Gap-Analysen &amp; Debt-Tracking">Gap analyses &amp; debt tracking</span><span data-i18n-page data-en="PSE Nexus tracks G01–G19 gaps with severity &amp; a remediation roadmap." data-de="PSE Nexus trackt G01–G19-Gaps mit Severity &amp; Remediation-Roadmap.">G01–G19 gap analysis (PSE Nexus).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><span data-i18n-page data-en="Trade-off documentation" data-de="Trade-off-Dokumentation">Trade-off documentation</span><span class="tip-pop" role="tooltip"><span class="tp-head" data-i18n-page data-en="Trade-off documentation" data-de="Trade-off-Dokumentation">Trade-off documentation</span><span data-i18n-page data-en="Documented the local-vs-API embedding decision as an explicit trade-off." data-de="Lokal-vs-API-Embedding-Entscheidung als expliziten Trade-off dokumentiert.">Local-vs-API decision (thesis FF3).</span></span></span>
+            <span class="skill-chip tip" tabindex="0"><span data-i18n-page data-en="Benchmark-driven decisions" data-de="Benchmark-getriebene Entscheidungen">Benchmark-driven decisions</span><span class="tip-pop" role="tooltip"><span class="tp-head" data-i18n-page data-en="Benchmark-driven decisions" data-de="Benchmark-getriebene Entscheidungen">Benchmark-driven decisions</span><span data-i18n-page data-en="Production model chosen from a five-model benchmark, not a guess." data-de="Produktionsmodell aus Fünf-Modell-Benchmark gewählt, nicht geraten.">Five-model benchmark drove the choice.</span></span></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="../">IxI<span class="x">-</span>Enki</a>
+        <p class="footer-tag" data-i18n="footer.tag">Software architecture &amp; AI engineering — retrieval, MCP, local LLMs.</p>
+        <span class="footer-status"><span class="fs-dot" aria-hidden="true"></span><span data-i18n="facts.statusv">open to work</span></span>
+      </div>
+      <nav class="footer-col" aria-label="Footer">
+        <p class="footer-h" data-i18n="footer.explore">Explore</p>
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="./leowiki-mcp.html" data-i18n="nav.flagship">LeoWiki MCP</a>
+        <a href="./projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="./skills.html" data-i18n="nav.skills">Skills</a>
+        <a href="./cv.html" data-i18n="nav.cv">CV</a>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-h" data-i18n="footer.connect">Connect</p>
+        <a href="mailto:janritt.office@gmail.com">janritt.office@gmail.com</a>
+        <a href="https://github.com/IxI-Enki">github.com/IxI-Enki</a>
+        <p class="footer-loc" data-i18n="footer.loc">Seitenstetten · Lower Austria</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>© 2026 Jan Ritt</span>
+      <span class="footer-sig">𓂍 ꂅnki 𓂍</span>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,3 +1,36 @@
+<div style="display: flex; justify-content: center; align-items: center;">
+
+<img src="assets\ixi_enki_banner_goldleaf.svg" alt="IxI-Enki" style="width:100%">
+
+</div>
+
+<!-- <img src="_design_system/assets/ixi-enki/suns/sun_black.svg" alt="IxI-Enki" style="width:100%"> -->
+
+<div align="center">
+
+[Portfolio](https://ixi-enki.github.io/IxI-Enki/) · [Case study](https://ixi-enki.github.io/IxI-Enki/pages/leowiki-mcp.html) · [Email](mailto:janritt.office@gmail.com)
+
+</div>
+
+Hi, I'm **Jan** - HTL Leonding graduate, **open to work**.
+
+→ **[Portfolio](https://ixi-enki.github.io/IxI-Enki/)** — case studies, projects and full skill matrix
+
+---
+
+## Featured — LeoWiki MCP
+
+> MCP server exposing school-internal **LeoWiki** (DokuWiki) to AI clients via **OAuth 2.1 + RBAC** — always-on on a **Raspberry Pi 5**.
+
+**17× retrieval improvement** (MRR 0.051 → 0.872) · *German-optimized embeddings, five-stage offline RAG pipeline.*
+
+**Explore:** [Case study](https://ixi-enki.github.io/IxI-Enki/pages/leowiki-mcp.html) · [Thesis (PDF)](https://ixi-enki.github.io/IxI-Enki/assets/thesis.pdf) · [Embedding benchmarks](https://ixi-enki.github.io/project-diploma-performance-analysis/)
+
+⏳ Pipeline and evaluation repos being prepared for publication.
+
+---
+
+
 <!-- STERNEN-NACHT - HEADER -->
 <!--$$
 \color {white}{\small ^｡ \qquad  ° \quad ^⋆ }\color {lightblue}{\normalsize \qquad  ^｡ }\color {deepskyblue}{\quad  \tiny ⋆  \space }\color {lightblue}{^ ﾟ \qquad }\color {lavendar}{｡ \quad \small ^⋆ }\color {white}{\quad  ⋆ }\color {deepskyblue}{\tiny ^｡ }\color {white}{\qquad \quad ﾟ \qquad \small ^⋆ }\color {lightblue}{\space \space  ｡ \tiny \quad ^｡ \space ^⋆ }\color {white}{\qquad ｡ \space ⋆ }\color {lightblue}{\quad ^｡ \space ^ ﾟ \quad ^⋆ }\color {deepskyblue}{\normalsize \qquad  ^｡ \quad  }\color {white}{\Huge ☾ \qquad }\color {lightblue}{\tiny ⋆  }\color {white}{\space ^ ﾟ }\color {deepskyblue}{\qquad ｡ \quad }\color {white}{\small ^⋆ \quad  ⋆ }\color {lightblue}{\tiny ^｡ \qquad }\color {deepskyblue}{\quad ﾟ }\color {lightblue}{\qquad \small ^⋆ }\color {white}{\space \space  ｡ \tiny \quad ^｡ }\color {deepskyblue}{\space ^⋆ }\color {lightblue}{\qquad ｡ \space ⋆}\color {white}{ \quad ^｡ \space ^ ﾟ}
@@ -87,27 +120,27 @@ $$
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ ･: *ヽ(◕ヮ◕ヽ)
 -->
 
-<div align="center">
+<!-- <div align="center"> -->
  
 <!--                          https://github.com/IxI-Enki/IxI-Enki/README.md    ==    Profile Page                          -->
-![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
----
+<!-- ![Lamassu_(x2)](https://github.com/IxI-Enki/IxI-Enki/blob/main/.dev/visual/Lamassu_IxI-Enki%20%5B(Fusszeile)(tiny)%5D.png?raw=true)
+--- -->
 
-<div align="center">
+<!-- <div align="center"> -->
 
-![𓂍 ꂅnki 𓂍](https://github.com/user-attachments/assets/94314d75-af0b-4d02-882c-c83beea0f514)
+<!-- ![𓂍 ꂅnki 𓂍](https://github.com/user-attachments/assets/94314d75-af0b-4d02-882c-c83beea0f514) -->
 <!--https://github.com/user-attachments/assets/ba059c5e-adfa-46c4-92bd-890cd7f8a913-->
 
+<!-- </div> -->
 
-</div>
-
+<!-- 
   | <sub>📑</sub>(ˆ⌣ˆԅ) |                                  *learning* $\tiny\color{lime}{to}$ `code`              | (•‾⌣‾•)و<sup>💾</sup> |
   |:-------------------- | :---------------------------------------------------------------------------------------------: | ----------------------: |
   |                      | @[HTL-Leonding](https://www.htl-leonding.at) - in Austria ![](https://flagcdn.com/16x12/at.png) |                         |
 
 </div>
 
-<div align="right">
+<div align="right"> -->
  
 <!--
 |        |   |
@@ -117,7 +150,7 @@ $$
 |  [![Steam](https://img.shields.io/badge/Steam-%23000000.svg?logo=steam&logoColor=white)](#)         | [𓂍 ꂅnki 𓂍 ](https://steamcommunity.com/profiles/76561198206790724/)  |  
 |  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](#)   | [ J. R. ](https://www.youtube.com/@JanRitt_IxI)                        | -->       
 
-</div> 
+<!-- </div>  -->
 
 <!--   BADGES 
    [![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white)](#)

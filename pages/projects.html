@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · Jan Ritt — IxI-Enki</title>
+  <meta name="description" content="Projects by Jan Ritt (IxI-Enki): AI infrastructure, developer tooling, code and games.">
+  <link rel="stylesheet" href="../assets/css/site.css?v=73">
+  <script src="../assets/js/site.js?v=22" defer></script>
+</head>
+<body class="neu">
+
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-parallax bg-parallax--grid"><div class="bg-grid"></div></div>
+    <div class="bg-parallax bg-parallax--grad">
+      <div class="bg-gradient-blobs">
+        <span class="bg-grad-blob bg-grad-blob--1"></span>
+        <span class="bg-grad-blob bg-grad-blob--2"></span>
+        <span class="bg-grad-blob bg-grad-blob--3"></span>
+        <span class="bg-grad-blob bg-grad-blob--4"></span>
+      </div>
+    </div>
+    <div class="bg-parallax bg-parallax--blob1"><div class="blob blob-1"></div></div>
+    <div class="bg-parallax bg-parallax--blob2"><div class="blob blob-2"></div></div>
+    <div class="bg-parallax bg-parallax--blob3"><div class="blob blob-3"></div></div>
+  </div>
+
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="../">IxI<span class="x">-</span>Enki</a>
+      <nav class="main">
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="./leowiki-mcp.html" class="nav-flagship" title="LeoWiki MCP"><img src="../assets/img/leowiki-mcp-logo.png" alt="LeoWiki MCP" class="nav-flagship-logo"><span class="nav-flagship-label" data-i18n="nav.flagship">LeoWiki MCP</span></a>
+        <a href="./projects.html" class="active" data-i18n="nav.projects">Projects</a>
+        <a href="./skills.html" data-i18n="nav.skills">Skills</a>
+        <a href="./cv.html" data-i18n="nav.cv">CV</a>
+        <span class="lang-switch" data-lang="en" role="group" aria-label="Language"><span class="ls-knob" aria-hidden="true"><svg class="ls-flag ls-flag-en" viewBox="0 0 24 16"><rect width="24" height="16" fill="#2E4F8F"/><path d="M0 0L24 16M24 0L0 16" stroke="#fff" stroke-width="3.4"/><path d="M0 0L24 16M24 0L0 16" stroke="#B33130" stroke-width="1.4"/><rect x="9.6" width="4.8" height="16" fill="#fff"/><rect y="5.6" width="24" height="4.8" fill="#fff"/><rect x="10.7" width="2.6" height="16" fill="#B33130"/><rect y="6.7" width="24" height="2.6" fill="#B33130"/></svg><svg class="ls-flag ls-flag-de" viewBox="0 0 24 16"><rect width="24" height="16" fill="#fff"/><rect width="24" height="5.3" fill="#B33130"/><rect y="10.7" width="24" height="5.3" fill="#B33130"/></svg></span><span class="ls-opt" data-lang="en">EN</span><span class="ls-opt" data-lang="de">DE</span></span>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:24px">
+    <div class="wrap">
+      <p class="kicker reveal" data-i18n-page data-en="Portfolio" data-de="Portfolio">Portfolio</p>
+      <h1 class="reveal reveal-d1" style="margin-top:10px" data-i18n-page data-en="Projects" data-de="Projekte">Projects</h1>
+      <p class="lead reveal reveal-d2" style="margin-top:14px" data-i18n-page
+         data-en="Grouped by theme. Badges mark repositories that are being cleaned up and prepared for public release — quality over haste."
+         data-de="Thematisch gruppiert. Badges markieren Repositories, die gerade aufbereitet und für die Veröffentlichung vorbereitet werden — Qualität vor Eile.">Grouped by theme. Badges mark repositories that are being cleaned up and prepared for public release — quality over haste.</p>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core"><span class="sec-divider__chapter" data-i18n-page data-en="AI" data-de="AI">AI</span></span></span></div></div>
+
+  <!-- ── AI Infrastructure ── -->
+  <section style="padding-top:24px">
+    <div class="wrap">
+      <div class="sec-head reveal"><h2 data-i18n-page data-en="AI Infrastructure" data-de="AI‑Infrastruktur">AI Infrastructure</h2></div>
+      <div class="grid grid-3">
+
+        <a class="card reveal" href="./leowiki-mcp.html" style="border-left: 4px solid var(--accent)">
+          <p class="kicker" style="font-size:.66rem" data-i18n-page data-en="Flagship · Diploma thesis" data-de="Flagship · Diplomarbeit">Flagship · Diploma thesis</p>
+          <h3 style="margin-top:6px">LeoWiki MCP</h3>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="MCP server with semantic search for the school wiki — 17× retrieval improvement, OAuth 2.1 + RBAC, 24/7 on a Raspberry Pi 5. Full case study →"
+             data-de="MCP‑Server mit semantischer Suche fürs Schul‑Wiki — 17× besseres Retrieval, OAuth 2.1 + RBAC, 24/7 auf dem Raspberry Pi 5. Zur Case-Study →">MCP server with semantic search for the school wiki — 17× retrieval improvement, OAuth 2.1 + RBAC, 24/7 on a Raspberry Pi 5. Full case study →</p>
+          <div class="stack">Python · FastMCP · Qdrant · OAuth 2.1 · Docker</div>
+        </a>
+
+        <div class="card reveal reveal-d1">
+          <div style="display:flex; justify-content:space-between; gap:8px; align-items:start">
+            <h3>Leonidas</h3><span class="badge-soon" data-i18n-page data-en="release in progress" data-de="Release in Arbeit">release in progress</span>
+          </div>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="AI chat assistant inside DokuWiki (SYP project): streaming LLM client for Ollama / LM Studio with an MCP tool proxy into the wiki knowledge base. Playwright-tested, benchmarked at 4.66 req/s and 288 ms first-chunk latency."
+             data-de="AI‑Chat-Assistent direkt im DokuWiki (SYP-Projekt): streamender LLM-Client für Ollama / LM Studio mit MCP‑Tool-Proxy in die Wiki-Wissensbasis. Playwright-getestet, gebenchmarkt mit 4,66 req/s und 288 ms First-Chunk-Latenz.">AI chat assistant inside DokuWiki (SYP project): streaming LLM client for Ollama / LM Studio with an MCP tool proxy into the wiki knowledge base. Playwright-tested, benchmarked at 4.66 req/s and 288 ms first-chunk latency.</p>
+          <div class="stack">PHP · JavaScript · MCP · Docker · Playwright</div>
+        </div>
+
+        <a class="card reveal reveal-d2" href="https://github.com/IxI-Enki/die_glocke">
+          <h3>die_glocke</h3>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="Browser-based MCP-server generator: choose a name and tools, download a ready-to-install file set (install guide, catalog, registry) as a ZIP. Plain HTML + JS, no build step."
+             data-de="Browserbasierter MCP‑Server-Generator: Name und Tools wählen, fertiges Install-Set (Anleitung, Catalog, Registry) als ZIP laden. Pures HTML + JS, kein Build-Schritt.">Browser-based MCP-server generator: choose a name and tools, download a ready-to-install file set (install guide, catalog, registry) as a ZIP. Plain HTML + JS, no build step.</p>
+          <div class="stack">JavaScript · MCP</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--double" aria-hidden="true"><span class="sec-divider__rule sec-divider__rule--back"></span><span class="sec-divider__rule sec-divider__rule--front"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+
+  <!-- ── Developer Tooling ── -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal"><h2 data-i18n-page data-en="Developer Tooling" data-de="Developer-Tooling">Developer Tooling</h2></div>
+      <div class="grid grid-2">
+
+        <div class="card reveal">
+          <div style="display:flex; justify-content:space-between; gap:8px; align-items:start">
+            <h3>DBI Survival Kit</h3><span class="badge-soon" data-i18n-page data-en="release in progress" data-de="Release in Arbeit">release in progress</span>
+          </div>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="VS Code extension: 300+ offline SQL snippets &amp; IntelliSense for PostgreSQL and Oracle PL/SQL — plus optional local-LLM query suggestions with response validation, quality scoring (0–100) and caching. Validated by a 121-task test suite."
+             data-de="VS-Code-Extension: 300+ Offline-SQL-Snippets &amp; IntelliSense für PostgreSQL und Oracle PL/SQL — plus optionale Local-LLM-Query-Vorschläge mit Validierung, Quality-Scoring (0–100) und Caching. Abgesichert durch eine 121-Task-Testsuite.">VS Code extension: 300+ offline SQL snippets &amp; IntelliSense for PostgreSQL and Oracle PL/SQL — plus optional local-LLM query suggestions with response validation, quality scoring (0–100) and caching. Validated by a 121-task test suite.</p>
+          <div class="stack">JavaScript · VS Code API · Local LLMs</div>
+        </div>
+
+        <div class="card reveal reveal-d1">
+          <div style="display:flex; justify-content:space-between; gap:8px; align-items:start">
+            <h3>PSE Nexus</h3><span class="badge-soon" data-i18n-page data-en="release in progress" data-de="Release in Arbeit">release in progress</span>
+          </div>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="Modular CLI/TUI toolkit for Windows: an own Python TUI framework (tui_kit — multi-window, IPC, themes, 26 test files), a shared core library at 98% branch coverage, auto-generated command shims — and a published gap analysis (G01–G19) that drives its own refactoring roadmap."
+             data-de="Modulares CLI/TUI-Toolkit für Windows: eigenes Python-TUI-Framework (tui_kit — Multi-Window, IPC, Themes, 26 Testdateien), gemeinsame Core-Library mit 98 % Branch-Coverage, auto-generierte Command-Shims — und eine dokumentierte Gap-Analyse (G01–G19) als eigene Refactoring-Roadmap.">Modular CLI/TUI toolkit for Windows: an own Python TUI framework (tui_kit — multi-window, IPC, themes, 26 test files), a shared core library at 98% branch coverage, auto-generated command shims — and a published gap analysis (G01–G19) that drives its own refactoring roadmap.</p>
+          <div class="stack">Python · PowerShell · pytest</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="sec-divider sec-divider--shimmer sec-divider--ruler" aria-hidden="true"><span class="sec-divider__line"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__ripple" aria-hidden="true"><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span><span class="sec-divider__ripple-ring"></span></span><span class="sec-divider__core"><span class="sec-divider__node"></span></span></span></div></div>
+
+  <!-- ── Code & Game ── -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal"><h2 data-i18n-page data-en="Code &amp; Game" data-de="Code &amp; Game">Code &amp; Game</h2></div>
+      <div class="grid grid-3">
+
+        <a class="card reveal" href="https://github.com/IxI-Enki/ginf_projects">
+          <h3>ginf_projects</h3>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="Eight finished C# mini-programs — Tic-Tac-Toe, Game of Life, an animated Tamagochi, a color toolkit, WinAPI experiments. Where the console-UI obsession started."
+             data-de="Acht fertige C#-Mini-Programme — Tic-Tac-Toe, Game of Life, ein animiertes Tamagochi, ein Farb-Toolkit, WinAPI-Experimente. Hier begann die Console-UI-Leidenschaft.">Eight finished C# mini-programs — Tic-Tac-Toe, Game of Life, an animated Tamagochi, a color toolkit, WinAPI experiments. Where the console-UI obsession started.</p>
+          <div class="stack">C# · Console</div>
+        </a>
+
+        <div class="card reveal reveal-d1">
+          <h3>backpackmage</h3>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="2D side-scrolling inventory-mage RPG built with Unity 6 — playable right in your browser."
+             data-de="2D-Side‑Scrolling-RPG mit Inventar-Magier, gebaut mit Unity 6 — direkt im Browser spielbar.">2D side-scrolling inventory-mage RPG built with Unity 6 — playable right in your browser.</p>
+          <div style="margin-top:12px; display:flex; gap:8px; flex-wrap:wrap">
+            <a class="btn btn-accent btn-glow" style="padding:7px 14px; font-size:.82rem" href="https://ixi-enki.github.io/backpackmage-webgl/0.1.5/" data-i18n-page data-en="▶ Play in browser" data-de="▶ Im Browser spielen">▶ Play in browser</a>
+            <a class="btn btn-ghost" style="padding:7px 14px; font-size:.82rem" href="https://github.com/IxI-Enki/backpackmage">Repo</a>
+          </div>
+          <div class="stack">Unity 6 · C# · WebGL</div>
+        </div>
+
+        <div class="card reveal reveal-d2" style="border-style:dashed">
+          <div style="display:flex; justify-content:space-between; gap:8px; align-items:start">
+            <h3>JPA Exercise Lab</h3><span class="badge-soon" data-i18n-page data-en="soon" data-de="bald">soon</span>
+          </div>
+          <p style="margin-top:6px; font-size:.92rem; color:var(--muted)" data-i18n-page
+             data-en="Five self-built, progressively harder JPA exercises (Maven, Java 21) with UML diagrams and guides — exam prep turned into a reusable learning lab."
+             data-de="Fünf selbst gebaute, aufsteigend schwere JPA-Übungen (Maven, Java 21) mit UML-Diagrammen und Guides — Testvorbereitung als wiederverwendbares Lern-Lab.">Five self-built, progressively harder JPA exercises (Maven, Java 21) with UML diagrams and guides — exam prep turned into a reusable learning lab.</p>
+          <div class="stack">Java · JPA · PostgreSQL</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ── Skills-Verweis (Matrix hat eigene Page) ── -->
+  <div class="wrap"><div class="sec-divider sec-divider--double" aria-hidden="true"><span class="sec-divider__rule sec-divider__rule--back"></span><span class="sec-divider__rule sec-divider__rule--front"></span><span class="sec-divider__mark"><span class="sec-divider__halo" aria-hidden="true"></span><span class="sec-divider__ring" aria-hidden="true"></span><span class="sec-divider__core" aria-hidden="true"></span></span></div></div>
+  <section id="skills" style="padding-top:0">
+    <div class="wrap">
+      <div class="card reveal" style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding:24px 28px">
+        <div>
+          <h3 data-i18n-page data-en="Looking for the full skill matrix?" data-de="Die komplette Skill-Matrix?">Looking for the full skill matrix?</h3>
+          <p style="margin-top:4px; font-size:.9rem; color:var(--muted)" data-i18n-page data-en="Finely grouped, with proof per group — now on its own page." data-de="Fein gegliedert, mit Beleg je Gruppe — jetzt auf eigener Seite.">Finely grouped, with proof per group — now on its own page.</p>
+        </div>
+        <a class="btn btn-primary btn-arrow" href="./skills.html" data-i18n="nav.skills">Skills</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Archiv-Hinweis ── -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="card reveal" style="border-style:dashed; text-align:center; padding:26px">
+        <h3 data-i18n-page data-en="📦 HTL coursework archive" data-de="📦 HTL-Übungs-Archiv">📦 HTL coursework archive</h3>
+        <p style="margin-top:8px; font-size:.9rem; color:var(--muted)" data-i18n-page
+           data-en="A curated, read-only index of 170+ coursework repositories (POSE, DBI, WMC, DSAI, …) is being built — link follows."
+           data-de="Ein kuratierter, schreibgeschützter Index über 170+ Übungs-Repositories (POSE, DBI, WMC, DSAI, …) entsteht gerade — Link folgt.">A curated, read-only index of 170+ coursework repositories (POSE, DBI, WMC, DSAI, …) is being built — link follows.</p>
+        <!-- ⏳ Link auf htl-coursework-Index nach Archivierungsphase -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="site">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="../">IxI<span class="x">-</span>Enki</a>
+        <p class="footer-tag" data-i18n="footer.tag">Software architecture &amp; AI engineering — retrieval, MCP, local LLMs.</p>
+        <span class="footer-status"><span class="fs-dot" aria-hidden="true"></span><span data-i18n="facts.statusv">open to work</span></span>
+      </div>
+      <nav class="footer-col" aria-label="Footer">
+        <p class="footer-h" data-i18n="footer.explore">Explore</p>
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="./leowiki-mcp.html" data-i18n="nav.flagship">LeoWiki MCP</a>
+        <a href="./projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="./skills.html" data-i18n="nav.skills">Skills</a>
+        <a href="./cv.html" data-i18n="nav.cv">CV</a>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-h" data-i18n="footer.connect">Connect</p>
+        <a href="mailto:janritt.office@gmail.com">janritt.office@gmail.com</a>
+        <a href="https://github.com/IxI-Enki">github.com/IxI-Enki</a>
+        <p class="footer-loc" data-i18n="footer.loc">Seitenstetten · Lower Austria</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>© 2026 Jan Ritt</span>
+      <span class="footer-sig">𓂍 ꂅnki 𓂍</span>
+    </div>
+  </footer>
+
+</body>
+</html>
