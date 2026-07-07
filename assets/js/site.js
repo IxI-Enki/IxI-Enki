@@ -173,7 +173,7 @@
     },
     words: {
       en: ['AI infrastructure that runs', 'retrieval pipelines', 'MCP servers', 'semantic search', 'local-LLM systems'],
-      de: ['AI-Infrastruktur, die laeuft', 'Retrieval-Pipelines', 'MCP-Server', 'semantische Suche', 'lokale-LLM-Systeme']
+      de: ['AI-Infrastruktur, die läuft', 'Retrieval-Pipelines', 'MCP-Server', 'semantische Suche', 'lokale-LLM-Systeme']
     }
   };
   var HERO_TITLE_SEL = '.hero-title-gradient';
