@@ -71,6 +71,58 @@
     'page.cv.path': {
       en: 'Before software: a decade of hands-on work in logistics and industry (2011\u20132022) \u2014 including six years at SOUDAL St. Valentin and civil service in disability care. That period taught me reliability, process thinking and what real-world operations actually need from software.',
       de: 'Vor der Software: ein Jahrzehnt Hands-on-Arbeit in Logistik und Industrie (2011\u20132022) \u2014 darunter sechs Jahre bei SOUDAL St. Valentin und Zivildienst in der Behindertenbetreuung. Diese Zeit hat mich Verlässlichkeit, Prozessdenken und den echten Bedarf von Betrieben an Software gelehrt.'
+    },
+
+    /* Projects — SQL Snippet Studio */
+    'project.sqlSnippetStudio.desc': {
+      en: 'Cursor/VS Code extension: 67 offline SQL snippets and IntelliSense for PostgreSQL and Oracle PL/SQL \u2014 star-schema templates, fully offline core, optional local-LLM assistance with secure token storage.',
+      de: 'VS-Code-/Cursor-Extension: 67 Offline-SQL-Snippets und IntelliSense für PostgreSQL und Oracle PL/SQL \u2014 Star-Schema-Templates, vollständig offline nutzbar, optionale lokale LLM-Unterstützung mit sicherer Token-Speicherung.'
+    },
+    'project.sqlSnippetStudio.btnVsix': {
+      en: '\u25b6 Download VSIX',
+      de: '\u25b6 VSIX herunterladen'
+    },
+
+    /* Projects — JPA Exercise Lab */
+    'project.jpaExerciseLab.desc': {
+      en: 'JPA Mastery web app \u2014 89 interactive tasks across 8 modules in the browser \u2014 plus five progressive Maven exercises (Java 21). DBI exam prep as a reusable learning lab.',
+      de: 'JPA-Mastery-Web-App \u2014 89 interaktive Aufgaben in 8 Modulen im Browser \u2014 plus fünf aufsteigende Maven-Übungen (Java 21). DBI-Testvorbereitung als wiederverwendbares Lern-Lab.'
+    },
+    'project.jpaExerciseLab.btnApp': {
+      en: '\u25b6 Open web app',
+      de: '\u25b6 Web-App öffnen'
+    },
+
+    /* Shared project CTAs */
+    'project.btnRepo': {
+      en: 'Repo',
+      de: 'Repo'
+    },
+
+    /* Skills — tooltips (SQL Snippet Studio & JPA) */
+    'skill.tip.javascript': {
+      en: 'die_glocke generator &amp; the SQL Snippet Studio VS Code extension.',
+      de: 'die_glocke-Generator und die VS-Code-Extension SQL Snippet Studio.'
+    },
+    'skill.tip.java': {
+      en: 'JPA Mastery web app (89 tasks) &amp; Maven exercise lab (Java 21).',
+      de: 'JPA-Mastery-Web-App (89 Aufgaben) und Maven-Übungs-Lab (Java 21).'
+    },
+    'skill.tip.oracle': {
+      en: '25 Oracle PL/SQL snippets in SQL Snippet Studio.',
+      de: '25 Oracle-PL/SQL-Snippets in SQL Snippet Studio.'
+    },
+    'skill.tip.postgresql': {
+      en: '22 PostgreSQL snippets in SQL Snippet Studio.',
+      de: '22 PostgreSQL-Snippets in SQL Snippet Studio.'
+    },
+    'skill.tip.jpa': {
+      en: 'JPA Mastery: 89 interactive tasks across 8 modules plus five Maven exercises.',
+      de: 'JPA Mastery: 89 interaktive Aufgaben in 8 Modulen plus fünf Maven-Übungen.'
+    },
+    'skill.tip.vscode': {
+      en: 'Built two VS Code extensions (SQL Snippet Studio, Auto Writer).',
+      de: 'Zwei VS-Code-Extensions gebaut (SQL Snippet Studio, Auto Writer).'
     }
   };
 
@@ -425,7 +477,7 @@
     img.alt = '';
     icon.appendChild(img);
     head.insertBefore(icon, head.firstChild);
-    var body = pop.querySelector('[data-i18n-page]');
+    var body = pop.querySelector('[data-i18n-page], [data-i18n]');
     if (body && !body.classList.contains('tp-body')) body.classList.add('tp-body');
     pop.querySelectorAll(':scope > span:not(.tp-head)').forEach(function (span) {
       if (!span.classList.contains('tp-head')) span.classList.add('tp-body');
