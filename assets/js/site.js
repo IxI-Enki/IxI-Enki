@@ -1,6 +1,7 @@
 /* IxI-Enki Showcase — i18n (EN/DE) + Scroll-Reveal + Counter
-   i18n: Elemente tragen data-i18n="key"; Übersetzungen unten.
-   Default EN (Plan §1: Portfolio EN-first), Toggle persistiert in localStorage. */
+   i18n: data-i18n="key" → I18N-Objekt unten (Index + Subpage-Leads).
+         data-i18n-page + data-en/data-de → Inline auf dem Element (Rest der Subpages).
+   Default EN, Toggle persistiert in localStorage. */
 (function () {
   'use strict';
 
@@ -56,7 +57,21 @@
     'footer.tag':     { en: 'Software architecture & AI engineering — retrieval, MCP, local LLMs.', de: 'Software-Architektur & AI Engineering — Retrieval, MCP, lokale LLMs.' },
     'footer.explore': { en: 'Explore',  de: 'Entdecken' },
     'footer.connect': { en: 'Connect',  de: 'Kontakt' },
-    'footer.loc':     { en: 'Seitenstetten · Lower Austria', de: 'Seitenstetten · Niederösterreich' }
+    'footer.loc':     { en: 'Seitenstetten · Lower Austria', de: 'Seitenstetten · Niederösterreich' },
+
+    /* Subpages — leads & section copy (data-i18n) */
+    'page.projects.lead': {
+      en: 'Grouped by theme. Badges mark repositories that are being cleaned up and prepared for public release.',
+      de: 'Thematisch gruppiert. Badges markieren Repositories, die gerade aufbereitet und für die Veröffentlichung vorbereitet werden.'
+    },
+    'page.skills.lead': {
+      en: 'Hover a skill to see where and how I\u2019ve used it in shipped projects.',
+      de: 'Mit der Maus über einen Skill sehen Sie, wo und wofür ich ihn in ausgelieferten Projekten eingesetzt habe.'
+    },
+    'page.cv.path': {
+      en: 'Before software: a decade of hands-on work in logistics and industry (2011\u20132022) \u2014 including six years at SOUDAL St. Valentin and civil service in disability care. That period taught me reliability, process thinking and what real-world operations actually need from software.',
+      de: 'Vor der Software: ein Jahrzehnt Hands-on-Arbeit in Logistik und Industrie (2011\u20132022) \u2014 darunter sechs Jahre bei SOUDAL St. Valentin und Zivildienst in der Behindertenbetreuung. Diese Zeit hat mich Verlässlichkeit, Prozessdenken und den echten Bedarf von Betrieben an Software gelehrt.'
+    }
   };
 
   /* ── Sprache anwenden ── */
