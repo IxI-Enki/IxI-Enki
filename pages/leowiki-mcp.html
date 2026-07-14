@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LeoWiki MCP — Case Study · Jan Ritt</title>
   <meta name="description" content="Case study: MCP server with semantic search for LeoWiki — 17× retrieval improvement, OAuth 2.1 + RBAC, deployed on Raspberry Pi 5.">
-  <link rel="stylesheet" href="../assets/css/site.css?v=73">
+  <link rel="stylesheet" href="../assets/css/site.css?v=74">
   <script src="../assets/js/site.js?v=24" defer></script>
 </head>
 <body class="neu page-leowiki-mcp">
@@ -77,8 +77,11 @@
       <div class="card reveal" style="padding:28px; border-left: 4px solid var(--accent)">
         <h2 data-i18n-page data-en="Result: 17× better retrieval" data-de="Ergebnis: 17× besseres Retrieval">Result: 17× better retrieval</h2>
         <p class="lead" data-i18n-page
-           data-en="Measured on 78 verified question-answer pairs across 12 wiki namespaces (10,841 indexed chunks). Bars show MRR on a 0–1 scale:"
-           data-de="Gemessen an 78 verifizierten Frage-Antwort-Paaren über 12 Wiki-Namespaces (10.841 Chunks). Balken zeigen MRR auf einer 0–1-Skala:">Measured on 78 verified question-answer pairs across 12 wiki namespaces (10,841 indexed chunks). Bars show MRR on a 0–1 scale:</p>
+           data-en="Measured on 78 verified question-answer pairs across 12 wiki namespaces (10,841 indexed chunks)."
+           data-de="Gemessen an 78 verifizierten Frage-Antwort-Paaren über 12 Wiki-Namespaces (10.841 indizierte Chunks).">Measured on 78 verified question-answer pairs across 12 wiki namespaces (10,841 indexed chunks).</p>
+        <p style="margin-top:6px; font-size:.95rem; color:var(--muted)" data-i18n-page
+           data-en="Bars show MRR on a 0–1 scale:"
+           data-de="Balken zeigen MRR auf einer 0–1-Skala:">Bars show MRR on a 0–1 scale:</p>
 
         <div class="kwsem">
           <p class="kwsem-head" data-i18n-page data-en="DokuWiki keyword search" data-de="DokuWiki-Stichwortsuche">DokuWiki keyword search</p>
@@ -117,8 +120,8 @@
     <div class="wrap">
       <h2 class="reveal" data-i18n-page data-en="Architecture" data-de="Architektur">Architecture</h2>
       <p class="lead reveal" data-i18n-page
-         data-en="Two phases: an offline preparation pipeline (fetch → evaluate → chunk → embed → deploy) and a runtime query flow on the Raspberry Pi 5."
-         data-de="Zwei Phasen: eine Offline-Aufbereitungs-Pipeline (Fetch → Evaluierung → Chunking → Embedding → Deploy) und der Runtime-Query-Fluss auf dem Raspberry Pi 5.">Two phases: an offline preparation pipeline (fetch → evaluate → chunk → embed → deploy) and a runtime query flow on the Raspberry Pi 5.</p>
+         data-en="Two phases: an offline preparation pipeline and a runtime query flow on the Raspberry Pi 5."
+         data-de="Zwei Phasen: eine Offline-Aufbereitungs-Pipeline und der Runtime-Query-Fluss auf dem Raspberry Pi 5.">Two phases: an offline preparation pipeline and a runtime query flow on the Raspberry Pi 5.</p>
       <figure class="fig reveal" style="margin-top:18px">
         <img src="../assets/img/figures/fig_05_system_overview.png" alt="System overview" loading="lazy">
       </figure>
@@ -162,8 +165,8 @@
     <div class="wrap">
       <h2 class="reveal" data-i18n-page data-en="Embedding evaluation — an engineering trade-off" data-de="Embedding-Evaluation — ein Engineering-Trade-off">Embedding evaluation — an engineering trade-off</h2>
       <p class="lead reveal" data-i18n-page
-         data-en="Five models benchmarked on the full corpus. The local quality leader (Octen-4B) could not run on the target hardware — so production pragmatically uses the API model that ties it within 1.1 points of MRR:"
-         data-de="Fünf Modelle auf dem vollen Korpus gebenchmarkt. Der lokale Qualitätsführer (Octen-4B) lief nicht auf der Zielhardware — die Produktion nutzt daher pragmatisch das API-Modell, das nur 1,1 MRR-Punkte dahinter liegt:">Five models benchmarked on the full corpus. The local quality leader (Octen-4B) could not run on the target hardware — so production pragmatically uses the API model that ties it within 1.1 points of MRR:</p>
+         data-en="Five embedding models on the full wiki corpus. Octen‑4B leads on retrieval quality but does not run on the Pi — production uses the OpenAI API model just 0.011 MRR behind:"
+         data-de="Fünf Embedding-Modelle auf dem vollen Wiki-Korpus. Octen‑4B führt bei der Retrieval-Qualität, läuft aber nicht auf dem Pi — in Produktion nutzen wir das OpenAI-API-Modell mit nur 0,011 MRR Abstand:">Five embedding models on the full wiki corpus. Octen‑4B leads on retrieval quality but does not run on the Pi — production uses the OpenAI API model just 0.011 MRR behind:</p>
       <div class="bench reveal">
         <div class="bench-row bench-row--prod" style="--mrr:88.3%">
           <div class="bench-name"><b>Octen-Embedding-4B</b><span data-i18n-page data-en="local · 4.0B · MTEB #2 (DE) · nDCG 0.899" data-de="lokal · 4,0B · MTEB #2 (DE) · nDCG 0,899">local · 4.0B · MTEB #2 (DE) · nDCG 0.899</span><br><em class="bench-tag" data-i18n-page data-en="quality leader" data-de="Qualitätsführer">quality leader</em></div>
@@ -214,8 +217,8 @@
     <div class="wrap">
       <h2 class="reveal" data-i18n-page data-en="Deployment — production on 5 watts" data-de="Deployment — Produktion mit 5 Watt">Deployment — production on 5 watts</h2>
       <p class="lead reveal" data-i18n-page
-         data-en="Four Docker Compose services on a Raspberry Pi 5 (8 GB, ARM64): Caddy for TLS &amp; reverse proxy, the MCP server, Qdrant for vector search, and a watchdog for JSONL auto-ingestion. Mean end-to-end search latency: ~226 ms (stdio) / ~321 ms (HTTP)."
-         data-de="Vier Docker-Compose-Services auf einem Raspberry Pi 5 (8 GB, ARM64): Caddy für TLS &amp; Reverse-Proxy, der MCP‑Server, Qdrant für die Vektorsuche und ein Watchdog für JSONL-Auto-Ingestion. Mittlere End-to-End-Suchlatenz: ~226 ms (stdio) / ~321 ms (HTTP).">Four Docker Compose services on a Raspberry Pi 5 (8 GB, ARM64): Caddy for TLS &amp; reverse proxy, the MCP server, Qdrant for vector search, and a watchdog for JSONL auto-ingestion. Mean end-to-end search latency: ~226 ms (stdio) / ~321 ms (HTTP).</p>
+         data-en="A Raspberry Pi 5 (8 GB, ARM64) runs four Docker Compose services: Caddy for TLS and reverse proxy, the MCP server, Qdrant for vector search, and a watchdog for JSONL auto-ingestion. Mean end-to-end search latency is ~226 ms over stdio and ~321 ms over HTTP."
+         data-de="Ein Raspberry Pi 5 (8 GB, ARM64) betreibt vier Docker-Compose-Services: Caddy für TLS und Reverse-Proxy, den MCP-Server, Qdrant für die Vektorsuche und einen Watchdog für JSONL-Auto-Ingestion. Mittlere End-to-End-Suchlatenz: ~226 ms über stdio, ~321 ms über HTTP.">A Raspberry Pi 5 (8 GB, ARM64) runs four Docker Compose services: Caddy for TLS and reverse proxy, the MCP server, Qdrant for vector search, and a watchdog for JSONL auto-ingestion. Mean end-to-end search latency is ~226 ms over stdio and ~321 ms over HTTP.</p>
       <figure class="fig reveal" style="margin-top:18px">
         <img src="../assets/img/figures/fig_08_deployment.png" alt="Deployment architecture on Raspberry Pi 5" loading="lazy">
       </figure>

@@ -1609,6 +1609,12 @@ footer.site {
 .kwsem-stat span { display: block; margin-top: 7px; font-size: .73rem; color: var(--muted); line-height: 1.35; }
 
 /* Embedding model benchmark */
+/* LeoWiki MCP case study — section leads use full wrap width */
+.page-leowiki-mcp section .wrap > .lead,
+.page-leowiki-mcp .card .lead {
+  max-width: none;
+}
+
 .bench { display: flex; flex-direction: column; gap: 3px; margin-top: 18px; }
 .bench-row { display: grid; grid-template-columns: 200px 1fr 56px; gap: 14px; align-items: center; padding: 10px 12px; border-radius: 12px; }
 .bench-row--prod { background: color-mix(in srgb, var(--primary) 7%, transparent); }
