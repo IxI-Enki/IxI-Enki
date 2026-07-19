@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <path fill="#ffd343" fill-rule="evenodd" stroke="#262626" stroke-linejoin="round" d="M.5,21.5V.5l21,21H.5Z"/>
-  <path fill="none" stroke="#262626" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round" d="M5,17v-5.64l5.64,5.64h-5.64Z"/>
-  <g fill="none" stroke="#262626" stroke-width=".75" stroke-linecap="round">
-    <line x1="2.51" y1="3.17" x2="1.68" y2="3.99"/>
-    <line x1="4.82" y1="5.48" x2="3.99" y2="6.3"/>
-    <line x1="7.13" y1="7.79" x2="6.3" y2="8.61"/>
-    <line x1="9.44" y1="10.1" x2="8.61" y2="10.92"/>
-    <line x1="11.75" y1="12.41" x2="10.92" y2="13.23"/>
-    <line x1="14.06" y1="14.72" x2="13.23" y2="15.54"/>
-    <line x1="16.37" y1="17.03" x2="15.54" y2="17.85"/>
-    <line x1="18.54" y1="19.19" x2="17.84" y2="19.89"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M31.512 30.398h61.304a3.006 3.006 0 010 6.012H31.512a3.007 3.007 0 01-3.004-3.004 3.008 3.008 0 013.004-3.008zm0 0" fill="#696969"></path><path d="M32.047 24.32H44.37v2.844H32.047zm0 0" fill="#009fe3"></path><path d="M48.168 24.32h12.324v2.844H48.168zm0 0" fill="#c7d302"></path><path d="M64.07 24.32h12.328v2.844H64.07zm0 0" fill="#f07e16"></path><path d="M79.91 24.32h12.324v2.844H79.91zm0 15.22h12.324v20.835H79.91zm0 0" fill="#df2815"></path><path d="M64.07 39.54h12.352v33.847H64.07zm0 0" fill="#f07e16"></path><path d="M48.168 39.54h12.324v50.698H48.168zm0 0" fill="#c7d302"></path><path d="M32.047 39.54H44.37v61.792H32.047zm0 0" fill="#009fe3"></path></svg>

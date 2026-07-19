@@ -69,8 +69,44 @@
       de: 'Mit der Maus über einen Skill sehen Sie, wo und wofür ich ihn in ausgelieferten Projekten eingesetzt habe.'
     },
     'page.cv.path': {
-      en: 'Before software: a decade of hands-on work in logistics and industry (2011\u20132022) \u2014 including six years at SOUDAL St. Valentin and civil service in disability care. That period taught me reliability, process thinking and what real-world operations actually need from software.',
-      de: 'Vor der Software: ein Jahrzehnt Hands-on-Arbeit in Logistik und Industrie (2011\u20132022) \u2014 darunter sechs Jahre bei SOUDAL St. Valentin und Zivildienst in der Behindertenbetreuung. Diese Zeit hat mich Verlässlichkeit, Prozessdenken und den echten Bedarf von Betrieben an Software gelehrt.'
+      en: 'Before software came a decade of hands-on work in logistics and industry (2011–2022), plus civil service in disability care. Keeping real-world processes running day after day taught me reliability, precision and process thinking, and it shaped what I expect software to deliver on a shop floor. The switch into IT was deliberate: the university entrance qualification alongside a full-time job, then the informatics college at HTL Leonding.',
+      de: 'Vor der Software stand ein Jahrzehnt Hands-on-Arbeit in Logistik und Industrie (2011–2022), dazu der Zivildienst in der Behindertenbetreuung. Wer reale Abläufe Tag für Tag am Laufen hält, lernt Verlässlichkeit, Genauigkeit und Prozessdenken, und was Software im Betrieb wirklich leisten muss. Der Wechsel in die IT war ein bewusster Weg: berufsbegleitend die Studienberechtigung, danach das Informatik-Kolleg an der HTL Leonding.'
+    },
+
+    /* CV — Education details */
+    'page.cv.edu.leonding': {
+      en: 'College for Informatics (specialisation: systems engineering), diploma 2026. Curriculum focus: software engineering, databases & information systems, data science & AI, networks & cyber security, web development, media technology. Diploma thesis: «Development of an MCP Server with Semantic Search for LeoWiki» (supervisor: Rainer Stropek).',
+      de: 'Kolleg für Informatik (Ausbildungsschwerpunkt Systemtechnik), Diplomprüfung 2026. Schwerpunkte: Software Engineering, Datenbanken & Informationssysteme, Data Science & KI, Netzwerk- & Cyber-Security, Web-Entwicklung, Medientechnik. Diplomarbeit: «Development of an MCP Server with Semantic Search for LeoWiki» (Betreuer: Rainer Stropek).'
+    },
+    'page.cv.edu.sbp': {
+      en: 'Self-driven return to formal education alongside full-time work, prepared at the University of Vienna (archaeology & prehistory track): scholarly writing and research methods, the STEOP module in historical-cultural reasoning, and the Latin supplementary exam.',
+      de: 'Eigeninitiativer Wiedereinstieg in die formale Bildung neben Vollzeitarbeit, vorbereitet an der Universität Wien (Fachrichtung Archäologie & Urgeschichte): wissenschaftliches Arbeiten und Forschungsmethodik, STEOP-Modul „Grundlagen historisch-kulturwissenschaftlichen Denkens“ und Latein-Ergänzungsprüfung.'
+    },
+    'page.cv.edu.htbluva': {
+      en: 'Higher department for mechanical engineering: design & 3D product development (CAD), manufacturing technology, machine elements, electrical engineering & electronics, automation technology, workshop practice.',
+      de: 'Höhere Abteilung für Maschineningenieurwesen: Konstruktion & 3D-Produktentwicklung (CAD), Fertigungstechnik, Maschinenelemente, Elektrotechnik & Elektronik, Automatisierungstechnik, Werkstättenpraxis.'
+    },
+
+    /* CV — What I bring */
+    'page.cv.bring.arch.h': { en: 'Architecture, end to end', de: 'Architektur, end-to-end' },
+    'page.cv.bring.arch.p': {
+      en: 'Designed and shipped a complete retrieval system: ingestion pipeline, vector DB, MCP interface, OAuth 2.1 security layer, deployed 24/7 on ARM hardware.',
+      de: 'Komplettes Retrieval-System entworfen und ausgeliefert: Ingestion-Pipeline, Vektor-DB, MCP-Interface, OAuth-2.1-Security-Layer, 24/7 auf ARM-Hardware deployt.'
+    },
+    'page.cv.bring.data.h': { en: 'Benchmarks over impressions', de: 'Benchmarks statt Eindrücke' },
+    'page.cv.bring.data.p': {
+      en: 'Five-model embedding benchmark with statistical tests; the production model followed a documented quality-vs-deployability trade-off. I measure before I decide, especially when models or prompts change.',
+      de: 'Fünf-Modell-Embedding-Benchmark mit statistischen Tests; das Produktionsmodell folgt einem dokumentierten Qualität-vs-Betreibbarkeit-Trade-off. Ich messe, bevor ich entscheide, gerade wenn sich Modelle oder Prompts ändern.'
+    },
+    'page.cv.bring.agentic.h': { en: 'Agentic AI as daily practice', de: 'Agentische KI im Alltag' },
+    'page.cv.bring.agentic.p': {
+      en: 'I build and run a model-agnostic harness for AI agents with self-developed skills, plugins and hooks, using local LLMs alongside cloud APIs. Tool-calling, structured output and guardrails are everyday material for me, not buzzwords.',
+      de: 'Ich baue und betreibe ein eigenes, modellunabhängiges Harness für KI-Agenten mit selbst entwickelten Skills, Plugins und Hooks, lokale LLMs neben Cloud-APIs. Tool-Calling, strukturierte Ausgaben und Guardrails sind für mich Tagesgeschäft, keine Schlagworte.'
+    },
+    'page.cv.bring.quality.h': { en: 'Quality as a habit', de: 'Qualität als Gewohnheit' },
+    'page.cv.bring.quality.p': {
+      en: 'Formal test protocols, E2E suites, 98% branch coverage on my tooling core, and gap analyses that drive my own refactoring roadmaps.',
+      de: 'Formale Testprotokolle, E2E-Suites, 98 % Branch-Coverage im Tooling-Core und Gap-Analysen als eigene Refactoring-Roadmaps.'
     },
 
     /* Projects — SQL Snippet Studio */
