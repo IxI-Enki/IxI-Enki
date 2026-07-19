@@ -2079,3 +2079,15 @@ body.neu .viz-clients img { background: var(--neu-bg); box-shadow: var(--neu-rai
 
 /* Neumorphic surfaces for the bar/grid toppers */
 body.neu .viz-bars .vb { box-shadow: var(--neu-raise-sm); }
+
+/* ── CV page — education & path detail styling (v74) ── */
+.t-item h3 { font-size: 1.06rem; }
+.t-lead { margin-top: 6px; font-size: .95rem; line-height: 1.65; color: var(--ink); max-width: 760px; }
+.t-detail { margin-top: 6px; font-size: .9rem; line-height: 1.62; color: var(--muted); max-width: 760px; }
+.t-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; max-width: 760px; }
+.t-chips .chip { font-size: .74rem; padding: 3px 10px; }
+.t-thesis { margin-top: 12px; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 12px 12px 0; font-size: .9rem; line-height: 1.6; color: var(--ink); max-width: 760px; }
+.t-thesis a { font-weight: 600; white-space: nowrap; }
+.path-step .t-when { display: block; margin-bottom: 4px; }
+.path-step h3 { font-size: 1rem; }
+.path-step p { margin-top: 8px; font-size: .88rem; line-height: 1.6; color: var(--muted); }

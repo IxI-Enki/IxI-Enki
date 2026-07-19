@@ -69,23 +69,60 @@
       de: 'Mit der Maus über einen Skill sehen Sie, wo und wofür ich ihn in ausgelieferten Projekten eingesetzt habe.'
     },
     'page.cv.path': {
-      en: 'Before software came a decade of hands-on work in logistics and industry (2011–2022), plus civil service in disability care. Keeping real-world processes running day after day taught me reliability, precision and process thinking, and it shaped what I expect software to deliver on a shop floor. The switch into IT was deliberate: the university entrance qualification alongside a full-time job, then the informatics college at HTL Leonding.',
-      de: 'Vor der Software stand ein Jahrzehnt Hands-on-Arbeit in Logistik und Industrie (2011–2022), dazu der Zivildienst in der Behindertenbetreuung. Wer reale Abläufe Tag für Tag am Laufen hält, lernt Verlässlichkeit, Genauigkeit und Prozessdenken, und was Software im Betrieb wirklich leisten muss. Der Wechsel in die IT war ein bewusster Weg: berufsbegleitend die Studienberechtigung, danach das Informatik-Kolleg an der HTL Leonding.'
+      en: 'Before software came a decade of hands-on work. Keeping real-world processes running day after day taught me reliability, precision and process thinking, and it shaped what I expect software to deliver on a shop floor.',
+      de: 'Vor der Software stand ein Jahrzehnt Hands-on-Arbeit. Wer reale Abläufe Tag für Tag am Laufen hält, lernt Verlässlichkeit, Genauigkeit und Prozessdenken, und was Software im Betrieb wirklich leisten muss.'
     },
 
     /* CV — Education details */
     'page.cv.edu.leonding': {
-      en: 'College for Informatics (specialisation: systems engineering), diploma 2026. Curriculum focus: software engineering, databases & information systems, data science & AI, networks & cyber security, web development, media technology. Diploma thesis: «Development of an MCP Server with Semantic Search for LeoWiki» (supervisor: Rainer Stropek).',
-      de: 'Kolleg für Informatik (Ausbildungsschwerpunkt Systemtechnik), Diplomprüfung 2026. Schwerpunkte: Software Engineering, Datenbanken & Informationssysteme, Data Science & KI, Netzwerk- & Cyber-Security, Web-Entwicklung, Medientechnik. Diplomarbeit: «Development of an MCP Server with Semantic Search for LeoWiki» (Betreuer: Rainer Stropek).'
+      en: 'College for Informatics, specialisation in systems engineering. Diploma examination 2026, passed with distinction.',
+      de: 'Kolleg für Informatik, Ausbildungsschwerpunkt Systemtechnik. Diplomprüfung 2026, mit ausgezeichnetem Erfolg bestanden.'
+    },
+    'page.cv.edu.leonding.tags': {
+      en: '<span class="chip">Software Engineering</span><span class="chip">Databases &amp; Information Systems</span><span class="chip">Data Science &amp; AI</span><span class="chip">Networks &amp; Cyber Security</span><span class="chip">Web Development</span><span class="chip">Media Technology</span><span class="chip">Systems Engineering</span>',
+      de: '<span class="chip">Software Engineering</span><span class="chip">Datenbanken &amp; Informationssysteme</span><span class="chip">Data Science &amp; KI</span><span class="chip">Netzwerk- &amp; Cyber-Security</span><span class="chip">Web-Entwicklung</span><span class="chip">Medientechnik</span><span class="chip">Systemtechnik</span>'
+    },
+    'page.cv.edu.thesis': {
+      en: 'Diploma thesis: «Development of an MCP Server with Semantic Search for LeoWiki» (supervisor: Rainer Stropek) · <a href="./leowiki-mcp.html">full case study →</a>',
+      de: 'Diplomarbeit: «Development of an MCP Server with Semantic Search for LeoWiki» (Betreuer: Rainer Stropek) · <a href="./leowiki-mcp.html">zur Case-Study →</a>'
     },
     'page.cv.edu.sbp': {
-      en: 'Self-driven return to formal education alongside full-time work, prepared at the University of Vienna (archaeology & prehistory track): scholarly writing and research methods, the STEOP module in historical-cultural reasoning, and the Latin supplementary exam.',
-      de: 'Eigeninitiativer Wiedereinstieg in die formale Bildung neben Vollzeitarbeit, vorbereitet an der Universität Wien (Fachrichtung Archäologie & Urgeschichte): wissenschaftliches Arbeiten und Forschungsmethodik, STEOP-Modul „Grundlagen historisch-kulturwissenschaftlichen Denkens“ und Latein-Ergänzungsprüfung.'
+      en: 'University entrance qualification, earned alongside full-time work; prepared at the University of Vienna (archaeology &amp; prehistory track).',
+      de: 'Studienberechtigung, berufsbegleitend neben Vollzeitarbeit erworben; vorbereitet an der Universität Wien (Fachrichtung Archäologie &amp; Urgeschichte).'
+    },
+    'page.cv.edu.sbp.detail': {
+      en: 'Scholarly writing and research methods, the STEOP module in historical-cultural reasoning, and the Latin supplementary exam.',
+      de: 'Wissenschaftliches Arbeiten und Forschungsmethodik, STEOP-Modul „Grundlagen historisch-kulturwissenschaftlichen Denkens“ und Latein-Ergänzungsprüfung.'
     },
     'page.cv.edu.htbluva': {
-      en: 'Higher department for mechanical engineering: design & 3D product development (CAD), manufacturing technology, machine elements, electrical engineering & electronics, automation technology, workshop practice.',
-      de: 'Höhere Abteilung für Maschineningenieurwesen: Konstruktion & 3D-Produktentwicklung (CAD), Fertigungstechnik, Maschinenelemente, Elektrotechnik & Elektronik, Automatisierungstechnik, Werkstättenpraxis.'
+      en: 'Higher department for mechanical engineering; my first technical formation.',
+      de: 'Höhere Abteilung für Maschineningenieurwesen; meine erste technische Ausbildung.'
     },
+    'page.cv.edu.htbluva.tags': {
+      en: '<span class="chip">Design &amp; 3D Product Development (CAD)</span><span class="chip">Manufacturing Technology</span><span class="chip">Machine Elements</span><span class="chip">Electrical Engineering &amp; Electronics</span><span class="chip">Automation Technology</span><span class="chip">Workshop Practice</span>',
+      de: '<span class="chip">Konstruktion &amp; 3D-Produktentwicklung (CAD)</span><span class="chip">Fertigungstechnik</span><span class="chip">Maschinenelemente</span><span class="chip">Elektrotechnik &amp; Elektronik</span><span class="chip">Automatisierungstechnik</span><span class="chip">Werkstätte</span>'
+    },
+
+    /* CV — Path milestones */
+    'page.cv.path.s1.h': { en: 'Civil service, disability care', de: 'Zivildienst, Behindertenbetreuung' },
+    'page.cv.path.s1.p': {
+      en: 'A year of direct responsibility for people; patience and reliability, learned early.',
+      de: 'Ein Jahr direkte Verantwortung für Menschen; Geduld und Verlässlichkeit, früh gelernt.'
+    },
+    'page.cv.path.s2.h': { en: 'Logistics & industry', de: 'Logistik & Industrie' },
+    'page.cv.path.s2.p': {
+      en: 'A decade of warehouse and shop-floor operations, six of those years in a single industrial plant. Processes, precision, accountability.',
+      de: 'Ein Jahrzehnt Lager- und Betriebsalltag, davon sechs Jahre in einem einzigen Industriebetrieb. Prozesse, Genauigkeit, Verantwortung.'
+    },
+    'page.cv.path.s3.h': { en: 'The deliberate switch', de: 'Der bewusste Wechsel' },
+    'page.cv.path.s3.p': {
+      en: 'University entrance qualification alongside the job, then the informatics college full-time. Software is not an escape from operations; it is my way of improving them.',
+      de: 'Berufsbegleitend die Studienberechtigung, dann das Informatik-Kolleg in Vollzeit. Software ist für mich kein Ausstieg aus dem Betrieb, sondern der Weg, ihn besser zu machen.'
+    },
+
+    /* Facts — languages */
+    'facts.lang':  { en: 'Languages', de: 'Sprachen' },
+    'facts.langv': { en: 'German (native) · English (very good)', de: 'Deutsch (Muttersprache) · Englisch (sehr gut)' },
 
     /* CV — What I bring */
     'page.cv.bring.arch.h': { en: 'Architecture, end to end', de: 'Architektur, end-to-end' },
