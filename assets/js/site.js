@@ -83,8 +83,8 @@
       de: '<span class="chip">Software Engineering</span><span class="chip">Datenbanken &amp; Informationssysteme</span><span class="chip">Data Science &amp; KI</span><span class="chip">Netzwerk- &amp; Cyber-Security</span><span class="chip">Web-Entwicklung</span><span class="chip">Medientechnik</span><span class="chip">Systemtechnik</span>'
     },
     'page.cv.edu.thesis': {
-      en: 'Diploma thesis: «Development of an MCP Server with Semantic Search for LeoWiki» (supervisor: Rainer Stropek) · <a href="./leowiki-mcp.html">full case study →</a>',
-      de: 'Diplomarbeit: «Development of an MCP Server with Semantic Search for LeoWiki» (Betreuer: Rainer Stropek) · <a href="./leowiki-mcp.html">zur Case-Study →</a>'
+      en: '<span class="t-thesis-tag">Diploma thesis</span><em>Development of an MCP Server with Semantic Search for LeoWiki</em><span class="t-thesis-meta">supervisor: Rainer Stropek</span><a href="./leowiki-mcp.html">full case study →</a>',
+      de: '<span class="t-thesis-tag">Diplomarbeit</span><em>Development of an MCP Server with Semantic Search for LeoWiki</em><span class="t-thesis-meta">Betreuer: Rainer Stropek</span><a href="./leowiki-mcp.html">zur Case-Study →</a>'
     },
     'page.cv.edu.sbp': {
       en: 'University entrance qualification, earned alongside full-time work; prepared at the University of Vienna (archaeology &amp; prehistory track).',

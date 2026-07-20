@@ -2086,8 +2086,22 @@ body.neu .viz-bars .vb { box-shadow: var(--neu-raise-sm); }
 .t-detail { margin-top: 6px; font-size: .9rem; line-height: 1.62; color: var(--muted); max-width: 760px; }
 .t-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; max-width: 760px; }
 .t-chips .chip { font-size: .74rem; padding: 3px 10px; }
-.t-thesis { margin-top: 12px; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 12px 12px 0; font-size: .9rem; line-height: 1.6; color: var(--ink); max-width: 760px; }
-.t-thesis a { font-weight: 600; white-space: nowrap; }
+.t-thesis { margin-top: 14px; padding: 14px 16px 13px; background: var(--neu-bg); box-shadow: var(--neu-raise-sm); border-radius: 14px; font-size: .9rem; line-height: 1.62; color: var(--ink); max-width: 760px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.t-thesis-tag { flex-basis: 100%; font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 2px; }
+.t-thesis em { font-style: italic; font-weight: 600; color: var(--ink); }
+.t-thesis .t-thesis-meta { color: var(--muted); font-size: .84rem; }
+.t-thesis a { font-weight: 600; white-space: nowrap; color: var(--primary); margin-left: auto; }
 .path-step .t-when { display: block; margin-bottom: 4px; }
 .path-step h3 { font-size: 1rem; }
 .path-step p { margin-top: 8px; font-size: .88rem; line-height: 1.6; color: var(--muted); }
+
+/* ── Case study — repository list (v75) ── */
+.repo-list { display: flex; flex-direction: column; gap: 10px; }
+.repo-item { display: flex; align-items: flex-start; gap: 12px; padding: 14px 16px; border-radius: 14px; background: var(--neu-bg); box-shadow: var(--neu-raise-sm); text-decoration: none; color: var(--ink); transition: box-shadow .18s, transform .18s; }
+.repo-item:hover { transform: translateY(-2px); box-shadow: var(--neu-raise); }
+.repo-item-icon { width: 22px; height: 22px; margin-top: 2px; flex-shrink: 0; }
+.repo-item-body { flex: 1; min-width: 0; }
+.repo-item-head { font-size: .96rem; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.repo-item-head code { font-family: var(--mono); font-size: .76rem; color: var(--muted); background: var(--surface); padding: 1px 7px; border-radius: 6px; }
+.repo-item-body span { display: block; margin-top: 4px; font-size: .88rem; line-height: 1.55; color: var(--muted); }
+.repo-item-arrow { align-self: center; color: var(--accent); font-weight: 700; flex-shrink: 0; }

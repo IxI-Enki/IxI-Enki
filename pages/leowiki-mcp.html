@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LeoWiki MCP — Case Study · Jan Ritt</title>
   <meta name="description" content="Case study: MCP server with semantic search for LeoWiki — 17× retrieval improvement, OAuth 2.1 + RBAC, deployed on Raspberry Pi 5.">
-  <link rel="stylesheet" href="../assets/css/site.css?v=74">
-  <script src="../assets/js/site.js?v=24" defer></script>
+  <link rel="stylesheet" href="../assets/css/site.css?v=77">
+  <script src="../assets/js/site.js?v=27" defer></script>
 </head>
 <body class="neu page-leowiki-mcp">
 
@@ -265,11 +265,31 @@
       <div class="card reveal" style="padding:26px">
         <h3 data-i18n-page data-en="Repositories &amp; material" data-de="Repositories &amp; Material">Repositories &amp; material</h3>
         <p style="margin-top:8px; font-size:.92rem; color:var(--muted)" data-i18n-page
-           data-en="⏳ The pipeline and evaluation repositories are being prepared for publication. Joint work with Imre Obermüller:"
-           data-de="⏳ Die Pipeline- und Evaluations-Repositories werden für die Veröffentlichung vorbereitet. Gemeinsame Arbeit mit Imre Obermüller:">⏳ The pipeline and evaluation repositories are being prepared for publication. Joint work with Imre Obermüller:</p>
-        <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap">
+           data-en="The system is split across two repositories of mine. The thesis itself is joint work with Imre Obermüller, whose deployment repository is linked separately."
+           data-de="Das System verteilt sich auf zwei meiner Repositories. Die Diplomarbeit selbst ist Gemeinschaftsarbeit mit Imre Obermüller, dessen Deployment-Repository separat verlinkt ist.">The system is split across two repositories of mine. The thesis itself is joint work with Imre Obermüller, whose deployment repository is linked separately.</p>
+
+        <div class="repo-list" style="margin-top:16px">
+          <a class="repo-item" href="https://github.com/IxI-Enki/mcp-server-leowiki">
+            <img src="../assets/img/icons/github.svg" alt="" class="repo-item-icon">
+            <div class="repo-item-body">
+              <div class="repo-item-head"><b data-i18n-page data-en="MCP server" data-de="MCP‑Server">MCP server</b> <code>mcp-server-leowiki</code></div>
+              <span data-i18n-page data-en="The runtime: FastMCP server, two-tool RBAC search, OAuth 2.1, deployed on the Raspberry Pi 5." data-de="Die Runtime: FastMCP-Server, Two-Tool-RBAC-Suche, OAuth 2.1, deployt auf dem Raspberry Pi 5.">The runtime: FastMCP server, two-tool RBAC search, OAuth 2.1, deployed on the Raspberry Pi 5.</span>
+            </div>
+            <span class="repo-item-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="repo-item" href="https://github.com/IxI-Enki/DA_2026_dev_dito">
+            <img src="../assets/img/icons/github.svg" alt="" class="repo-item-icon">
+            <div class="repo-item-body">
+              <div class="repo-item-head"><b data-i18n-page data-en="Ingestion &amp; evaluation pipeline" data-de="Ingestion- &amp; Evaluations-Pipeline">Ingestion &amp; evaluation pipeline</b> <code>DA_2026_dev_dito</code></div>
+              <span data-i18n-page data-en="The offline side: 5-stage DokuWiki → embeddings → Qdrant pipeline plus the RAGAS evaluation framework behind the numbers above." data-de="Die Offline-Seite: 5-stufige DokuWiki-→-Embeddings-→-Qdrant-Pipeline plus das RAGAS-Evaluations-Framework hinter den Zahlen oben.">The offline side: 5-stage DokuWiki → embeddings → Qdrant pipeline plus the RAGAS evaluation framework behind the numbers above.</span>
+            </div>
+            <span class="repo-item-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap">
           <a class="btn btn-primary btn-shine" href="../assets/thesis.pdf" data-i18n-page data-en="📄 Thesis (PDF)" data-de="📄 Diplomarbeit (PDF)">📄 Thesis (PDF)</a>
-          <a class="btn btn-ghost" href="https://github.com/Imre7777/mcp-diploma-thesis-final" data-i18n-page data-en="MCP server repo (Imre)" data-de="MCP‑Server-Repo (Imre)">MCP server repo (Imre)</a>
+          <a class="btn btn-ghost" href="https://github.com/Imre7777/mcp-diploma-thesis-final" data-i18n-page data-en="Imre's deployment repo" data-de="Imres Deployment-Repo">Imre's deployment repo</a>
           <a class="btn btn-ghost" href="./projects.html" data-i18n-page data-en="More projects →" data-de="Mehr Projekte →">More projects →</a>
         </div>
       </div>
