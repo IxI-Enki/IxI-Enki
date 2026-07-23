@@ -223,6 +223,10 @@ header.site .wrap { display: flex; align-items: center; justify-content: space-b
 .brand .x { color: var(--accent); }
 .brand--mcp { line-height: 0; display: flex; align-items: center; }
 .brand-mcp-logo { height: 36px; width: auto; display: block; object-fit: contain; }
+/* Animated cartouche wordmark — must stay an <img src="*.svg"> so the SVG's
+   internal CSS/SMIL animation keeps running (a raster export would kill it). */
+.brand--cartouche { line-height: 0; display: flex; align-items: center; }
+.brand-cartouche-img { height: 42px; width: auto; display: block; }
 nav.main { display: flex; gap: 22px; align-items: center; font-size: .92rem; }
 nav.main a { color: var(--ink); text-decoration: none; font-weight: 500; position: relative; }
 nav.main a::after { content: ''; position: absolute; left: 0; bottom: -4px; width: 0; height: 2px; background: var(--accent); transition: width .25s ease; }
