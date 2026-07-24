@@ -692,3 +692,28 @@
     });
   }
 })();
+
+/* ── Robust in-page anchor scrolling ──
+   Figures above a deep-link target load without intrinsic width/height, so the
+   native hash jump fires against a too-short layout and undershoots (lands
+   ~1300px too high). Re-scroll once everything has loaded, and on hashchange,
+   offsetting by the live sticky-header height so the heading clears it. */
+(function () {
+  function scrollToHash(smooth) {
+    var id = decodeURIComponent((location.hash || '').slice(1));
+    if (!id) return;
+    var el = document.getElementById(id);
+    if (!el) return;
+    var hdr = document.querySelector('header.site');
+    var offset = (hdr ? hdr.getBoundingClientRect().height : 0) + 16;
+    var y = el.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({ top: y, behavior: smooth ? 'smooth' : 'auto' });
+  }
+  if (location.hash) {
+    // Wait for full load (images done) so the target's position is final.
+    window.addEventListener('load', function () {
+      setTimeout(function () { scrollToHash(false); }, 60);
+    });
+  }
+  window.addEventListener('hashchange', function () { scrollToHash(true); });
+})();
