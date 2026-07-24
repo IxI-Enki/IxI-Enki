@@ -1,6 +1,6 @@
 <div style="display: flex; justify-content: center; align-items: center;">
 
-<img src="assets\ixi_enki_banner_goldleaf.svg" alt="IxI-Enki" style="width:100%">
+<img src="assets/ixi_enki_banner_goldleaf.svg" alt="IxI-Enki" style="width:100%">
 
 </div>
 
@@ -22,11 +22,11 @@ Hi, I'm **Jan** - HTL Leonding graduate, **open to work**.
 
 > MCP server exposing school-internal **LeoWiki** (DokuWiki) to AI clients via **OAuth 2.1 + RBAC** — always-on on a **Raspberry Pi 5**.
 
-**17× retrieval improvement** (MRR 0.051 → 0.872) · *German-optimized embeddings, five-stage offline RAG pipeline.*
+**17× retrieval improvement** (MRR 0.051 → 0.883) · *German-optimized embeddings, five-stage offline RAG pipeline.*
 
-**Explore:** [Case study](https://ixi-enki.github.io/IxI-Enki/pages/leowiki-mcp.html) · [Thesis (PDF)](https://ixi-enki.github.io/IxI-Enki/assets/thesis.pdf) · [Embedding benchmarks](https://ixi-enki.github.io/project-diploma-performance-analysis/)
+**Explore:** [Case study](https://ixi-enki.github.io/IxI-Enki/pages/leowiki-mcp.html) · [Thesis (PDF)](https://ixi-enki.github.io/IxI-Enki/assets/thesis.pdf) · [Embedding benchmarks](https://ixi-enki.github.io/IxI-Enki/pages/leowiki-mcp.html#embedding-evaluation)
 
-⏳ Pipeline and evaluation repos being prepared for publication.
+**Repos:** [Ingestion &amp; evaluation pipeline](https://github.com/IxI-Enki/DA_2026_dev_dito) · MCP server *(release in progress)*
 
 ---
 
